@@ -2,6 +2,11 @@
 
 // 首页js
 $(function() {
+
+    $("#css1").attr("href", "css/"+window.localStorage.skin);
+    $("html").contents().find("#css2").attr("href", "../css/"+window.localStorage.skin);
+    $("html").contents().find("#css1").attr("href", "../../../css/"+window.localStorage.skin);
+
     // 轮播图
     var i = 0;
     var clone = $(".banner .img li").first().clone();
@@ -119,7 +124,6 @@ $(function() {
 })();
 
 
-
 var ifVery = false;
 //下拉
 $(document).on('click', '.very_show', function() {
@@ -159,3 +163,94 @@ window.onload = function() {
     console.log(parframe);
     parframe.style.height = document.body.offsetHeight + 'px';
 }
+
+//以下是皮肤设置
+//setSkin.js\
+// //
+// (function(){
+//         var currentSkin = currentSkin ? currentSkin : '';
+//         function fnSetSkinType(type,isInit){
+//         var _body = $("body")
+
+//             ,son_body = $("#mainFrame").contents().find("body")
+//             ,skinCssLink1 = $("#mainFrame").contents().find("#css1")
+//             ,skinCssLink2 = $("#mainFrame").contents().find("#css2")
+
+//             ,skinCssLink = $("#css1")
+//             ,localStorage = window.localStorage;
+//         if(isInit){
+//             // _body.css('visibility','hidden');
+//             if(localStorage.getItem("skin_type")){
+//                 skinCssLink.attr("href","css/"+localStorage.getItem("skin_type")+".css");
+
+//                 skinCssLink1.attr("href","/css/newpage/css/"+localStorage.getItem("skin_type")+".css");
+//                 skinCssLink2.attr("href","/css/newpage/css/"+localStorage.getItem("skin_type")+".css");
+
+//                 currentSkin = localStorage.getItem("skin_type");
+//             } else {
+//                 skinCssLink.attr("href","/css/newpage/css/skin2.css");
+
+//                 skinCssLink1.attr("href","/css/newpage/css/skin2.css");
+
+//                 localStorage.setItem("skin_type",type);
+//                 currentSkin = type;
+//             }
+//             _body.removeClass('skin1').removeClass('skin2').removeClass('skin3').removeClass('skin4');
+//             _body.css('visibility','visible');
+
+//             son_body.removeClass('skin1').removeClass('skin2').removeClass('skin3').removeClass('skin4');
+//             son_body.css('visibility','visible');
+
+
+//             typeof lotteryNumberAni == 'function' && lotteryNumberAni();
+//         } else {
+//             _body.removeClass('skin1').removeClass('skin2').removeClass('skin3').removeClass('skin4');
+//             skinCssLink.attr("href","/css/newpage/css/"+type+".css");
+
+//             son_body.removeClass('skin1').removeClass('skin2').removeClass('skin3').removeClass('skin4');
+//             skinCssLink1.attr("href","/css/newpage/css/"+type+".css");
+
+
+//             localStorage.setItem("skin_type",type);
+//             currentSkin = type;
+//         }
+//         _body.addClass(currentSkin)
+//         son_body.addClass(currentSkin)
+//         console.log('皮肤设置完成！');
+//     }
+
+//     $(document).ready(function() {
+//       fnSetSkinType("skin2",true);
+//       $("#b1").click(function() {
+//         fnSetSkinType('skin1',false);
+//       });
+//       $("#b2").click(function() {
+//         fnSetSkinType('skin2',false);
+//       });
+
+//       $("#b3").click(function() {
+//         fnSetSkinType('skin3',false);
+//       });
+
+//       $("#b4").click(function() {
+//         fnSetSkinType('skin4',false);
+//       });
+//       $('.x_tosnh').click(function(){
+//         $(this).addClass("selected-bank-item");
+//       });
+//       var time_input = $('.time_input');
+//       time_input.click(function(){
+//         var $this = $(this);
+//         setTimeout(function(){
+//             var content_time = $('.j-ui-datepicker').find('.content-time');
+//             if(content_time.css('display') == 'none') return;
+//             content_time.find('.button-confirm').click(function(e){
+//                 if($this.css('width') == '156px') return;
+//                 $this.css('width','156px');
+//                 console.log('修改time_input的宽度');
+//             });
+//         },500)
+//       });
+//     });
+// })()
+
