@@ -147,8 +147,11 @@ function moneyInput(moneyInput){
         }
         return true;
     });
-}
 
-$('.query_xl.time_input_2.very_show').on('click',function(){
-    $('#J-option-J-input-bankcard-id').css('display',$('#J-option-J-input-bankcard-id').css('display')=='none'?'block':'none');
-});
+    //如果提款金额为空为0，就赋值数字1
+    moneyInput.blur(function () {
+        if($(this).val() == '0') {
+            $(this).val(1);
+        }
+    });
+}
