@@ -1,4 +1,9 @@
 $(function () {
+
+    $("#css1").attr("href", "css/"+window.localStorage.skin);
+    $("#mainIframe").contents().find("#css2").attr("href", "../css/"+window.localStorage.skin);
+    $("#mainIframe").contents().find("#css1").attr("href", "../../../css/"+window.localStorage.skin);
+
     // 皮肤切换
     $("#b1").click(function() {
         $("#css1").attr("href", "css/skin1.css");
@@ -20,6 +25,25 @@ $(function () {
         $("#mainIframe").contents().find("#css2").attr("href", "../css/skin4.css");
         $("#mainIframe").contents().find("#css1").attr("href", "../../../css/skin4.css");
     });
+
+
+    $('.skin .skin-button button').on('click',function(){
+        switch($(this).attr('id')) {
+            case "b1" :
+                window.localStorage.skin = "skin1.css";
+                break;
+            case "b2" :
+                window.localStorage.skin = "skin2.css";
+                break;
+            case "b3" :
+                window.localStorage.skin = "skin3.css";
+                break;
+            case "b4" :
+                window.localStorage.skin = "skin4.css";
+                break;
+        }
+
+    })
     
      // 顶部鼠标移上去的动画
     $('.llgame .game_in').mouseenter(function (e) {
