@@ -553,7 +553,10 @@ button, input {
 
 .field-type-switch li.current a {
   color: #6493af;
-  border-color: #6493af;
+  /* border-color: #6493af; */
+  padding: 10px 20px;
+  width: 90px;
+  border-bottom: 1px solid #6493af;
 }
 
 
