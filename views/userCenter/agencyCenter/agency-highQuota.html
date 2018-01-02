@@ -413,10 +413,10 @@
                     }
                 });
             });
-            $('.layui-layer-ico').click(function () {
-                alert('ww')
-                $(".j-ui-mask").css({display:'none'});
-            })
+            $(document).on('click','.layui-layer-ico.layui-layer-close.layui-layer-close1',function(){
+                 $('.j-ui-mask').hide();
+            });
+
         });
 
     </script>
