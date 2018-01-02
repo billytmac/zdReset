@@ -427,7 +427,7 @@
     <script src="../../../js/public.js"></script>
     <script>
         $(function () {
-            $(".myrule ").click(function () {
+            $(".myrule").click(function () {
                 layer.open({
                     type: 1,
                     title: ['我的分红规则', 'height: 40px;line-height: 40px;background-color: #DBE9F1;border-bottom: 3px solid #88ADC3;color: #49494A;text-align:center;padding-left:78px;'],
@@ -436,7 +436,7 @@
                     offset:['30%','40%'],
                     content: $("#myRules").html()
                     , success: function(layero, index){
-                        var ParBody = parent.document.getElementsByTagName('body')[0];
+                        var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
 
                         var _lay = layero[0];
@@ -456,7 +456,7 @@
         });
 
     </script>
-    <div id="myRules" style="display:none;">
+    <div  id="myRules" style="display:none;" id="" class="layui-layer-content" style="height: 216px;">
         <div style="width: 100%">
             <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" >
                 <tr>
@@ -480,30 +480,36 @@
                 <tr>
                     <th>0</th>
                     <th>0</th>
-                    <th>20<span>%</span></th>
-                </tr>
-                <tr>
-                    <th>7000000</th>
-                    <th>500000</th>
-                    <th>25<span>%</span></th>
-                </tr>
-                <tr>
-                    <th>10500000</th>
-                    <th>1000000</th>
-                    <th>30<span>%</span></th>
+                    <th>12<span>%</span></th>
                 </tr>
                 <tr>
                     <th>0</th>
-                    <th>1500000</th>
-                    <th>32<span>%</span></th>
+                    <th>100000</th>
+                    <th>13<span>%</span></th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>300000</th>
+                    <th>14<span>%</span></th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>500000</th>
+                    <th>15<span>%</span></th>
                 </tr>
                 </tbody>
             </table>
         </div>
+
+    </div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span><span class="layui-layer-resize"></span></div>
     </div>
 </body>
 <script src="../../../js/jquery.min.js"></script>
+<<<<<<< HEAD
 <script src="../../../js/js.js" ></script>
+=======
+<script src="../../../js/js.js"></script>
+>>>>>>> 7bffdc02064c18de57aad83613cdc800908f3b6b
 <script src="../../../js/public.js"></script>
 
 </html>

@@ -419,13 +419,16 @@
             return days;
         }
     </script>
+<<<<<<< HEAD
+=======
     <script src="../../../js/public.js"></script>
+>>>>>>> 47a3129cc502b44af355231dd842c2fe904cb3d3
     <script src="../../../js/layui/layui.all.js"></script>
     <script src="../../../js/base-all.min.js "></script>
 
     <script>
         $(function () {
-            $(".myrule ").click(function () {
+            $(".myrule").click(function () {
                 layer.open({
                     type: 1,
                     title: ['我的分红规则', 'height: 40px;line-height: 40px;background-color: #DBE9F1;border-bottom: 3px solid #88ADC3;color: #49494A;text-align:center;padding-left:78px;'],
@@ -434,7 +437,7 @@
                     offset:['30%','40%'],
                     content: $("#myRules").html()
                     , success: function(layero, index){
-                        var ParBody = parent.document.getElementsByTagName('body')[0];
+                        var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
 
                         var _lay = layero[0];
@@ -454,6 +457,39 @@
         });
 
     </script>
+<<<<<<< HEAD
+<div id="myRules" style="display:none " id="" class="layui-layer-content" style="height: 152px;">
+            <div style="width: 100%">
+                <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" id="J-table">
+                    <tbody><tr>
+                        <td style="text-align: right;width: 45%">
+                            <input type="checkbox" checked="checked" disabled="disabled">
+                        </td>
+                        <td style="text-align: left;width: 55%">
+                            累计上周期模式<span class="daywages_wh set_dp1">?</span>
+                        </td>
+                    </tr>
+                    </tbody></table>
+                <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" id="J-table">
+                    <thead>
+                    <tr class="setprice_tit">
+                        <th>半月总销量≥</th>
+                        <th>半月总亏损量≥</th>
+                        <th class="fh">分红比例</th>
+                    </tr><tr>
+                    </tr></thead>
+                    <tbody>
+                    <tr>
+                        <th>0</th>
+                        <th>5000</th>
+                        <th>50<span>%</span></th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span><span class="layui-layer-resize"></span>
+
+=======
     <div id="myRules" style="display:none;">
         <div style="width: 100%">
             <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" >
@@ -501,7 +537,6 @@
     </div>
 </body>
 <script src="../../../js/jquery.min.js"></script>
-<script src="../../../js/js.js" ></script>
+<script src="../../../js/js.js"></script>
 <script src="../../../js/public.js"></script>
-
 </html>

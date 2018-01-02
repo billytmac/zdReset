@@ -301,6 +301,7 @@
             return days;
         }
     </script>
+    <script src="../../../js/layui/layui.all.js"></script>
 
     <script src="../../../js/public.js"></script>
      <script src="../../../js/layui/layui.all.js"></script>
@@ -309,50 +310,30 @@
     <script>
         $(function () {
 
-          $('.float-left ').click(function () {
-                    layer.open({
-                        title: '信息'
-                        ,icon: 1
-                        ,content: '保存成功', success: function(layero, index){
-                            var ParBody = document.getElementsByTagName('body')[0];
-                            ParBody.appendChild(layero[0]);
+            $('.float-left ').click(function () {
+                layer.open({
+                    title: '信息'
+                    ,icon: 1
+                    ,content: '保存成功', success: function(layero, index){
+                        var ParBody = document.getElementsByTagName('body')[0];
+                        ParBody.appendChild(layero[0]);
 
-                            var _lay = layero[0];
-                            var _width = -(_lay.offsetWidth) / 2;
-                            var _height = -(_lay.offsetHeight) / 2;
+                        var _lay = layero[0];
+                        var _width = -(_lay.offsetWidth) / 2;
+                        var _height = -(_lay.offsetHeight) / 2;
 
-                            _lay.style.marginTop = _height + "px";
-                            _lay.style.marginLeft = _width + "px";
-                            _lay.style.left = "50%";
-                            _lay.style.top = "50%";
+                        _lay.style.marginTop = _height + "px";
+                        _lay.style.marginLeft = _width + "px";
+                        _lay.style.left = "50%";
+                        _lay.style.top = "50%";
 
-                            var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                            ParBody.appendChild(shade);
-                        }
-                    })
+                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                        ParBody.appendChild(shade);
+                    }
                 })
-         $('.divi_delete  ').click(function () {
-                    layer.open({
-                        title: '信息'
-                        ,icon: 1
-                        ,content: '新增成功', success: function(layero, index){
-                            var ParBody = document.getElementsByTagName('body')[0];
-                            ParBody.appendChild(layero[0]);
+            })
 
-                            var _lay = layero[0];
-                            var _width = -(_lay.offsetWidth) / 2;
-                            var _height = -(_lay.offsetHeight) / 2;
 
-                            _lay.style.marginTop = _height + "px";
-                            _lay.style.marginLeft = _width + "px";
-                            _lay.style.left = "50%";
-                            _lay.style.top = "50%";
-
-                            var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                            ParBody.appendChild(shade);
-                        }
-                    })
-                })
 
             $(".myrule").click(function () {
                 layer.open({
@@ -428,10 +409,6 @@
             </table>
         </div>
     </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> ebac591450c68a81b11ccf8e5ca37b7198783c9e
 </body>
 <script src="../../../js/jquery.min.js"></script>
 <script src="../../../js/js.js"></script>

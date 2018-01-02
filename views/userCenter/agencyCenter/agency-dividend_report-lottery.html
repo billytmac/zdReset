@@ -425,7 +425,7 @@
 
     <script>
         $(function () {
-            $(".myrule ").click(function () {
+            $(".myrule").click(function () {
                 layer.open({
                     type: 1,
                     title: ['我的分红规则', 'height: 40px;line-height: 40px;background-color: #DBE9F1;border-bottom: 3px solid #88ADC3;color: #49494A;text-align:center;padding-left:78px;'],
@@ -434,7 +434,7 @@
                     offset:['30%','40%'],
                     content: $("#myRules").html()
                     , success: function(layero, index){
-                        var ParBody = parent.document.getElementsByTagName('body')[0];
+                        var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
 
                         var _lay = layero[0];
@@ -501,8 +501,6 @@
     </div>
 </body>
 <script src="../../../js/jquery.min.js"></script>
-<script src="../../../js/js.js" ></script>
+<script src="../../../js/js.js"></script>
 <script src="../../../js/public.js"></script>
-
-
 </html>
