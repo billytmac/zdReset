@@ -27,7 +27,7 @@
 
 
 /*内页皮肤*/
-input[type="submit"] {
+input[type="submit"],input[type="button"] {
     cursor: pointer;
     background: #60493c;
 }

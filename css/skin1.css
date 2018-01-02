@@ -9,7 +9,7 @@
 .info_num{border-color:#383346;transition:all .3s ease;}
 
 /*内页皮肤*/
-input[type="submit"] {
+input[type="submit"], input[type="button"]{
     cursor: pointer;
     background: #5b516b;
 }
