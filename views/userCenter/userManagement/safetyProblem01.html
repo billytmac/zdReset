@@ -237,6 +237,10 @@
 <script>
 $(function () {
     window.onload=(function () {
+
+        var parframe = parent.document.querySelector('iframe');
+        parframe.style.height = document.body.offsetHeight + 'px';
+
         layer.open({
             title: '信息'
             ,icon: 3
