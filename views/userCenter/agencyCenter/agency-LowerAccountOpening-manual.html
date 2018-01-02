@@ -284,13 +284,13 @@
                                         </div>
                                     </div>
                                     <div class="n_10row_modw">
-                                        <input type="submit" value="立即开户" class="n_10row_submit" name="">
+                                        <input type="submit" value="立即开户" class="n_10row_submit  new_yh" name="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </form>
-                </div>>
+                </div>
             </div>
         </div>
     </div>
@@ -443,39 +443,41 @@
         }
 
     </script>
+    <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/layui/layui.all.js"></script>
-    <script src="../../../js/base-all.min.js "></script>
-
     <script>
+
         $(function () {
+         $(' .new_yh').click(function () {
+             layer.open({
+                 title: '信息'
+                 ,icon: 2
+                 ,content: ' 该用户名已被注册，请重新输入！'
+                 , success: function(layero, index){
+                     var ParBody = document.getElementsByTagName('body')[0];
+                     ParBody.appendChild(layero[0]);
 
-            $('.n_10row_submit').click(function () {
-                layer.open({
-                    title: '信息'
-                    ,icon: 2
-                    ,content: ' 该用户名已被注册，请重新输入！', success: function(layero, index){
-                        var ParBody = document.getElementsByTagName('body')[0];
-                        ParBody.appendChild(layero[0]);
+                     var _lay = layero[0];
+                     var _width = -(_lay.offsetWidth) / 2;
+                     var _height = -(_lay.offsetHeight) / 2;
 
-                        var _lay = layero[0];
-                        var _width = -(_lay.offsetWidth) / 2;
-                        var _height = -(_lay.offsetHeight) / 2;
+                     _lay.style.marginTop = _height + "px";
+                     _lay.style.marginLeft = _width + "px";
+                     _lay.style.left = "50%";
+                     _lay.style.top = "50%";
 
-                        _lay.style.marginTop = _height + "px";
-                        _lay.style.marginLeft = _width + "px";
-                        _lay.style.left = "50%";
-                        _lay.style.top = "50%";
+                     var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                     ParBody.appendChild(shade);
+                 }
+             })
+             return false;
+         })
+      })
 
-                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                        ParBody.appendChild(shade);
-                    }
-                })
-            })
-        });
 
     </script>
 </body>
-<script src="../../../js/jquery.min.js"></script>
-<script src="../../../js/js.js"></script>
-<script src="../../../js/public.js"></script>
+
 </html>
+<script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/public.js"></script>
