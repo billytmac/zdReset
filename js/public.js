@@ -3,7 +3,7 @@
 // 首页js
 $(function() {
 
-    $("#css1").attr("href", "css/" + window.localStorage.skin);
+    // $("#css1").attr("href", "css/" + window.localStorage.skin);
     $("html").contents().find("#css2").attr("href", "../css/" + window.localStorage.skin);
     $("html").contents().find("#css1").attr("href", "../../../css/" + window.localStorage.skin);
 

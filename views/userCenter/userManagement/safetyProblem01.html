@@ -232,23 +232,35 @@
     <!-- 每个导航链接里面的内容结束 -->
 </div>
 </div>
+
+</body>
+
+</html>
 <script src="../../../js/jquery.min.js"></script>
 <<script src="../../../js/layui/layui.all.js"></script>
-<script src="../../../js/layui/layui.all.js"></script>
+<!-- <script src="../../../js/jc.Keyboard.js"></script> -->
+
 <script>
 
-    $(function () {
-        window.onload=(function () {
+    // $(function () {
+       
 
-            var parframe = parent.document.querySelector('iframe');
-            parframe.style.height = document.body.offsetHeight + 'px';
+       
+    // })
+        window.onload=function () {
 
+
+
+            // var parframe = parent.document.querySelector('iframe');
+            // parframe.style.height = document.body.offsetHeight + 'px';
+
+            
             layer.open({
                 title: '信息'
                 ,icon: 2
                 ,content: '您还未设置安全问题！这将导致您的账号存在风险！'
                 , success: function(layero, index){
-                    var ParBody = document.getElementsByTagName('body')[0];
+                    var ParBody = parent.document.getElementsByTagName('body')[0];
                     ParBody.appendChild(layero[0]);
 
                     var _lay = layero[0];
@@ -264,12 +276,10 @@
                     ParBody.appendChild(shade);
                 }
             })
-        })
-    })
+
+
+        }
+    // })
 
 </script>
-</body>
-
-</html>
-<script src="../../../js/jc.Keyboard.js"></script>
-<script src="../../../js/public.js"></script>
+<!-- <script src="../../../js/public.js"></script> -->
