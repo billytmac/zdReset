@@ -80,7 +80,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/views/userCenter/userCenter/userManagement/safetyProblem03.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/views/userCenter/userCenter/userManagement/unboundBanks.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.html" afterPath="$PROJECT_DIR$/views/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-link.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-link.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-accountChangeRecord.html" afterPath="$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-accountChangeRecord.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-rechargeApplication.html" afterPath="$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-rechargeApplication.html" />
@@ -155,8 +154,19 @@
         <entry file="file://$PROJECT_DIR$/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding />
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <marker date="1514879499769" expanded="true" signature="15270:15696" ph="..." />
+                <marker date="1514879499769" expanded="true" signature="15270:15718" ph="..." />
+                <marker date="1514879499769" expanded="true" signature="15270:15737" ph="..." />
+                <marker date="1514879499769" expanded="true" signature="15270:15752" ph="..." />
+                <marker date="1514879499769" expanded="true" signature="15270:15763" ph="..." />
+                <marker date="1514879499769" expanded="true" signature="15270:15861" ph="..." />
+                <marker date="1514879499769" expanded="true" signature="15316:15422" ph="..." />
+                <marker date="1514879499769" expanded="true" signature="15468:15670" ph="..." />
+                <marker date="1514879499769" expanded="false" signature="15550:15556" ph=" " />
+                <marker date="1514879499769" expanded="false" signature="15556:15562" ph=" " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03..html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="286" column="59" lean-forward="true" selection-start-line="286" selection-start-column="59" selection-end-line="287" selection-end-column="0" />
+              <caret line="286" column="59" lean-forward="false" selection-start-line="286" selection-start-column="59" selection-end-line="287" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,8 +184,8 @@
       <file leaf-file-name="financialDetails-accountChangeRecord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-accountChangeRecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="727" column="40" lean-forward="true" selection-start-line="727" selection-start-column="40" selection-end-line="727" selection-end-column="40" />
+            <state relative-caret-position="-2114">
+              <caret line="727" column="40" lean-forward="false" selection-start-line="727" selection-start-column="40" selection-end-line="727" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -185,7 +195,7 @@
         <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="n#ul#0;n#li#0;n#ul#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -212,7 +222,7 @@
       <file leaf-file-name="financialDetails-rechargeApplication.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-rechargeApplication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="60">
               <caret line="418" column="46" lean-forward="false" selection-start-line="418" selection-start-column="46" selection-end-line="418" selection-end-column="46" />
               <folding />
             </state>
@@ -222,7 +232,7 @@
       <file leaf-file-name="financialDetails-rechargeRecord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-rechargeRecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="600">
               <caret line="385" column="46" lean-forward="false" selection-start-line="385" selection-start-column="46" selection-end-line="385" selection-end-column="46" />
               <folding />
             </state>
@@ -232,7 +242,7 @@
       <file leaf-file-name="financialDetails-transferRecord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-transferRecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="465">
               <caret line="431" column="46" lean-forward="false" selection-start-line="431" selection-start-column="46" selection-end-line="431" selection-end-column="46" />
               <folding />
             </state>
@@ -242,7 +252,7 @@
       <file leaf-file-name="financialDetails-withdrawalApplication.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-withdrawalApplication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="573">
               <caret line="322" column="46" lean-forward="false" selection-start-line="322" selection-start-column="46" selection-end-line="322" selection-end-column="46" />
               <folding />
             </state>
@@ -252,7 +262,7 @@
       <file leaf-file-name="financialDetails-withdrawalRecord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-withdrawalRecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="600">
               <caret line="387" column="46" lean-forward="false" selection-start-line="387" selection-start-column="46" selection-end-line="387" selection-end-column="46" />
               <folding />
             </state>
@@ -349,7 +359,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="4" />
     <option name="y" value="78" />
     <option name="width" value="1857" />
@@ -443,15 +453,15 @@
       <updated>1514444355247</updated>
       <workItem from="1514444358548" duration="15027000" />
       <workItem from="1514872195608" duration="1212000" />
-      <workItem from="1514874368350" duration="4984000" />
+      <workItem from="1514874368350" duration="5238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21223000" />
+    <option name="totallyTimeSpent" value="21477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2581665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -824,14 +834,25 @@
     <entry file="file://$PROJECT_DIR$/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <marker date="1514879499769" expanded="true" signature="15270:15696" ph="..." />
+            <marker date="1514879499769" expanded="true" signature="15270:15718" ph="..." />
+            <marker date="1514879499769" expanded="true" signature="15270:15737" ph="..." />
+            <marker date="1514879499769" expanded="true" signature="15270:15752" ph="..." />
+            <marker date="1514879499769" expanded="true" signature="15270:15763" ph="..." />
+            <marker date="1514879499769" expanded="true" signature="15270:15861" ph="..." />
+            <marker date="1514879499769" expanded="true" signature="15316:15422" ph="..." />
+            <marker date="1514879499769" expanded="true" signature="15468:15670" ph="..." />
+            <marker date="1514879499769" expanded="false" signature="15550:15556" ph=" " />
+            <marker date="1514879499769" expanded="false" signature="15556:15562" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-withdrawalRecord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="600">
           <caret line="387" column="46" lean-forward="false" selection-start-line="387" selection-start-column="46" selection-end-line="387" selection-end-column="46" />
           <folding />
         </state>
@@ -839,7 +860,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-withdrawalApplication.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="573">
           <caret line="322" column="46" lean-forward="false" selection-start-line="322" selection-start-column="46" selection-end-line="322" selection-end-column="46" />
           <folding />
         </state>
@@ -847,7 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-transferRecord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="465">
           <caret line="431" column="46" lean-forward="false" selection-start-line="431" selection-start-column="46" selection-end-line="431" selection-end-column="46" />
           <folding />
         </state>
@@ -855,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-rechargeRecord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="600">
           <caret line="385" column="46" lean-forward="false" selection-start-line="385" selection-start-column="46" selection-end-line="385" selection-end-column="46" />
           <folding />
         </state>
@@ -863,7 +884,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-rechargeApplication.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="60">
           <caret line="418" column="46" lean-forward="false" selection-start-line="418" selection-start-column="46" selection-end-line="418" selection-end-column="46" />
           <folding />
         </state>
@@ -871,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/financialDetails/financialDetails-accountChangeRecord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="727" column="40" lean-forward="true" selection-start-line="727" selection-start-column="40" selection-end-line="727" selection-end-column="40" />
+        <state relative-caret-position="-2114">
+          <caret line="727" column="40" lean-forward="false" selection-start-line="727" selection-start-column="40" selection-end-line="727" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -880,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="n#ul#0;n#li#0;n#ul#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -904,7 +925,7 @@
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03..html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="286" column="59" lean-forward="true" selection-start-line="286" selection-start-column="59" selection-end-line="287" selection-end-column="0" />
+          <caret line="286" column="59" lean-forward="false" selection-start-line="286" selection-start-column="59" selection-end-line="287" selection-end-column="0" />
           <folding />
         </state>
       </provider>
