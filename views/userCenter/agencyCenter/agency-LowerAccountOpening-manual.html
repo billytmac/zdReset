@@ -154,7 +154,7 @@
                             <a href="agency-LowerAccountOpening-link.html">链接开户</a>
                         </div>
                     </div>
-                    <form action="http://www.zd111.net/users/accurate-create" method="post" id="J-form">
+                    <form action="" method="post" id="J-form">
                         <input type="hidden" name="_token" value="RVeVB2uP8GSl1LzbOaM0clBXl9n6vYDzDRCOl3kI">
                         <input type="hidden" name="_random" value="$2y$10$psJMoIJdUxxBVI9OSEDiV.aJs6GzukpXbsIciEAVtyD7x3rXn.xEy_abR3p7">
                         <input type="hidden" name="is_agent" id="J-input-userType" value="1">
@@ -300,7 +300,6 @@
     <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/jquery-ui.js"></script>
     <script src="../../../js/js.js" type="text/javascript" charset="utf-8"></script>
-    <!-- <script src="../../../js/jquery.slideshow.js" type="text/javascript" charset="utf-8"></script> -->
     <script>
         (function($) {
             $('#J-date-start').focus(function() {
@@ -444,8 +443,39 @@
         }
 
     </script>
-    <script src="../../../js/public.js"></script>
+    <script src="../../../js/layui/layui.all.js"></script>
+    <script src="../../../js/base-all.min.js "></script>
 
+    <script>
+        $(function () {
+
+            $('.n_10row_submit').click(function () {
+                layer.open({
+                    title: '信息'
+                    ,icon: 2
+                    ,content: ' 该用户名已被注册，请重新输入！', success: function(layero, index){
+                        var ParBody = document.getElementsByTagName('body')[0];
+                        ParBody.appendChild(layero[0]);
+
+                        var _lay = layero[0];
+                        var _width = -(_lay.offsetWidth) / 2;
+                        var _height = -(_lay.offsetHeight) / 2;
+
+                        _lay.style.marginTop = _height + "px";
+                        _lay.style.marginLeft = _width + "px";
+                        _lay.style.left = "50%";
+                        _lay.style.top = "50%";
+
+                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                        ParBody.appendChild(shade);
+                    }
+                })
+            })
+        });
+
+    </script>
 </body>
-
+<script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/js.js"></script>
+<script src="../../../js/public.js"></script>
 </html>
