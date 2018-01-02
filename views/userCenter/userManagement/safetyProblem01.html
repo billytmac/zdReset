@@ -233,41 +233,43 @@
 </div>
 </div>
 <script src="../../../js/jquery.min.js"></script>
+<<script src="../../../js/layui/layui.all.js"></script>
 <script src="../../../js/layui/layui.all.js"></script>
 <script>
-$(function () {
-    window.onload=(function () {
 
-        var parframe = parent.document.querySelector('iframe');
-        parframe.style.height = document.body.offsetHeight + 'px';
+    $(function () {
+        window.onload=(function () {
 
-        layer.open({
-            title: '信息'
-            ,icon: 3
-            ,content: '请设置安全问题？'
-            , success: function(layero, index){
-                var ParBody =parent.document.getElementsByTagName('body')[0];
-                ParBody.appendChild(layero[0]);
+            var parframe = parent.document.querySelector('iframe');
+            parframe.style.height = document.body.offsetHeight + 'px';
 
-                var _lay = layero[0];
-                var _width = -(_lay.offsetWidth) / 2;
-                var _height = -(_lay.offsetHeight) / 2;
+            layer.open({
+                title: '信息'
+                ,icon: 2
+                ,content: '您还未设置安全问题！这将导致您的账号存在风险！'
+                , success: function(layero, index){
+                    var ParBody = document.getElementsByTagName('body')[0];
+                    ParBody.appendChild(layero[0]);
 
-                _lay.style.marginTop = _height + "px";
-                _lay.style.marginLeft = _width + "px";
-                _lay.style.left = "50%";
-                _lay.style.top = "50%";
+                    var _lay = layero[0];
+                    var _width = -(_lay.offsetWidth) / 2;
+                    var _height = -(_lay.offsetHeight) / 2;
 
-                var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                ParBody.appendChild(shade);
-            }
+                    _lay.style.marginTop = _height + "px";
+                    _lay.style.marginLeft = _width + "px";
+                    _lay.style.left = "50%";
+                    _lay.style.top = "50%";
+
+                    var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                    ParBody.appendChild(shade);
+                }
+            })
         })
     })
-})
 
 </script>
-
-<script src="../../../js/public.js"></script>
-
 </body>
+
 </html>
+<script src="../../../js/jc.Keyboard.js"></script>
+<script src="../../../js/public.js"></script>
