@@ -3,29 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0036518a-28e0-4a29-92b3-622e296b9409" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/feng.css" afterPath="$PROJECT_DIR$/css/feng.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skin1.css" afterPath="$PROJECT_DIR$/css/skin1.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skin2.css" afterPath="$PROJECT_DIR$/css/skin2.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skin3.css" afterPath="$PROJECT_DIR$/css/skin3.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skin4.css" afterPath="$PROJECT_DIR$/css/skin4.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/zd.css" afterPath="$PROJECT_DIR$/css/zd.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.html" afterPath="$PROJECT_DIR$/views/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-link.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-link.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-BonusGroup.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-BonusGroup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dailyReport.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dailyReport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-computerGame.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-computerGame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-liveEntertainment.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-liveEntertainment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-lottery.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-lottery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-tableGame.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-tableGame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/gameRecord/bettingRecord-lottery-gameRecord.html" afterPath="$PROJECT_DIR$/views/userCenter/gameRecord/bettingRecord-lottery-gameRecord.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,8 +35,8 @@
       <file leaf-file-name="agency-Team_management-dayReward.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="345" column="51" lean-forward="false" selection-start-line="345" selection-start-column="51" selection-end-line="345" selection-end-column="51" />
+            <state relative-caret-position="371">
+              <caret line="349" column="11" lean-forward="true" selection-start-line="349" selection-start-column="11" selection-end-line="349" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -382,12 +363,12 @@
       <workItem from="1514872195608" duration="1212000" />
       <workItem from="1514874368350" duration="6406000" />
       <workItem from="1514881086180" duration="843000" />
-      <workItem from="1514881956730" duration="10584000" />
+      <workItem from="1514881956730" duration="10829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34072000" />
+    <option name="totallyTimeSpent" value="34317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-89" y="80" width="1857" height="1060" extended-state="0" />
@@ -1066,8 +1047,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="345" column="51" lean-forward="false" selection-start-line="345" selection-start-column="51" selection-end-line="345" selection-end-column="51" />
+        <state relative-caret-position="371">
+          <caret line="349" column="11" lean-forward="true" selection-start-line="349" selection-start-column="11" selection-end-line="349" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
