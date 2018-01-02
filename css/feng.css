@@ -384,6 +384,7 @@ button, input {
 }
 
 .divi_word .myrule {
+  cursor: pointer;
   position: absolute;
   right: 0;
   top: -50px;
