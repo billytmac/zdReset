@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0036518a-28e0-4a29-92b3-622e296b9409" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-liveEntertainment.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-liveEntertainment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-tableGame.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-tableGame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/feng.css" afterPath="$PROJECT_DIR$/css/feng.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="agency-Team_management-dividend-computerGame.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="309" column="83" lean-forward="true" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="83" />
+            <state relative-caret-position="185">
+              <caret line="309" column="83" lean-forward="false" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="83" />
               <folding>
                 <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,67 +42,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-LowerAccountOpening-link.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-link.html">
+      <file leaf-file-name="passwordManagement01.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="3155">
+              <caret line="285" column="0" lean-forward="true" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-Team_management-BonusGroup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-BonusGroup.html">
+      <file leaf-file-name="passwordManagement03..html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03..html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9953">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="222" column="63" lean-forward="true" selection-start-line="222" selection-start-column="31" selection-end-line="222" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-Team_management-dividend-lottery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html">
+      <file leaf-file-name="IncreaseTheBindingBankCard01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="315" column="41" lean-forward="false" selection-start-line="315" selection-start-column="41" selection-end-line="315" selection-end-column="41" />
-              <folding>
-                <marker date="1514900398751" expanded="true" signature="14653:14662" ph="..." />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-Team_management-dividend-liveEntertainment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-liveEntertainment.html">
+      <file leaf-file-name="passwordManagement02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="308" column="41" lean-forward="false" selection-start-line="308" selection-start-column="41" selection-end-line="308" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1514900398761" expanded="true" signature="14857:14866" ph="..." />
-              </folding>
+            <state relative-caret-position="523">
+              <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-LowerAccountOpening-manual.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-manual.html">
+      <file leaf-file-name="safetyProblem02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2457">
-              <caret line="199" column="137" lean-forward="false" selection-start-line="199" selection-start-column="137" selection-end-line="199" selection-end-column="137" />
+            <state relative-caret-position="-54">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -111,31 +95,36 @@
       <file leaf-file-name="agency-highQuota.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="397" column="38" lean-forward="false" selection-start-line="397" selection-start-column="38" selection-end-line="397" selection-end-column="38" />
+            <state relative-caret-position="91">
+              <caret line="414" column="15" lean-forward="true" selection-start-line="414" selection-start-column="15" selection-end-line="414" selection-end-column="15" />
               <folding>
-                <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#18436#20362#0" expanded="false" />
+                <element signature="e#20417#20515#0" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-Team_management-dayReward.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="agency-Team_management-dayReward.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
-              <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+              <caret line="358" column="0" lean-forward="false" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
               <folding>
                 <marker date="1514900685203" expanded="true" signature="17322:17331" ph="..." />
               </folding>
@@ -146,8 +135,8 @@
       <file leaf-file-name="agency-Team_management-dividend-tableGame.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-tableGame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="217" column="10" lean-forward="true" selection-start-line="196" selection-start-column="1" selection-end-line="217" selection-end-column="10" />
+            <state relative-caret-position="-166">
+              <caret line="217" column="10" lean-forward="false" selection-start-line="196" selection-start-column="1" selection-end-line="217" selection-end-column="10" />
               <folding>
                 <marker date="1514900439686" expanded="true" signature="10682:10691" ph="..." />
               </folding>
@@ -158,55 +147,9 @@
       <file leaf-file-name="feng.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/feng.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="1052" column="21" lean-forward="false" selection-start-line="1052" selection-start-column="21" selection-end-line="1052" selection-end-column="21" />
-              <folding>
-                <marker date="1514899041802" expanded="true" signature="20672:20698" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="20731:20783" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="20866:20986" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21056:21218" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21245:21270" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21293:21325" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21338:21444" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21514:21556" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21574:21705" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21727:21878" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21926:21951" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="21975:22015" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="22043:22141" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="22177:22203" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="22249:22376" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="22390:22621" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="22656:22699" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="22745:22794" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="24371:24579" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="24994:25100" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="25129:25276" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="25303:25638" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="25664:26110" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="26144:26221" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="26256:26414" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="26449:26607" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="26626:26882" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="27858:28207" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="28220:28245" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="28252:28451" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="28456:28488" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="28497:28937" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="28949:29116" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="29146:29170" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="29182:29245" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="29254:29355" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="29377:29419" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="29458:29490" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="29522:29960" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="29999:30067" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="30077:30142" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="30173:30195" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="30231:30293" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="30308:30492" ph="{...}" />
-                <marker date="1514899041802" expanded="true" signature="30502:30521" ph="{...}" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="1078" column="15" lean-forward="true" selection-start-line="1078" selection-start-column="15" selection-end-line="1078" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -260,7 +203,6 @@
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/lockTheBankCard.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/mail.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/MyBonus.html" />
-        <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03..html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/platformBulletin.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/platformBulletinDetails.html" />
@@ -283,15 +225,16 @@
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-liveEntertainment.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-lottery.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-tableGame.html" />
-        <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-manual.html" />
-        <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" />
-        <option value="$PROJECT_DIR$/css/feng.css" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-liveEntertainment.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-tableGame.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html" />
+        <option value="$PROJECT_DIR$/css/feng.css" />
+        <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" />
+        <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" />
+        <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
       </list>
     </option>
   </component>
@@ -309,8 +252,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="181" />
+    <option name="x" value="-43" />
+    <option name="y" value="87" />
     <option name="width" value="1857" />
     <option name="height" value="1060" />
   </component>
@@ -409,15 +352,15 @@
       <workItem from="1514872195608" duration="1212000" />
       <workItem from="1514874368350" duration="6406000" />
       <workItem from="1514881086180" duration="843000" />
-      <workItem from="1514881956730" duration="17688000" />
+      <workItem from="1514881956730" duration="20496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41176000" />
+    <option name="totallyTimeSpent" value="43984000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="181" width="1857" height="1060" extended-state="0" />
+    <frame x="-43" y="87" width="1857" height="1060" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.257834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -493,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -542,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03..html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/platformBulletin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -560,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -913,22 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="222" column="49" lean-forward="false" selection-start-line="222" selection-start-column="49" selection-end-line="222" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4121">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5967">
@@ -985,81 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/feng.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="1052" column="21" lean-forward="false" selection-start-line="1052" selection-start-column="21" selection-end-line="1052" selection-end-column="21" />
-          <folding>
-            <marker date="1514899041802" expanded="true" signature="20672:20698" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="20731:20783" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="20866:20986" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21056:21218" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21245:21270" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21293:21325" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21338:21444" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21514:21556" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21574:21705" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21727:21878" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21926:21951" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="21975:22015" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="22043:22141" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="22177:22203" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="22249:22376" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="22390:22621" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="22656:22699" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="22745:22794" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="24371:24579" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="24994:25100" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="25129:25276" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="25303:25638" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="25664:26110" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="26144:26221" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="26256:26414" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="26449:26607" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="26626:26882" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="27858:28207" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="28220:28245" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="28252:28451" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="28456:28488" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="28497:28937" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="28949:29116" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="29146:29170" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="29182:29245" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="29254:29355" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="29377:29419" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="29458:29490" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="29522:29960" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="29999:30067" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="30077:30142" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="30173:30195" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="30231:30293" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="30308:30492" ph="{...}" />
-            <marker date="1514899041802" expanded="true" signature="30502:30521" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="397" column="38" lean-forward="false" selection-start-line="397" selection-start-column="38" selection-end-line="397" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-BonusGroup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9953">
@@ -1072,7 +903,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-liveEntertainment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="189">
           <caret line="308" column="41" lean-forward="false" selection-start-line="308" selection-start-column="41" selection-end-line="308" selection-end-column="41" />
           <folding>
             <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1092,7 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="115">
           <caret line="315" column="41" lean-forward="false" selection-start-line="315" selection-start-column="41" selection-end-line="315" selection-end-column="41" />
           <folding>
             <marker date="1514900398751" expanded="true" signature="14653:14662" ph="..." />
@@ -1102,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="309" column="83" lean-forward="true" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="83" />
+        <state relative-caret-position="185">
+          <caret line="309" column="83" lean-forward="false" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="83" />
           <folding>
             <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1122,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-tableGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="217" column="10" lean-forward="true" selection-start-line="196" selection-start-column="1" selection-end-line="217" selection-end-column="10" />
+        <state relative-caret-position="-166">
+          <caret line="217" column="10" lean-forward="false" selection-start-line="196" selection-start-column="1" selection-end-line="217" selection-end-column="10" />
           <folding>
             <marker date="1514900439686" expanded="true" signature="10682:10691" ph="..." />
           </folding>
@@ -1133,10 +964,84 @@
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+          <caret line="358" column="0" lean-forward="false" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
           <folding>
             <marker date="1514900685203" expanded="true" signature="17322:17331" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/feng.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="1078" column="15" lean-forward="true" selection-start-line="1078" selection-start-column="15" selection-end-line="1078" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="414" column="15" lean-forward="true" selection-start-line="414" selection-start-column="15" selection-end-line="414" selection-end-column="15" />
+          <folding>
+            <element signature="e#18436#20362#0" expanded="false" />
+            <element signature="e#20417#20515#0" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03..html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="222" column="63" lean-forward="true" selection-start-line="222" selection-start-column="31" selection-end-line="222" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3155">
+          <caret line="285" column="0" lean-forward="true" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

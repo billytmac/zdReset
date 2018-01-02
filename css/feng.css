@@ -1078,3 +1078,14 @@ button, input {
 .remove_x{
   float: right;
 }
+element.style {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  opacity: 0.7;
+  background-color: rgb(0, 0, 0);
+  z-index: 600;
+  width: 1903px;
+  height: 1040px;
+  display: block;
+}
