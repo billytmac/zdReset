@@ -815,6 +815,7 @@ button, input {
 
 /* 代理中心分红报表的结束 */
 
+
 /* 代理中心的下级开户开始 */
 .n_10in{float:left;width:100%;}
 .n_10in1{width:100%;padding:0 20px;}
@@ -1054,7 +1055,7 @@ button, input {
   text-align: center;
 }
 .pop-btn {
-  padding: 23px;
+  padding: 14px;
   text-align: center;
   background: #f7f7f7;
 }
@@ -1064,7 +1065,7 @@ button, input {
 .proxy-wd-point-cont .history-cont {
   height: 129px;
   overflow-y: scroll;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 .pop-btn .btn {
   height: 34px;

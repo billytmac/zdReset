@@ -7,6 +7,19 @@
     <title>代理中心_高点配额</title>
     <link rel="stylesheet" type="text/css" href="../../../css/feng.css" />
     <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
+    <style>
+        .layui-layer-title {
+            padding: 0 80px 0 20px;
+            height: 53px;
+            line-height: 42px;
+            border-bottom: 1px solid #eee;
+            font-size: 18px;
+            color: #333;
+            overflow: hidden;
+            background-color: red;
+            border-radius: 2px 2px 0 0;
+        }
+    </style>
 </head>
 
 <body id="mian_body">
@@ -364,9 +377,19 @@
         $(function () {
             $(".edit").click(function () {
                 layer.open({
-                    title:'高点配额',
                     type: 1,
-//                    title: ['我的分红规则', 'height: 40px;line-height: 40px;background-color: #DBE9F1;border-bottom: 3px solid #88ADC3;color: #49494A;text-align:center;padding-left:78px;'],
+                    title: ['高点配额', '    height: 44px;\n' +
+                    '    padding: 0 15px;\n' +
+                    '    font-size: 14px;\n' +
+                    '    font-weight: 700;\n' +
+                    '    line-height: 44px;\n' +
+                    '    color: #61607A;\n' +
+                    '    border-radius: 3px 3px 0 0;\n' +
+                    '    background-image: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.05));\n' +
+                    '    background-image: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.05));\n' +
+                    '    background-image: -o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.05));\n' +
+                    '    background-image: linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,.05));\n' +
+                    '    background-color: #F0F0F0;'],
                     skin: 'layui-layer-rim', //加上边框
                     area: ['646px','401px'], //宽高
                     offset:['30%','40%'],
@@ -399,7 +422,7 @@
                     <input name="prize_group" type="hidden" value="1958">
                     <input name="user_id" type="hidden" value="19251">
                     <input name="username" type="hidden" value="fff1710">
-                    <table width="100%" cellpadding="10" class="table-point-window">
+                    <table width="100%" cellpadding="10" class="table-point-window" >
                         <tbody><tr>
                             <td align="right" width="150">用户：</td>
                             <td>

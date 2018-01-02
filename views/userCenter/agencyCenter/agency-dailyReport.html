@@ -365,14 +365,50 @@
 
 </script>
 <div id="myRules" style="display:none;">
-    <div style="width: 100%">
-        <div id="" class="layui-layer-content" style="height: 84px;">
-            <div class="standard_tit standard_tit1 summary_tit" style="width: 100%;line-height: 30px;height: 42px;border-bottom: 1px solid #EBECEC;padding-top: 0;"><span class="line" style="width: 50%;text-align: center;display: block;float: left;height: 40px;line-height: 40px;border-right: 1px solid #EBECEC;">达标销量</span><span style="width: 50%;text-align: center;display: block;float: left;height: 40px;line-height: 40px;">日奖励比率</span></div>
-            <div class="summary standard_tit1" style="width: 100%;line-height: 30px;height: 42px"><span class="line" style="width: 50%;text-align: center;display: block;float: left;height: 40px;line-height: 40px;border-right: 1px solid #EBECEC;">10000</span><span style="width: 50%;text-align: center;display: block;float: left;height: 40px;line-height: 40px;">1.30
-            %</span></div>
+        <div style="width: 100%">
+            <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" >
+                <tr>
+                    <td style="text-align: right;width: 45%">
+                        <input type="checkbox" checked="checked">
+                    </td>
+                    <td style="text-align: left;width: 55%;">
+                        累计上周期模式<span class="daywages_wh set_dp1">?</span>
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" id="J-table">
+                <thead>
+                <tr class="setprice_tit">
+                    <th style="background: #dbe9f1;border-bottom: 2px solid #8cb0c5;">半月总销量≥</th>
+                    <th style="background: #dbe9f1;border-bottom: 2px solid #8cb0c5;">半月总亏损量≥</th>
+                    <th style="background: #dbe9f1;border-bottom: 2px solid #8cb0c5;" class="fh">分红比例</th>
+                <tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>20<span>%</span></th>
+                </tr>
+                <tr>
+                    <th>7000000</th>
+                    <th>500000</th>
+                    <th>25<span>%</span></th>
+                </tr>
+                <tr>
+                    <th>10500000</th>
+                    <th>1000000</th>
+                    <th>30<span>%</span></th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>1500000</th>
+                    <th>32<span>%</span></th>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </div>
-</div>
 
 </body>
 <script src="../../../js/public.js"></script>
