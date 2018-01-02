@@ -155,3 +155,15 @@ function moneyInput(moneyInput){
         }
     });
 }
+
+$('.menu_list-box').on('click',function(){
+    console.log(123);
+    $('.xsd-sban').css('display','block');
+})
+$('#J-submit').on('click',function(){
+    if($('.xsd-sban').css('display') == 'block') {
+        return true;
+    }else {
+        return false;
+    }
+})
