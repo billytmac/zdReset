@@ -318,6 +318,49 @@
             return days;
         }
     </script>
+
+    <script src="../../../js/layui/layui.all.js"></script>
+    <script src="../../../js/base-all.min.js "></script>
+
+    <script>
+        $(function () {
+            $(".n_10row_submit").click(function () {
+                layer.open({
+                    type: 1,
+                    skin: 'layui-layer-rim', //加上边框
+                    content: $("#myRules").html()
+                    , success: function(layero, index){
+                        var ParBody = document.getElementsByTagName('body')[0];
+                        ParBody.appendChild(layero[0]);
+
+                        var _lay = layero[0];
+                        var _width = -(_lay.offsetWidth) / 2;
+                        var _height = -(_lay.offsetHeight) / 2;
+
+                        _lay.style.marginTop = _height + "px";
+                        _lay.style.marginLeft = _width + "px";
+                        _lay.style.left = "50%";
+                        _lay.style.top = "50%";
+
+                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                        ParBody.appendChild(shade);
+                    }
+                });
+            });
+        });
+
+    </script>
+    <div   style="display:none;" id="" class="layui-layer-content" style="height: 216px;">
+        <div id="myRules" class="layui-layer layui-layer-dialog  layer-anim" id="layui-layer100022" type="dialog" times="100022" showtime="0" contype="string" style="z-index: 19991036; top: 40%; left: 45%;"><div id="" class="layui-layer-content" style="padding: 20px">您是否要保存日奖励规则？<span style="color:red">一旦设置不能修改。</span></div><span class="layui-layer-setwin"></span><div class="layui-layer-btn layui-layer-btn-"><a class="layui-layer-btn0">确定</a><a class="layui-layer-btn1">取消</a></div><span class="layui-layer-resize"></span></div>
+</body>
+<script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/js.js"></script>
+<script src="../../../js/public.js"></script>
+</html>
+
+
+
+
     <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/js.js" ></script>
     <script src="../../../js/public.js"></script>
