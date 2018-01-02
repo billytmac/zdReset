@@ -1,0 +1,39 @@
+.deep_color{background-color: #222f38;border-color: #1d252b;}
+.light_color{background-color: #275673;border-color: #275673;}
+
+/*侧边栏in-side*/
+#b1{background:#585568;}
+#b2{background:#222f38 url(../images/common_img/select.png);}
+#b3{background:#00b599;}
+#b4{background:#5d473a;}
+
+/*顶部top*/
+.header-nava a{background: #1a252b;}
+.header-nava a:hover{background:#50626c;transition:all .3s ease;}
+.header-nav-l .llgame a:hover {background-color: #213c4d;color: #fff;border-color: #213c4d;}
+.header-nav-l li>a{border-color: #344049;}
+.icon-id1{background-position-x: -2px;}
+.header-navrqa, .header-navrqmys, .hidenn{color: #fff;}
+.info_num{border-color:#383346;transition:all .3s ease;}
+
+
+/*头部 header*/
+.nav-bj{background:url(../images/common_img/bjtop2.jpg);background-size: 100% 105px;}
+.in-recordaul li:hover{background-color:#50626c;}
+
+/*首页home*/
+.header-body{background: url(../images/home_img/b2.jpg) center top no-repeat;background-size: 100% 585px;}
+.hot_type >a:hover,.games_type .game2-r a:hover{background-color: #50626c;border-color: #50626c;}
+
+
+
+
+
+
+
+
+
+
+
+
+

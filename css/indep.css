@@ -1,0 +1,158 @@
+html{
+	height: auto;
+	color:#000;
+	background:#FFF;
+	font-family: "微软雅黑";
+	overflow-y: auto;
+}
+body{
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+	background: url(../images/indep_img/bg.jpg) fixed center center;
+	background-size: cover;
+ }
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,label,legend,ol,p,select,table,td,textarea,th,div,ul,li,span,section,header,footer,nav,video,audio,figure,figcaption,hgroup,a{margin:0;padding:0;border:0;box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-webkit-box-sizing:border-box;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a{outline:0;color:#333;text-decoration:none;}
+*{box-sizing:border-box;}
+li,ul,ol{list-style:none;}
+img{border:none;vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{color:inherit;font-weight:500;line-height:1.1;}
+a{ text-decoration:none;webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; transition: all 0.2s ease-out;}
+input,textarea,select,button{ outline:none;font-family:"微软雅黑";  }
+
+/*帮助中心*/
+#mian_body{background: url(../images/home_img/bfoj.jpg) repeat rgb(236, 230, 224);}
+.help_left ul li>a:hover{ color:#fff}
+.help_rightc{ width:900px; float:left; margin:20px 0 100px 0; line-height:25px; font-size:14px; color:#494949}
+.help_main{width: 1250px;margin:0 auto;}
+.help_left{width: 284px;float:left;margin-top: 30px;background-color: #2a2e3c;margin-bottom: 50px;}
+.help_left ul li{width: 284px;background-color: #393d4a;float:left;}
+.help_left ul li>a{width: 284px;border-bottom: 1px dotted #4e505a;padding-left: 30px;color: #fff;position: relative;font-size: 16px;height: 45px;line-height: 45px; float:left;}
+.help_left ul li>a>.help_arr{position: absolute;right: 34px;top: 15px; display: block;width: 12px;height: 12px;background: url(../images/help_img/help_arr.png) no-repeat left -24px;}
+.help_left ul li.cur{background-color:#2a2e3c;}
+.help_left ul li.cur>a>.help_arr{background-position: 0 0;}
+.help_show{width: 317px;padding-left: 30px;float:left; display:none;}
+.help_show >a{position: relative;width: 218px; height: 50px;line-height: 50px;padding-left: 18px;border-bottom: 1px solid #4e505a;color: #C5C5C5;font-size: 12px;float:left;}
+.help_show >a >span{position: absolute; left: 3px;top: 23px;display: block;width: 5px;height: 5px;border-radius: 100%;background-color: #95979e;}
+.help_show >a.cur{color: #e3eb08;}
+.help_show >a.cur >span{background-color: #f6ff00;}
+.help_show >a.cur{border:0;background: none;border-bottom: 1px solid #4e505a;color: #e3eb08;}
+.help_show >a.cur >span{background-color: #f6ff00;}
+#h_first, .help_show a:hover{border-bottom: 1px solid #4e505a;color: #e3eb08;}
+.help_show >a:hover >span{background-color: #f6ff00;}
+.help_right{margin-top: 30px;width: 950px;float:right; background:#fff; padding:20px 30px; margin-bottom:50px;}
+.help_righthead{border-bottom: 1px solid #e1e1e1;width:100%; float:left; font-size:16px; color:#676767;padding-bottom: 10px;}
+/*帮助中心 结束*/
+
+/*下载登录*/
+/*ios系统下载*/
+.top{width: 100%; background-color: #fff; height: 85px;}
+.top_in{width: 1200px;height: 87px;padding-top: 24px;margin:0 auto;}
+.logo{float: left;}
+.logo {width: 85%;height: auto;}
+.kefu{cursor: pointer; margin-top: 23px; background: url(../images/indep_img/kefu.png) no-repeat left center; padding-left: 30px;color: #6a6a6a;font-size: 16px;float: right;}
+.menu{width: 100%;background-color: #141829;height: 70px;}
+.menu_in{width: 1200px;height: 100%; margin:0 auto;}
+.menu_in >ul{width: 100%;height: 100%;}
+.menu_in >ul li{width: 20%;height: 100%;float: left;display: block;border-right: 1px solid #134f7e;}
+.menu_in >ul li.scan{border-right: 0;}
+.menu_in li a{display: block;width: 100%;height: 100%; line-height: 80px;padding-top: 10px;}
+.menu_in dl{width: auto;height: 80px;overflow: hidden;padding-top: 12px;padding-left: 35px;}
+.menu_in dd{width: 38px; height: 34px; background: url(../images/indep_img/sprite.png) no-repeat 0 0; float: left;margin-right: 5px;}
+.menu_in .android dd{background-position: -39px 0;}
+.menu_in .ios dd{background-position: -75px 0;}
+.menu_in .quick dd{background-position: -115px 0;}
+.menu_in .scan dd{background-position: -153px 0;}
+.menu_in >ul li:hover {background-color: #61a8b5;}
+.menu_in >ul li:hover dt{color: #fff;}
+.menu_in >ul li:hover dd{background-position: -0px -40px;}
+.menu_in >ul li.android:hover dd{background-position: -39px -40px;}
+.menu_in >ul li.ios:hover dd{background-position: -75px -40px;}
+.menu_in >ul li.quick:hover dd{background-position: -115px -40px;}
+.menu_in >ul li.scan:hover dd{background-position: -153px -40px;}
+.menu_in >ul li.cur {background-color: #61a8b5;}
+.menu_in >ul li.cur dt{color: #fff;}
+.menu_in >ul li.cur dd{background-position: -0px -40px;}
+.menu_in >ul li.android.cur dd{background-position: -39px -40px;}
+.menu_in >ul li.ios.cur dd{background-position: -75px -40px;}
+.menu_in >ul li.quick.cur dd{background-position: -115px -40px;}
+.menu_in >ul li.scan.cur dd{background-position: -153px -40px;}
+.menu_in dt{width: 120px; display: block;height: 16px;line-height: 14px;float: left;}
+.menu_in dt.name{font-size: 14px;color: #fff;}
+.menu_in dt.remarks{font-size: 14px;color: #7b8e9b;font-size: 12px;}
+.scan_main{width: 100%;position: relative;height: auto}
+.main_scrol .con{ width: 1200px;margin:0 auto;position: absolute;top: 50%;left: 50%;margin-left: -631px;}
+.main_scrol .tip{position: absolute;left: 50%;margin-left: -540px;margin-top: 45px; top:4%; width: 1087px; border-radius: 3px;color: #fff600;font-size: 14px;padding:9px;border:1px solid #788442;background: rgba(246,255,0,.1);}
+.main_scrol .con>div{float: left;}
+.main_scrol .con_left{margin: 110px;position: relative;text-align: center;}
+.con .con_left .scan_code{position: absolute;left: 75%;top: 52%; display: block;width: 163px;height: 194px;text-align: right;}
+.ios_con .con_left .scan_code{left: 90%;}
+.con_right{margin-top: 110px;height: 100%;}
+.ios_con .con_right{margin-left: 100px;}
+.con .scan_left,.con .android_left,.con .ios_left{height: 75%; width: 611px;}
+.footer{height: 45px;width: 100%;position: fixed;bottom: 0;line-height: 45px;background-color: #fff;}
+.footer p{margin:0 auto;font-size: 14px;color: #5e5e5e;display: block;width: 480px;}
+
+/*快速登录器下载*/
+.main_scrol .quick_left{margin:60px 73px 0 0;}
+.quick_right{margin-top: 100px;}
+.quick_right a{margin:60px 0 0 86px; display: block;width: 273px;height: 53px;line-height: 53px; background-color: #4e9af4; border-radius: 30px;text-align: center;color: #fff;}
+.quick_right a p{background: url(../images/indep_img/download.png) no-repeat 97px 17px; padding-left: 40px;font-size: 16px;}
+.quick_right a:hover{background-color: #287adb;}
+
+/*扫码登录*/
+.scan_con .scan_left{text-align: left;max-width: 600px;}
+.scan_con .scan_left .scan_code{height: auto;}
+.scan_con .con_left .scan_code{top: 44%;left: 64%;}
+
+/*客户端登录*/
+.main_scrol .client_left{width: 40.9%; margin:112px 35px 0 0;text-align: center;}
+.client_down{margin-top:20px;}
+.main_scrol .download{width: 100%;height: 82px;margin-top: 30px;text-align: center;padding: 0 130px;}
+.client_left a{display: block;padding: 15px 75px;background-color: #4e9af4;color: #fff;font-size: 16px;border-radius: 40px;margin:0 auto;}
+.client_right{width: 57.58%; margin-top: 90px;margin-right: -50px;margin-bottom: 100px;}
+.download a:hover{background-color: #287adb;}
+
+.main_scrol{overflow-y: auto;}
+.scan_main .con{overflow: hidden;height: auto;margin-top: 1px;}
+.scan_main .scan_left{margin-top: 99px;}
+.scan_main .scan_right{margin-top: 77px;}
+.scan_main .scan_con .scan_right,.scan_main .scan_con .scan_left{overflow: hidden;height: auto;}
+.scan_main .ios_con{margin-top: 14px;}
+.scan_main .quick_con{margin-top: 65px;}
+.scan_main .client_con{margin-top: 40px;}
+.android_con .con_left{margin-top: 100px;}
+.android_con .con_right{margin-top: 90px;}
+.con .con_left .scan_code{padding-top: 8px; position: absolute;display: block;background: url(../images/indep_img/ewm.png) no-repeat;width: 163px;height: 194px;text-align: center;}
+/*下载登录 结束*/
+
+/*防劫持教程*/
+.dns_head{width: 100%;height: 76px;background: none;border-bottom: 0; background-color: #fff;}
+.dns_head .head_in{width:1200px;height: 76px; line-height: 76px; margin:0 auto;}
+.dns_head .logo{line-height: 76px;padding-left: 44px; float: left;}
+.dns_head .kf{display: block;line-height: 76px; padding-right: 41px;float: right;}
+.dns_main{width: 100%;}
+.dns_main{ width:100%;background-color: #f3f3f3;}
+
+.dns_banner{width: 100%;height: 622px;background: #1c2633  url(../images/indep_img/dns_banner_bg.jpg) no-repeat center center;margin:0 auto;}
+.dns_banner >p{display: block;width: 869px;height: 622px;margin:0 auto;}
+
+.dns_maincon{width: 1200px;margin:0 auto;padding:0 0px 30px 60px;position: relative;}
+.dns_maincon .line{position: absolute;left: 84px;top: 5px;height: 99%; width: 2px;background-color: #6a9bc9;}
+.dns_maincon .tit{height: 86px;margin:36px 0 0 23px;padding:36px 0 0 93px;color: #262626;font-size: 24px;}
+.dns_ul{width: auto;display: block;}
+.dns_ul>li{display: block;position: relative;padding-bottom: 30px;}
+.dns_ul>li>img{position: absolute;top: 0;left: -15px;}
+.dns_ul >li>.con{width: 954px;height: auto;border:1px solid #dcdcdc;margin-left: 113px;padding-bottom: 30px; padding-left: 34px; border-radius: 3px;background-color: #fff;}
+.dns_ul >li>.con >p{font-size: 14px;color: #727272;line-height: 14px;margin:36px 0 24px 0;}
+.dns_ul >li>.con >p >span{color: #0c0c0c;}
+.dns_ul >li>.con >img{margin-right: 15px;}
+.dns_maincon .dns_tip{color: #3d3d3d;margin-left: 113px;}
+.dns_maincon .dns_tip >a{color: #9771c3;}
+
+/*防劫持教程 结束*/
+
+

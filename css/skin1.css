@@ -1,0 +1,9 @@
+.deep_color{background-color: #312D46;border-color: #585568;}
+.light_color{background-color: #63586e;border-color: #63586e;}
+
+/*侧边栏in-side*/
+
+/*顶部top*/
+.header-nava a{background: #383346;color: #b9b4d6;}
+.header-navrqa, .header-navrqmys, .hidenn{color: #b9b4d6;}
+.info_num{border-color:#383346;transition:all .3s ease;}

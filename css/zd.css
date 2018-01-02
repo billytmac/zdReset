@@ -1,0 +1,1684 @@
+/*公共样式*/
+/*========*/
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike,*/
+/*strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,*/
+/*tfoot, thead, tr, th, td ,textarea { margin:0; padding:0;  }*/
+/*address,cite,dfn,em,var, i {font-style:normal;}*/
+/*body {font-size: 16px; line-height: 1.5; font-family:'Microsoft Yahei','simsun','arial','tahoma';  color: #222; background: #eee; }*/
+/*table { border-collapse:collapse; border-spacing:0; }*/
+/*h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }*/
+/*button,input,select,textarea{font-size:100%;}*/
+/*fieldset,img{border:0;}*/
+/*a { text-decoration: none; color: #666; background: none ;display: inline-block}*/
+/*ul, ol { list-style: none; }*/
+/*:focus{ outline:none;}*/
+/*.clearfix{ clear: both; content: ""; display: block; overflow: hidden }*/
+/*.clear{clear: both;}*/
+/*.fl{ float: left; }*/
+/*.fr{float: right;}*/
+
+/*字体*/
+/*body {*/
+/*font-size: 16px;*/
+/*line-height: 1.5;*/
+/*font-family: 'Microsoft Yahei','simsun','arial','tahoma';*/
+/*color: #222;*/
+/*background: red;*/
+/*}*/
+/*字体*/
+/*==========================*/
+
+@charset "utf-8";
+body {
+    min-width: 1250px;
+    background-color: #eef2f2;
+    color: #333;
+    font-size: 14px;
+    font-family: "microsoft yahei", Arial, sans-serif;
+    line-height: 1.42857143;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    outline: 0;
+    color: #333;
+    text-decoration: none;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+dt {
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: agency fb;
+    src: url(../font/AGENCYB.TTF), url(../font/AGENCYB.eot);
+}
+
+.blod {
+    font-weight: 700;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+#cds {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+i {
+    display: inline-block;
+}
+.main_b0 {
+    background: #275673;
+    width: 70px;
+    float: left;
+}
+
+/*// 左边导航栏的开始*/
+   .icon {
+       vertical-align: middle;
+       display: inline-block;
+   }
+
+.icon-set {
+    background: url("../images/userCenter_img/icon-set.png");
+    width: 29px;
+    height: 29px;
+    background-size: 100%;
+}
+
+.icon-b1 {
+    width: 36px;
+    height: 35px;
+    background: url("../images/userCenter_img/icon-b4.png") no-repeat;
+}
+
+.icon-b2 {
+    background-position-x: -46px;
+}
+
+.icon-b3 {
+    background-position-x: -92px;
+}
+
+.icon-b4 {
+    background-position-x: -138px;
+}
+
+.icon-b5 {
+    width: 36px;
+    height: 35px;
+    background: url("../images/userCenter_img/xx55.png");
+}
+
+.main_0bd {
+    background-position: all;
+}
+
+.main_0bdv {
+    padding: 15px 20px;
+    height: 60px;
+}
+
+.main_0bdvu {
+    position: relative;
+}
+
+.main_0bli {
+    padding: 17px 12px;
+    border-left: 5px solid #3a3b49;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: #3a3b49
+}
+
+.main_0bli:hover {
+    background: #2e2f3b;
+    border-color: #60493c
+}
+
+.main_0bul {
+    display: none;
+    z-index: 55;
+    width: 160px;
+    height: 350px;
+    background: #434555;
+    position: absolute;
+    top: 0;
+    left: 65px;
+    color: #fff;
+}
+
+.main_0bul1 {
+    top: -70px;
+}
+
+.main_0bul2 {
+    top: -140px;
+}
+
+.main_0bul3 {
+    top: -210px;
+}
+
+.main_0bul4 {
+    top: -280px;
+}
+
+.main_0bdvu:hover .main_0bul {
+    display: block;
+}
+
+.main_0bul li:first-child {
+    font-size: 16px;
+    padding: 20px 15px
+}
+
+.main_0bul li a {
+    color: #8c8e9a;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding-left: 15px;
+    transition: all 0.5s ease
+}
+
+.main_0bul li a:hover {
+    color: #fff;
+    background: #2e2f3b;
+    padding-left: 28px;
+    transition: all 0.5s ease
+}
+
+.main_0bul li a span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.2s ease;
+    opacity: 0;
+    filter: alpha(opacity=00);
+}
+
+.main_0bul li a:hover span {
+    left: 15px;
+    transition: left 0.5s, opacity 0.2s;
+    opacity: 1;
+    opacity: alpha(opacity=100);
+}
+
+.main_0bul li a:hover .xl_i {
+    color: #fff;
+    transition: 0.25s;
+}
+
+/*// 左边导航栏的结束*/
+/*// 每个导航链接里面的内容开始*/
+#mian_body {
+    background: #eef2f2;
+}
+
+.main {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.mian_4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 600px;
+}
+
+.row:after,
+.row:before {
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+    clear: both;
+}
+
+#mian_body .main_r {
+    float: left;
+    width: 1170px;
+    min-height: 600px;
+    background: #fff
+}
+
+#mian_body .main_r .very_mt {
+    background: #fff;
+}
+
+.very_show {
+    position: relative;
+    cursor: pointer;
+}
+
+.very_hide {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+.input_second{
+    padding-left: 10px;
+}
+#mian_body .main_r .very_d1 {
+    height: 60px;
+    line-height: 60px;
+    color: #5e5e5e;
+    padding: 0 20px;
+}
+
+#mian_body .main_r .very_mt .very_d1 span {
+    margin: 0 10px;
+}
+
+#mian_body .main_r .very_mt .very_d2 {
+    height: 50px;
+    padding-left: 20px;
+    background: #f7f7f7;
+}
+
+#mian_body .main_r .very_mt .very_d2 a {
+    border-top: 4px solid transparent;
+    padding: 13px 30px;
+    display: inline-block;
+    transition: 0.25s;
+}
+
+#mian_body .main_r .very_mt .very_d2 a.new_on , #mian_body .main_r .very_mt .very_d2 a:hover
+{
+    border-top: 4px solid #275673;
+    background: #fff;
+}
+
+.very_tp {
+    line-height: 50px;
+    background: #f7f6f3;
+    border-bottom: 1px solid #e7e4dd;
+    color: #e07413;
+    padding-left: 35px;
+    font-size: 14px;
+}
+/*下一页开始*/
+
+#mian_body .main_r .very_mt .very_d3 .page {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    color: #4f473c;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+}
+
+#mian_body .main_r .very_mt .very_d3 .page a {
+    padding: 0px 9px 4px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-left: 1px;
+    color: #4f473c
+}
+
+#mian_body .main_r .very_mt .very_d3 .page a.pageDefault {
+    background: #cfdbe2;
+}
+
+#mian_body .main_r .very_mt .very_d3 .page a:hover {
+    background: #275673;
+    color: #fff
+}
+
+#mian_body .main_r .very_mt .very_d3 .page_spana a {
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 2px 0 4px;
+    text-align: center;
+    height: 25px;
+    width: 26px;
+    background: #658493;
+    color: #fff;
+    line-height: 22px;
+    border-color: #766e91;
+}
+/*下一页结束*/
+
+/*// 每个导航链接里面的内容结束*/
+
+.very_d3，.x_xfx {
+    width: 1170px;
+    height: 830px;
+}
+
+/*页面样式*/
+.page {
+    background-color: #fff;
+    margin-top: 20px;
+    width: 1170px;
+    color: #4f473c;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+}
+
+.page a {
+    padding: 0px 9px 4px;
+    border-radius: 3px;
+    margin-left: 1px;
+    background: #cfdbe2;
+    border-color: transparent;
+}
+
+.page a:hover {
+    background: #658493;
+    color: #FFF;
+}
+
+.page a.pageCurrent {
+    background: #658493;
+    color: #fff;
+}
+
+/*页面样式*/
+
+/*公共样式*/
+/*=============================*/
+/*站内信*/
+.main_r {
+    float: left;
+    width: 1170px;
+    min-height: 600px;
+    background: #fff;
+}
+
+.very_mt {
+    background: #fff;
+}
+
+.very_d1 {
+    height: 60px;
+    line-height: 60px;
+    color: #5e5e5e;
+    padding: 0 20px;
+}
+
+.very_d2 {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    background: #f7f7f7;
+}
+
+.very_d2 a.new_on, .very_d2 a:hover {
+    height: 50px;
+    border-top: 4px solid #275673;
+    background: #FFF;
+}
+
+.very_d2 a {
+    border-top: 4px solid transparent;
+    padding: 13px 30px;
+    display: inline-block;
+    transition: 0.25s;
+    line-height: 25px;
+}
+
+/*站内信*/
+/*=============================*/
+
+/*平台管理样式开始*/
+/*详情*/
+.announcement_gg {
+    padding: 20px;
+}
+.announcement h1 {
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+.announcement p {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.announcement_tils {
+    padding: 24px 0;
+    line-height: 22px;
+    color: #666;
+}
+}
+/*详情*/
+.x_xfx_ul {
+    padding-top: 5px;
+}
+
+.x_xfx_ul li:nth-child(odd) {
+    background: #fff;
+}
+
+.x_xfx_ul li:nth-child(even) {
+    background: #ebf6fc;
+}
+
+.x_xfx_ul li:hover {
+    background: #d5e5ee;
+}
+
+.x_xfx_ul li {
+    font-size: 12px;
+    height: 55px;
+    width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.x_pt_xqye {
+    font-size: 14px;
+    color: #969696;
+    line-height: 55px;
+    float: left;
+}
+
+.xl_time_span {
+    float: right;
+    line-height: 55px;
+    margin-right: 15px;
+}
+
+/*平台管理样式结束*/
+
+/*===================================================================*/
+/*密码管理样式开始*/
+.personal-1 {
+    min-height: 250px;
+    width: 50%;
+    border-bottom: 1px dashed #e1e1e1;
+    float: left;
+}
+
+.personal-h1a {
+    color: #555;
+    font-size: 20px;
+    padding: 30px 0 30px 25%;
+}
+
+.personad {
+    padding-bottom: 30px;
+}
+
+.persona_mc {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    color: gray;
+}
+
+.persona_focus {
+    width: 150px;
+    height: 30px;
+}
+
+.persona_text {
+    height: 28px;
+    line-height: 28px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.personad_tjd {
+    padding: 0 0 15px 40%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: #275673;
+}
+
+.personal-1 {
+    height: 250px;
+    width: 50%;
+    border-bottom: 1px dashed #e1e1e1;
+    float: left;
+}
+
+.personal-h1 {
+    color: #555;
+    font-size: 20px;
+    padding: 30px 0 30px 40%;
+}
+
+.personad {
+    padding-bottom: 30px;
+}
+
+.persona_mc {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    color: gray;
+}
+
+.persona_focus {
+    width: 150px;
+    height: 30px;
+}
+
+.personal-h1a {
+    color: #555;
+    font-size: 20px;
+    padding: 30px 0 30px 25%;
+}
+
+.personad_tjd {
+    padding: 0 0 15px 40%;
+}
+
+.personal-time {
+    padding-left: 25%;
+}
+
+.personad_tj {
+    width: 100px;
+    height: 29px;
+    color: #fff;
+    background: #4A3E5C;
+    border-radius: 3px;
+    display: inline-block;
+    border-style: none;
+}
+
+.personal-span {
+    width: 325px;
+    padding: 0 15px;
+    background: #f1f1f1;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+    color: #C8C8C8;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.personal_mm {
+    margin: 75px 0;
+}
+
+.personal_mm .personal_mml {
+    width: 50%;
+    float: left;
+}
+
+.personal-h2 {
+    color: #555;
+    font-size: 18px;
+    padding: 30px 0 30px 40%;
+}
+
+.personal_sl {
+    margin-bottom: 20px;
+}
+
+.personal_sl .personal_sm {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    color: #5e5e5e;
+}
+
+.personal_sl input {
+    width: 275px;
+    height: 30px;
+    line-height: 30px;
+    border: #c8c8c8 solid 1px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.key-logo {
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    background: url("../images/userCenter_img/keybo.png") no-repeat;
+    position: relative;
+    top: 4px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.personal_sl .personal_ts {
+    color: #a3a3a3;
+    width: 275px;
+    margin-left: 40%;
+}
+
+/*密码管理样式结束*/
+
+/*我的奖金样式开始*/
+.bonus {
+    padding: 20px;
+}
+
+.x_table2 {
+    margin: 0 auto;
+}
+
+.x_table {
+    background: #fff;
+    width: 1130px;
+    margin: 0 auto;
+    border-spacing: 0;
+    position: relative;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    height: 40px;
+}
+
+.x_underline {
+    background: #84aac1;
+}
+
+.x_underline {
+    position: absolute !important;
+    width: 100%;
+    height: 2px;
+    top: 38px;
+}
+
+/*我的奖金样式结束*/
+/*================================================*/
+/*我的奖金详情开始*/
+.x_con13_cas {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    display: block;
+    background: #F6F6F6;
+    margin: 0 auto;
+}
+
+.x_con13_ca {
+    width: 100%;
+    text-align: center;
+    height: 250px;
+    padding-top: 30px;
+}
+
+.x_con13_cas i {
+    font-size: 48px;
+    color: #3A3A3A;
+    display: block;
+    padding-top: 34px;
+}
+
+/*表格*/
+.x_table thead th {
+    height: 40px;
+    background: #dbe9f1;
+    border-bottom: 2px solid #8cb0c5;
+    border-left: 1px solid #fff;
+}
+
+.x_table tbody tr:nth-of-type(odd) {
+    background: #fff;
+}
+
+.x_table tbody tr:nth-of-type(even) {
+    background: #dbe9f1;
+}
+
+.x_table2 td {
+    font-size: 12px;
+    background: #fff;
+    text-align: center;
+    height: 45px;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+/*表格*/
+/*我的奖金详情结束*/
+
+/*=====================================================================================*/
+/*安全问题开始*/
+.success {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.success h1 {
+    font-size: 22px;
+    color: #444;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.success p {
+    color: #b4b4b4;
+}
+
+/*安全问题结束*/
+/*======================================================*/
+
+/*未绑定银行卡开始*/
+.n_bank_card {
+    margin: 30px 20px;
+    border: #dedede solid 1px;
+    background: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+    color: #7d7d7d;
+    font-size: 16px;
+}
+
+.n_bank_card a {
+    font-size: 14px;
+    background: #275673;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/*未绑定银行卡结束*/
+/*银行卡管理开始*/
+.management {
+    padding: 20px;
+    background: #F7F7F7;
+}
+
+.management_a {
+    padding: 5px 10px;
+    margin: 0 2px;
+    border-radius: 3px;
+    background: #275673;
+    color: #fff;
+}
+
+.management_2 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.management_2 a {
+    background: #275673;
+    width: 130px;
+    color: #fff;
+    margin: 0 3px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+}
+
+.management_3 {
+    padding: 40px;
+    background: #fff8f1;
+    margin: 0 40px;
+    display: block;
+    border: 1px solid #e3ddd7;
+}
+
+/*银行卡管理结束*/
+
+/*删除银行卡部分开始*/
+.bank_card_xx {
+    width: 975px;
+    margin: 40px auto;
+}
+
+.bank_card_1 {
+    margin: 70px 0;
+}
+
+.bank_card_1ul {
+    float: left;
+}
+
+.bank_card_1ul > li {
+    float: left;
+    width: 100%;
+    margin-bottom: 19px;
+    font-size: 0px;
+}
+
+.bank_card_1 span.query_dsp, .bank_card_1 li > span:nth-of-type(1) {
+    width: 350px;
+    float: left;
+    text-align: right;
+    color: #4d4d4d;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.bank_card_1ul > li > div, .bank_card_1ul > li > span, .bank_card_1ul > li > input, .bank_card_1ul > li > a {
+    font-size: 14px;
+}
+
+.bank_card_input {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border: #c8c8c8 solid 1px;
+    border-radius: 4px;
+    padding: 0 10px;
+    width: 300px;
+}
+
+.bank_card_ts {
+    float: left;
+    color: #a8a8a8;
+    padding-left: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.delete-bank-card #J-input-question {
+    padding: 0px;
+    line-height: 26px;
+    padding-left: 5px;
+}
+
+#J-input-question {
+    margin-right: 10px;
+    height: 28px;
+    width: 300px;
+    padding-left: 5px;
+    border: 1px solid #C1BBC7;
+    border-radius: 3px;
+}
+
+
+.bank_card_1ul li:last-child {
+    text-align: center;
+    margin-left: -5px;
+
+}
+
+.bodybox .headboxf .headboxh .headboxhc .headboxhr ul li {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    color: #666;
+}
+
+.query_xl .very_hide li:last-child{
+    text-align: left;
+    margin-left: 0;
+}
+.bank_card_1ul li .bank_card_xyb {
+    border-style: none;
+}
+
+
+/*删除银行卡部分结束*/
+
+/*添加银行卡01*/
+/*添加银行卡的步骤样式*/
+.bank_card {
+    margin-bottom: 30px;
+}
+
+/*.revise-bank-card .bank_card-qp {*/
+/*width: 240px;*/
+
+/*}*/
+.bank_card-qp {
+    position: relative;
+    flex: 1;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    float: left;
+    background: #e8e8e8;
+}
+
+.bank_card-qp1 {
+    background: #275673;
+    color: #fff;
+}
+
+.bank_card-qp i {
+    font-size: 40px;
+    padding: 0px 5% 0 30%;
+    float: left;
+}
+
+.bank_card-qp1 span {
+    border-left-color: #275673;
+}
+
+.bank_card-qp span {
+    border-left: 24px solid #5b516b;
+}
+
+.bank_card-qp span {
+    z-index: 2;
+    position: absolute;
+    right: -24px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-left: 24px solid #E8E8E8;
+    border-bottom: 24px solid transparent;
+}
+
+.bank_card-qp1 span {
+    border-left-color: #275673;
+}
+
+.bank_card-qp div {
+    z-index: 1;
+    position: absolute;
+    right: -28px;
+    bottom: -4px;
+    width: 0;
+    height: 0;
+    border-top: 28px solid transparent;
+    border-left: 28px solid #fff;
+    border-bottom: 28px solid transparent;
+}
+
+/*选择验证银行卡input样式*/
+.bank_card_kh {
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    width: 300px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.bank_card_kh > div {
+    padding: 0 10px;
+}
+
+.revise-bank-card .bank_card_kh .icon_dox {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.icon_dox {
+    background: url("../images/userCenter_img/sa_dow.png");
+    width: 12px;
+    height: 7px;
+}
+
+.icon {
+    /*position: absolute;*/
+    right: 26%;
+    top: 40%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.cur {
+    transform: rotate(90deg);
+}
+
+.bank_card_xyb, .bank_card_return {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    background: #275673;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*修改银行卡*/
+.bank_card_ssf {
+    width: 300px;
+    float: left;
+}
+
+.bank_card_sg:first-child {
+    margin-right: 10px;
+}
+
+.bank_card_sg {
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.bank_card_sg {
+    width: 145px;
+    float: left;
+}
+
+.very_show {
+    position: relative;
+    cursor: pointer;
+}
+
+.revise-bank-card .bank_card_1ul > li:last-child {
+    text-align: center;
+}
+
+.bank_card_1ul > li {
+    float: left;
+    width: 100%;
+    margin-bottom: 19px;
+    font-size: 0px;
+}
+
+.bank_card_xyb {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    background: #275673;
+    color: #FFF;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.bt_return {
+    width: 60px;
+    margin-right: 10px;
+}
+
+/*修改银行卡3开始*/
+.bank_card_buxnxxx {
+    margin: 70px 0;
+}
+
+.bank_card_buxnspn {
+    height: 37px;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 37px;
+    color: #4D4D4D;
+    background: #f4f4f4;
+    margin-bottom: 12px;
+}
+
+.bank_card_buxnspn1 {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+.bank_card_buxnspn2 {
+    width: 50%;
+    text-align: right;
+    float: right;
+}
+
+/*修改银行卡3结束*/
+.bank_card_xuen {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.bank_card_xuen1, .bank_card_xuen2 {
+    display: inline-block;
+    text-align: center;
+    background: #275673;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*修改银行卡3结束*/
+
+/*修改银行卡4开始*/
+.bank_card_cxin {
+    width: 100%;
+    border: #dedede solid 1px;
+    background: #f1f1f1;
+    height: 260px;
+    margin-top: 25px;
+}
+
+.bank_card_cxind {
+    padding-top: 60px;
+}
+
+.bank_card_cxind2 {
+    width: 305px;
+    padding-left: 75px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bank_card_cxind img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bank_card_cxind2 .red {
+    color: #f14646;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bank_card_cxind2 .bank_card_cxkmn {
+    color: #888888;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.bank_card_cxind2 a {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #275673;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*修改银行卡4结束*/
+
+/*锁定银行卡开始*/
+.tips-section {
+    background: #f8fce8;
+    line-height: 14px;
+    padding: 12px;
+}
+
+.bank_card_return {
+    width: 60px;
+}
+
+.bank_card_return {
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.second_li li:nth-child(1){
+    padding-left: 10px;
+}
+/*锁定银行卡结束*/
+
+/*绑定银行卡01开始*
+
+/
+ */
+
+.very_hide > li:hover {
+    background: #dfdfdf;
+}
+
+.issue_2wthide {
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 1;
+}
+.issue_2wthide >li {
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 25px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.query_xl .very_hide li {
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 0 5px;
+}
+
+.bank_card_1ul > li > div.query_rx {
+    font-size: 14px;
+}
+
+
+
+/*下拉框样式*/
+
+element.style {
+    display: block;
+}
+
+.query_xl .very_hide {
+    max-height: 156px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    background: #fff;
+}
+
+.query_xl .very_hide {
+    width: 100%;
+    border: 1px solid #c8c8c8;
+    top: 28px;
+}
+
+.very_hide {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+.query_xl .very_hide li {
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 0 5px;
+}
+
+
+/*下拉框样式*/
+
+.query_rx {
+    display: inline-block;
+}
+
+.bank_card {
+    width: 975px;
+    height: 48px;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.bank_card > .bank_card-qp {
+    flex: 1
+}
+
+/*绑定银行卡01结束*/
+.query_xl {
+    background: url("../images/userCenter_img/h_img1.png") no-repeat center right 5px, linear-gradient(to bottom, #fff 0%, rgba(0, 0, 0, 0.05) 100%);
+    height: 30px;
+    line-height: 30px;
+    /*width: 150px;*/
+    display: inline-block;
+    font-size: 12px;
+    border: #c8c8c8 solid 1px;
+    color: #4f473c;
+}
+
+.query_xl span {
+    padding: 0 5px;
+}
+
+.key-logo {
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    background: url("../images/userCenter_img/keybo.png") ;
+    position: relative;
+    top: 4px;
+    left: 10px;
+    cursor: pointer;
+}
+
+/*安全问题开始*/
+.issue_1 {
+    padding-top: 40px;
+    margin-left: 387px;
+    line-height: 22px;
+}
+
+.issue_p1 {
+    color: #5a5a5a;
+}
+
+.issue_p2 {
+    color: #f00;
+}
+
+.issue_2 {
+    width: 395px;
+    margin: 40px auto;
+}
+
+.issue_2wtt {
+    background: url("../images/userCenter_img/sa_dow.png") no-repeat center right 25px, linear-gradient(to bottom, #fff 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.issue_2wt {
+    margin-bottom: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.issue_2wt .issue_2wt1 {
+    width: 75px;
+    border-right: 1px solid #e4e4e4;
+    text-align: center;
+    color: #7b7b7b;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.issue_2wtshow {
+    position: relative;
+    left: 25px;
+    top: 10px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.issue_2wthide {
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.issue_2wthide {
+    position: absolute;
+    top: 38px;
+    width: 100%;
+    display: none;
+}
+
+.issue_2wthide > li {
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 25px;
+    cursor: pointer;
+    height: 41px;
+    line-height: 41px;
+}
+
+.isssus_text {
+    height: 38px;
+    width: 318px;
+    line-height: 38px;
+    padding-left: 20px;
+}
+
+button, input {
+    border: none;
+    color: inherit;
+    font: inherit;
+    outline: 0;
+}
+
+.submit {
+    background: #275673;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.col_10 {
+    width: 100%;
+    text-align: center;
+}
+
+.issue_nxue {
+    width: 395px;
+    margin: 30px auto;
+    color: #5c5c5c;
+}
+
+.issue_nxue li:first-child {
+    border-top: 1px solid #e9e9e9;
+}
+
+.issue_nxue li {
+    padding: 12px 0;
+    line-height: 25px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.issue_nxue_dn {
+    color: #e07413;
+}
+
+.issue_nxue_xyb {
+    color: #383838;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.issue_nxue_xyb .syb {
+    color: #383838;
+    border: 1px solid #e4e4e4;
+    background: linear-gradient(to bottom, #fff 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.issue_nxue_xyb a {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.issue_nxue_xyb .xyb {
+    background: #275673;
+    color: #fff;
+}
+
+/*安全问题结束*/
+/*密码-资金管理*/
+.x_aup_t_2 {
+    font-size: 12px;
+    height: 30px;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    background: #FFFCEE;
+}
+
+.personal_szzmts {
+    margin-top: 30px;
+}
+
+.personal_szzm {
+    margin-bottom: 20px;
+}
+
+.personal_szzm .personal_szzmm {
+    width: 440px;
+    display: inline-block;
+    text-align: right;
+}
+
+.personal_szzm input {
+    width: 200px;
+    border: 1px solid gray;
+    height: 28px;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.x_mmtsi {
+    position: relative;
+    top: 6px;
+    margin-top: -15px;
+    width: 355px;
+    font-size: 12px;
+    color: #c9c9c9;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.personal_szzm {
+    margin-bottom: 20px;
+}
+
+.personal_stj {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background: #275673;
+    border-radius: 3px;
+    margin-left: 444px;
+}
+
+.x_con12l {
+    border: 1px solid #EFEFEF;
+    margin-top: 80px;
+    margin-left: 30px;
+    float: left;
+    height: 220px;
+    width: 510px;
+    background: #f8fce8;
+}
+.x_con12l_p {
+    color: #6F6F6F;
+    margin: 100px 0;
+    text-align: center;
+    width: 100%;
+}
+.x_con12l_p a {
+    padding: 5px 10px;
+    color: #fff;
+    background: #275673;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.bank_card_1ul>li {
+    float: left;
+    width: 100%;
+    margin-bottom: 19px;
+    font-size: 0px;
+}
+/*=======================*/
+/*虚拟键盘*/
+#globe-keyboard {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    background: #E5E6ED;
+    position: absolute;
+    border-radius: 5px 5px;
+    box-shadow: #747578 3px 3px 10px;
+    z-index: 300;
+}
+#globe-keyboard li {
+    float: left;
+    margin: 0 2px 2px 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #f9f9f9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#globe-keyboard li .on {
+    display: none;
+}
+#globe-keyboard .row-2, .row-3, .row-4 {
+    clear: left;
+}
+#globe-keyboard .capslock {
+    width: 73px;
+}
+#globe-keyboard .right-shift {
+    width: 45px;
+}
+#globe-keyboard .delete {
+    width: 53px;
+}
+#globe-keyboard .space {
+    clear: left;
+    width: 276px;
+}
+#globe-keyboard .cancel {
+    width: 45px;
+}
+#globe-keyboard .submit {
+    color: #000;
+    width: 45px;
+}
+#globe-keyboard li:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    border-color: #e5e5e5;
+    cursor: pointer;
+    background-color: #D9FFED;
+}
+/*虚拟键盘*/
+
+
+.select{
+   width: 300px;
+    height: 300px;
+}
+.select optgroup
