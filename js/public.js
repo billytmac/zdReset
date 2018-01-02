@@ -3,9 +3,9 @@
 // 首页js
 $(function() {
 
-    $("#css1").attr("href", "css/"+window.localStorage.skin);
-    $("html").contents().find("#css2").attr("href", "../css/"+window.localStorage.skin);
-    $("html").contents().find("#css1").attr("href", "../../../css/"+window.localStorage.skin);
+    $("#css1").attr("href", "css/" + window.localStorage.skin);
+    $("html").contents().find("#css2").attr("href", "../css/" + window.localStorage.skin);
+    $("html").contents().find("#css1").attr("href", "../../../css/" + window.localStorage.skin);
 
     // 轮播图
     var i = 0;
@@ -29,13 +29,13 @@ $(function() {
 
     /*轮播*/
     var t = setInterval(moveL, 5000)
-        /*定时器*/
+    /*定时器*/
     $(".banner").hover(function() {
-            clearInterval(t);
-        }, function() {
-            t = setInterval(moveL, 5000)
-        })
-        /*右边按钮*/
+        clearInterval(t);
+    }, function() {
+        t = setInterval(moveL, 5000)
+    })
+    /*右边按钮*/
     $(".banner .btn_l").click(function() {
         moveL()
     })
@@ -79,7 +79,7 @@ $(function() {
         $(".banner .num li").eq(i).addClass("on").siblings().removeClass("on")
     }
 
-     // 首页游戏类型鼠标移上去的动画
+    // 首页游戏类型鼠标移上去的动画
     $('.game_in').mouseenter(function(e) {
         $(this).children('.game2-l').stop().animate({ "left": "10px" });
         $(this).children('.game2-r').stop().animate({ "left": "150px" });
@@ -122,6 +122,65 @@ $(function() {
     });
 
 })();
+  // var minSaleVolume = {{$minSaleVolume}};
+
+
+
+function createRowRule(ratio, saleVolume, id, disabled) {
+    var tempMinSaleVolume = minSaleVolume;
+    var lastIndex = index - 1;
+    if (lastIndex != 0) {
+        var lastRatio = $("#ratio" + lastIndex);
+        if (lastRatio >= maxRatio / 100) {
+            layer.msg('您的日奖励比率已经最大，不能再新增任何规则');
+            return;
+        }
+    }
+    var mainDiv = $("#mainDiv");
+    //如果头div不存在
+    if ($("#hederDiv").length == 0) {
+        //清空主DIV
+        mainDiv.empty();
+        var html = '<div class="adjustment_con">' +
+            '<div class="standard_tit" id="hederDiv">' +
+            '<span class="tit1">达标销量</span>' +
+            '<span Class="center"></span>' +
+            '<span class="tit2">日奖励比率</span>' +
+            '</div>' +
+            '<div id="rulesDiv"></div>'
+        mainDiv.append(html);
+    }
+    var rulesDiv = $("#rulesDiv");
+    if (rulesDiv.length > 0) {
+        var html = ' <div class="standard_in ' + (index % 2 == 0 ? 'gray' : '') + '">' +
+            '<span class="tit1"> <input type="text" ' + (disabled ? 'disabled="disabled"' : '') + '   onpaste="return false" placeholder="最小' + tempMinSaleVolume + '" min="' + tempMinSaleVolume + '"  index="' + index + '" id="saleVolume' + index + '" name="saleVolume[]" value="' + saleVolume + '"></span>' +
+            '<span Class="center"><div id="slider-range-' + index + '" class="slider_val" index="' + index + '"></div></span>' +
+            '<span class="tit2"><input type="text"    onpaste="return false" id="ratio' + index + '" min="' + ratio + '"  index="' + index + '" name="ratio[]" placeholder="最小' + ratio + '" value="' + (ratio == '' ? '' : ratio.toFixed(2)) + '"><p>%</p></span>' +
+            '<input type="hidden" name="roleIds[]" id="roleId"+' + index + ' value="' + id + '"></div>'
+        rulesDiv.append(html);
+        $("#ratio" + index).keyup(function() {
+            return ratioKeyUp(this);
+        });
+
+        $("#slider-range-" + index).slider({
+            range: "max",
+            min: ratio * 100,
+            max: maxRatio,
+            value: ratio * 100,
+            slide: function(event, ui) {
+                var tempIndex = $(this).attr("index");
+                $("#ratio" + tempIndex).val((ui.value / 100).toFixed(2));
+            }
+        });
+        $("#ratio" + index).keyup();
+    }
+    index++;
+}
+
+
+$('#add-button').on('click',function(){
+    console.log($('#hederDiv').length == 0);
+})
 
 
 var ifVery = false;
@@ -253,4 +312,3 @@ window.onload = function() {
 //       });
 //     });
 // })()
-
