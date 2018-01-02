@@ -27,6 +27,11 @@
 
 
 /*内页皮肤*/
+input[type="submit"] {
+    cursor: pointer;
+    background: #60493c;
+}
+.x_day a:hover{background:#60493c;}
 .tow_a{background:#60493c;}
 .tow_a a.tow_on, .tow_a a:hover{color:#60493c;}
 .submit,.x_con12l_p a,.bank_card_cxind2 a,.bank_card_xuen .bank_card_xuen1,.n_bank_card a,.bank_card_xyb,.n_10row_submit,.query_d2 .cxuan,.query_submit,.qssk_input,.qssk_input,.alipay_2 .alipay_submit,.recharge_sla,.xsd_xyb,.x_axl2_submit,.transfer_accounts_submit,.xl_tksx_submit,.personad_tj,.personad_tj,.management_a,.management_2 a,.bank_card_return{background:#60493c;}
@@ -38,3 +43,8 @@
 .x_table tbody tr{background-color: #f7f7f7;}
 .x_table tbody tr:nth-of-type(odd){background: #fff;}
 .x_table tbody tr:hover{background:#ede9e6;}
+.x_table tfoot td,.n_10row_mode,.fhtbody tr:nth-child(odd),.x_table2 tbody tr:nth-child(even) td,.x_xfx_ul li:nth-child(even){background:#ede9e6;}
+.x_table tbody .x_hrtd:hover{background:#ede9e6;}
+.page a{background:#e3ddd8;border-color:transparent;}
+.page a.pageCurrent{background: #8b6b58;color: #fff;}
+.page a:hover{background:#60493c;color:#fff}
