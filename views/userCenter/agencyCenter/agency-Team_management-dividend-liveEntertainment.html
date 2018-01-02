@@ -306,8 +306,8 @@
             $('.divi_delete  ').click(function () {
                 layer.open({
                     title: '信息'
-                    ,icon: 1
-                    ,content: '保存成功', success: function(layero, index){
+                    ,content: '您是否要保存分红规则？<span style="color:red">一旦设置不能修改。</span>'
+                    , success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
 
