@@ -179,7 +179,7 @@
                                         <span class="j-div-10-box">
                                             <p id="J-balance-1000">0.00</p>
                                             <span>元</span>
-                                            <img src="../images/withdraw/icon-re.png" alt="" style="width:18px;height:15px;margin:0 10px;" onclick="refreshPlatformAmount(1000,this)" class="click_re">
+                                            <img src="../../../images/userCenter_img/icon-re.png" alt="" style="width:18px;height:15px;margin:0 10px;" class="click_re">
                                         <a href="http://www.zdgame888.com/platforms/1000" target="mainFrame">进入游戏</a>
                                         </span>
 
@@ -189,7 +189,7 @@
                                         <span class="j-div-10-box">
                                             <p id="J-balance-1001">0.00</p>
                                             <span>元</span>
-                                            <img src="../images/withdraw/icon-re.png" alt="" style="width:18px;height:15px;margin:0 10px;" onclick="refreshPlatformAmount(1001,this)" class="click_re">
+                                            <img src="../../../images/userCenter_img/icon-re.png" alt="" style="width:18px;height:15px;margin:0 10px;" class="click_re">
                                             <a href="http://www.zdgame888.com/platforms/1001" target="mainFrame">进入游戏</a>
                                         </span>
                                     </div>
@@ -197,8 +197,8 @@
                                         <span class="ag_name">SAB体育</span>
                                         <span class="j-div-10-box">
                                             <span class="no_open">未开通</span>
-                                            <img src="../images/withdraw/icon-re.png" alt="" style="width:18px;height:15px;margin:0 10px;" onclick="refreshPlatformAmount(1002,this)" class="click_re">
-                                            <a href="javascript:openPlatform(1002,'SAB体育');">开通</a>
+                                            <img src="../../../images/userCenter_img/icon-re.png" alt="" style="width:18px;height:15px;margin:0 10px;"class="click_re">
+                                            <a >开通</a>
                                         </span>
                                     </div>
                                 </div>
@@ -309,27 +309,10 @@
 <script src="../../../js/jquery.min.js"></script>
 <script src="../../../js/jc.base.js"></script>
 <script src="../../../js/jc.Keyboard.js"></script>
-<script>
-
-    var keyboard = new jc.Keyboard({'isQueue': false})
-        , key_logo = $('.key-logo');
-
-    key_logo.click(function () {
-        var $this = $(this);
-        //获取将要输入的INPUT元素
-        keyboard.inputTag = $this.prev();
-        $this.prev().focus();
-        //键盘显示
-        if ($this.hasClass('key-active')) {
-            keyboard.hide();
-            $this.removeClass('key-active');
-        } else {
-            key_logo.removeClass('key-active');
-            $this.addClass('key-active');
-            keyboard.show(-300, 30, $this);
-        }
-    });
-    key_logo.trigger('click');
-
-</script>
+<script src="../../../js/jc.Tip.js"></script>
+<script src="../../../js/withdraw.js"></script>
 <script src="../../../js/public.js"></script>
+<script>
+    //调用放大输入input
+    moneyInput('#J-input-Amount');
+</script>
