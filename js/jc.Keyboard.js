@@ -1,5 +1,6 @@
 //软键盘，虚拟键盘
 (function(host, name, Event, $, undefined){
+
     var util = host.util,
         defConfig = {
             //实例化时追加的最外层样式名
@@ -247,8 +248,6 @@
 
 })(jc, "Keyboard", jc.Event, jQuery);
 
-
-
 var keyboard = new jc.Keyboard({'isQueue': false})
     , key_logo = $('.key-logo');
 
@@ -268,4 +267,3 @@ key_logo.click(function () {
     }
 });
 key_logo.trigger('click');
-

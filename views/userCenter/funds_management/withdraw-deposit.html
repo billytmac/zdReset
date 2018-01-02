@@ -217,27 +217,31 @@
 <script src="../../../js/jquery.min.js"></script>
 <script src="../../../js/jc.base.js"></script>
 <script src="../../../js/jc.Keyboard.js"></script>
-<script>
+<!--<script>-->
 
-    var keyboard = new jc.Keyboard({'isQueue': false})
-        , key_logo = $('.key-logo');
+    <!--var keyboard = new jc.Keyboard({'isQueue': false})-->
+        <!--, key_logo = $('.key-logo');-->
 
-    key_logo.click(function () {
-        var $this = $(this);
-        //获取将要输入的INPUT元素
-        keyboard.inputTag = $this.prev();
-        $this.prev().focus();
-        //键盘显示
-        if ($this.hasClass('key-active')) {
-            keyboard.hide();
-            $this.removeClass('key-active');
-        } else {
-            key_logo.removeClass('key-active');
-            $this.addClass('key-active');
-            keyboard.show(-300, 30, $this);
-        }
-    });
-    key_logo.trigger('click');
+    <!--key_logo.click(function () {-->
+        <!--var $this = $(this);-->
+        <!--//获取将要输入的INPUT元素-->
+        <!--keyboard.inputTag = $this.prev();-->
+        <!--$this.prev().focus();-->
+        <!--//键盘显示-->
+        <!--if ($this.hasClass('key-active')) {-->
+            <!--keyboard.hide();-->
+            <!--$this.removeClass('key-active');-->
+        <!--} else {-->
+            <!--key_logo.removeClass('key-active');-->
+            <!--$this.addClass('key-active');-->
+            <!--keyboard.show(-300, 30, $this);-->
+        <!--}-->
+    <!--});-->
+    <!--key_logo.trigger('click');-->
 
-</script>
+<!--</script>-->
+
+<script src="../../../js/jc.Tip.js"></script>
+<script src="../../../js/withdraw-transfer.js"></script>
+
 <script src="../../../js/public.js"></script>

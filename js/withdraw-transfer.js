@@ -1,3 +1,5 @@
+// J-input-Amount
+
 var ipt1 = $('#J-input-Account');
 var ipt2 = $('#J-input-Amount'),
     moneyInput = $('#J-input-Amount'),
@@ -147,25 +149,25 @@ $('#J-submit').click(function () {
     return true;
 });
 
-var keyboard = new jc.Keyboard({'isQueue': false})
-    , key_logo = $('.key-logo');
-
-key_logo.click(function () {
-    var $this = $(this);
-    //获取将要输入的INPUT元素
-    keyboard.inputTag = $this.prev();
-    $this.prev().focus();
-    //键盘显示
-    if ($this.hasClass('key-active')) {
-        keyboard.hide();
-        $this.removeClass('key-active');
-    } else {
-        key_logo.removeClass('key-active');
-        $this.addClass('key-active');
-        keyboard.show(-300, 30, $this);
-    }
-});
-key_logo.trigger('click');
+// var keyboard = new jc.Keyboard({'isQueue': false})
+//     , key_logo = $('.key-logo');
+//
+// key_logo.click(function () {
+//     var $this = $(this);
+//     //获取将要输入的INPUT元素
+//     keyboard.inputTag = $this.prev();
+//     $this.prev().focus();
+//     //键盘显示
+//     if ($this.hasClass('key-active')) {
+//         keyboard.hide();
+//         $this.removeClass('key-active');
+//     } else {
+//         key_logo.removeClass('key-active');
+//         $this.addClass('key-active');
+//         keyboard.show(-300, 30, $this);
+//     }
+// });
+// key_logo.trigger('click');
 
 $('.query_xl.time_input_2.very_show').on('click',function(){
     $('#J-option-J-input-bankcard-id').css('display',$('#J-option-J-input-bankcard-id').css('display')=='none'?'block':'none');
