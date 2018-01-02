@@ -1053,7 +1053,7 @@ button, input {
   text-align: center;
 }
 .pop-btn {
-  padding: 15px;
+  padding: 14px;
   text-align: center;
   background: #f7f7f7;
 }
@@ -1063,7 +1063,7 @@ button, input {
 .proxy-wd-point-cont .history-cont {
   height: 129px;
   overflow-y: scroll;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 .pop-btn .btn {
   height: 34px;
