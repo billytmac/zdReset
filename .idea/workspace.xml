@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0036518a-28e0-4a29-92b3-622e296b9409" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/feng.css" afterPath="$PROJECT_DIR$/css/feng.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-manual.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-manual.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +30,24 @@
         <entry file="file://$PROJECT_DIR$/css/feng.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="1053" column="1" lean-forward="true" selection-start-line="1053" selection-start-column="1" selection-end-line="1053" selection-end-column="1" />
-              <folding />
+              <caret line="1054" column="1" lean-forward="true" selection-start-line="1054" selection-start-column="1" selection-end-line="1054" selection-end-column="1" />
+              <folding>
+                <marker date="1514907015858" expanded="true" signature="27858:28226" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="28271:28470" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="28475:28507" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="28516:28956" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="28968:29135" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="29201:29264" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="29273:29374" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="29396:29438" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="29541:29979" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="30018:30086" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="30096:30160" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="30191:30213" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="30249:30311" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="30326:30510" ph="{...}" />
+                <marker date="1514907015858" expanded="true" signature="30520:30539" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +125,8 @@
       <file leaf-file-name="agency-LowerAccountOpening-manual.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-manual.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="453" column="25" lean-forward="true" selection-start-line="453" selection-start-column="25" selection-end-line="453" selection-end-column="25" />
+            <state relative-caret-position="354">
+              <caret line="292" column="22" lean-forward="true" selection-start-line="292" selection-start-column="22" selection-end-line="292" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -318,18 +330,18 @@
       <workItem from="1514872195608" duration="1212000" />
       <workItem from="1514874368350" duration="6406000" />
       <workItem from="1514881086180" duration="843000" />
-      <workItem from="1514881956730" duration="23438000" />
+      <workItem from="1514881956730" duration="23878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46926000" />
+    <option name="totallyTimeSpent" value="47366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-35" y="67" width="1857" height="1060" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.257834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.257834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -832,7 +844,7 @@
         <state relative-caret-position="158">
           <caret line="346" column="0" lean-forward="true" selection-start-line="346" selection-start-column="0" selection-end-line="347" selection-end-column="58" />
           <folding>
-            <marker date="1514904976144" expanded="true" signature="17322:17331" ph="..." />
+            <marker date="1514907015853" expanded="true" signature="17296:17305" ph="..." />
           </folding>
         </state>
       </provider>
@@ -931,8 +943,24 @@
     <entry file="file://$PROJECT_DIR$/css/feng.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="1053" column="1" lean-forward="true" selection-start-line="1053" selection-start-column="1" selection-end-line="1053" selection-end-column="1" />
-          <folding />
+          <caret line="1054" column="1" lean-forward="true" selection-start-line="1054" selection-start-column="1" selection-end-line="1054" selection-end-column="1" />
+          <folding>
+            <marker date="1514907015858" expanded="true" signature="27858:28226" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="28271:28470" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="28475:28507" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="28516:28956" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="28968:29135" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="29201:29264" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="29273:29374" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="29396:29438" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="29541:29979" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="30018:30086" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="30096:30160" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="30191:30213" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="30249:30311" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="30326:30510" ph="{...}" />
+            <marker date="1514907015858" expanded="true" signature="30520:30539" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-LowerAccountOpening-manual.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="453" column="25" lean-forward="true" selection-start-line="453" selection-start-column="25" selection-end-line="453" selection-end-column="25" />
+        <state relative-caret-position="354">
+          <caret line="292" column="22" lean-forward="true" selection-start-line="292" selection-start-column="22" selection-end-line="292" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -284,13 +284,13 @@
                                         </div>
                                     </div>
                                     <div class="n_10row_modw">
-                                        <input type="submit" value="立即开户" class="n_10row_submit" name="">
+                                        <input type="submit" value="立即开户" class="n_10row_submit  new_yh" name="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </form>
-                </div>>
+                </div>
             </div>
         </div>
     </div>
@@ -448,7 +448,7 @@
     <script>
 
         $(function () {
-         $('').click(function () {
+         $(' .new_yh').click(function () {
              layer.open({
                  title: '信息'
                  ,icon: 2
@@ -470,6 +470,7 @@
                      ParBody.appendChild(shade);
                  }
              })
+             return false;
          })
       })
 
@@ -479,6 +480,4 @@
 
 </html>
 <script src="../../../js/jquery.min.js"></script>
-<script src="../../../js/jc.base.js"></script>
-<script src="../../../js/jc.Keyboard.js"></script>
 <script src="../../../js/public.js"></script>
