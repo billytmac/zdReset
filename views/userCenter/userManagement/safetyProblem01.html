@@ -234,12 +234,13 @@
 <script src="../../../js/jquery.min.js"></script>
 <script src="../../../js/layui/layui.all.js"></script>
 <script>
-
+$(function () {
     window.onload=(function () {
         layer.open({
             title: '信息'
             ,icon: 3
-            ,content: '请设置安全问题？', success: function(layero, index){
+            ,content: '请设置安全问题？'
+            , success: function(layero, index){
                 var ParBody =parent.document.getElementsByTagName('body')[0];
                 ParBody.appendChild(layero[0]);
 
@@ -257,6 +258,8 @@
             }
         })
     })
+})
+
 </script>
 
 <script src="../../../js/public.js"></script>
