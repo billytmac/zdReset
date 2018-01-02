@@ -1,3 +1,6 @@
+//调用放大输入input
+moneyInput('#J-input-money');
+
 function changeRadio(id) {
     var aBankItems = $('.con17_c2rightc').find('li').each(function () {
         $(this).removeClass('selected-bank-item');
