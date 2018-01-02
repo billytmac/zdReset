@@ -352,118 +352,118 @@
     <!-- 每个导航链接里面的内容结束 -->
     </div>
     </div>
+    <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/base-all.min.js"></script>
     <script>
-    (function($) {
-        $('#J-date-start').focus(function() {
-            (new bomao.DatePicker({
-                input: '#J-date-start',
-                isShowTime: true,
-                startYear: 2013
-            })).show();
-        });
-        $('#J-date-end').focus(function() {
-            (new bomao.DatePicker({
-                input: '#J-date-end',
-                isShowTime: true,
-                startYear: 2013
-            })).show();
-        });
-
-        try {
-            new bomao.Select({
-                realDom: '#J-select-bill-type',
-                cls: 'w-3'
+        (function($) {
+            $('#J-date-start').focus(function() {
+                (new bomao.DatePicker({
+                    input: '#J-date-start',
+                    isShowTime: true,
+                    startYear: 2013
+                })).show();
             });
-            new bomao.Select({
-                realDom: '#J-select-issue',
-                cls: 'w-2'
+            $('#J-date-end').focus(function() {
+                (new bomao.DatePicker({
+                    input: '#J-date-end',
+                    isShowTime: true,
+                    startYear: 2013
+                })).show();
             });
-            new bomao.Select({
-                realDom: '#J-select-game-mode',
-                cls: 'w-2'
-            });
-        } catch (e) {
 
-        }
+            try {
+                new bomao.Select({
+                    realDom: '#J-select-bill-type',
+                    cls: 'w-3'
+                });
+                new bomao.Select({
+                    realDom: '#J-select-issue',
+                    cls: 'w-2'
+                });
+                new bomao.Select({
+                    realDom: '#J-select-game-mode',
+                    cls: 'w-2'
+                });
+            } catch (e) {
 
-        $('#J-button-showdetail').click(function(e) {
-            var panel = $('#J-panel-search-ad');
-            if (panel.css('display') == 'none') {
-                $(this).text('基本搜索');
-            } else {
-                $(this).text('高级搜索');
             }
-            panel.toggle();
-        });
 
-    })(jQuery);
+            $('#J-button-showdetail').click(function(e) {
+                var panel = $('#J-panel-search-ad');
+                if (panel.css('display') == 'none') {
+                    $(this).text('基本搜索');
+                } else {
+                    $(this).text('高级搜索');
+                }
+                panel.toggle();
+            });
+
+        })(jQuery);
     </script>
     <script language="javascript">
-    o = document.getElementsByName('time-choose');
-    l = o.length;
-    for (i = 0; i < l; i++) {
-        o[i].onclick = function() {
-            switch (this.id) {
-                case 'today':
-                    startDate = now;
-                    endDate = now;
-                    break;
-                case 'week':
-                    startDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
-                    endDate = new Date(nowYear, nowMonth, nowDay + (6 - nowDayOfWeek));
-                    break;
-                case 'month':
-                    startDate = new Date(nowYear, nowMonth, 1);
-                    endDate = new Date(nowYear, nowMonth, getMonthDays(nowMonth));
-                    break;
-                case '3day':
-                    startDate = new Date(now.getTime() - 3 * 24 * 3600 * 1000);
-                    endDate = now;
-                    break;
-                case 'hmonth':
-                    startDate = new Date(now.getTime() - 15 * 24 * 3600 * 1000);
-                    endDate = now;
-                    break;
-                case '1month':
-                    startDate = new Date(now.getTime() - 30 * 24 * 3600 * 1000);
-                    endDate = now;
-                    break;
+        o = document.getElementsByName('time-choose');
+        l = o.length;
+        for (i = 0; i < l; i++) {
+            o[i].onclick = function() {
+                switch (this.id) {
+                    case 'today':
+                        startDate = now;
+                        endDate = now;
+                        break;
+                    case 'week':
+                        startDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
+                        endDate = new Date(nowYear, nowMonth, nowDay + (6 - nowDayOfWeek));
+                        break;
+                    case 'month':
+                        startDate = new Date(nowYear, nowMonth, 1);
+                        endDate = new Date(nowYear, nowMonth, getMonthDays(nowMonth));
+                        break;
+                    case '3day':
+                        startDate = new Date(now.getTime() - 3 * 24 * 3600 * 1000);
+                        endDate = now;
+                        break;
+                    case 'hmonth':
+                        startDate = new Date(now.getTime() - 15 * 24 * 3600 * 1000);
+                        endDate = now;
+                        break;
+                    case '1month':
+                        startDate = new Date(now.getTime() - 30 * 24 * 3600 * 1000);
+                        endDate = now;
+                        break;
+                }
+                document.getElementById('J-date-start').value = formatDate(startDate) + ' 00:00:00';
+                document.getElementById('J-date-end').value = formatDate(endDate) + ' 23:59:59';
             }
-            document.getElementById('J-date-start').value = formatDate(startDate) + ' 00:00:00';
-            document.getElementById('J-date-end').value = formatDate(endDate) + ' 23:59:59';
         }
-    }
-    var now = new Date(); //当前日期
-    var nowDayOfWeek = now.getDay(); //今天本周的第几天
-    var nowDay = now.getDate(); //当前日
-    var nowMonth = now.getMonth(); //当前月
-    var nowYear = now.getYear(); //当前年
-    nowYear += (nowYear < 2000) ? 1900 : 0; //
-    var weekStartDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
+        var now = new Date(); //当前日期
+        var nowDayOfWeek = now.getDay(); //今天本周的第几天
+        var nowDay = now.getDate(); //当前日
+        var nowMonth = now.getMonth(); //当前月
+        var nowYear = now.getYear(); //当前年
+        nowYear += (nowYear < 2000) ? 1900 : 0; //
+        var weekStartDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
 
-    function formatDate(date) {
-        var myyear = date.getFullYear();
-        var mymonth = date.getMonth() + 1;
-        var myweekday = date.getDate();
+        function formatDate(date) {
+            var myyear = date.getFullYear();
+            var mymonth = date.getMonth() + 1;
+            var myweekday = date.getDate();
 
-        if (mymonth < 10) {
-            mymonth = "0" + mymonth;
+            if (mymonth < 10) {
+                mymonth = "0" + mymonth;
+            }
+            if (myweekday < 10) {
+                myweekday = "0" + myweekday;
+            }
+            return (myyear + "-" + mymonth + "-" + myweekday);
         }
-        if (myweekday < 10) {
-            myweekday = "0" + myweekday;
-        }
-        return (myyear + "-" + mymonth + "-" + myweekday);
-    }
 
-    function getMonthDays(myMonth) {
-        var monthStartDate = new Date(nowYear, myMonth, 1);
-        var monthEndDate = new Date(nowYear, myMonth + 1, 1);
-        var days = (monthEndDate - monthStartDate) / (1000 * 60 * 60 * 24);
-        return days;
-    }
+        function getMonthDays(myMonth) {
+            var monthStartDate = new Date(nowYear, myMonth, 1);
+            var monthEndDate = new Date(nowYear, myMonth + 1, 1);
+            var days = (monthEndDate - monthStartDate) / (1000 * 60 * 60 * 24);
+            return days;
+        }
     </script>
-    <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/js.js" ></script>
     <script src="../../../js/public.js"></script>
 </body>
