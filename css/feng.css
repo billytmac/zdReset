@@ -175,7 +175,7 @@ button, input {
   .query_fd input{border:1px solid #C8C8C8;padding:0 10px;width:50px;height:30px;line-height:30px;border-radius:3px;background:#fff;}
 
   /* 切换不同类型的按钮，比如单人游戏,多人游戏...开始 */
-  .tow_a{background: #275673;padding:5px;border-radius:3px;display:inline-block;}
+  .tow_a{background: #63586e;padding:5px;border-radius:3px;display:inline-block;}
   .tow_a a{height:40px;line-height:40px;width:85px;text-align:center;color:#fff;display:inline-block;border-radius:3px;}
   .tow_a a.tow_on,.tow_a a:hover{background:#eee;color:#63586e;}
   .query_tow{padding:15px 20px;}
@@ -223,7 +223,7 @@ button, input {
 
   /* 多选框的开始 */
   .x_ztxia{font-size:12px;margin-left: 5px;}
-  .x_ztxia input{vertical-align:middle;    background: #275673;}
+  .x_ztxia input{vertical-align:middle;}
   .x_ztxia span{margin-right:5px;}
   /* 多选框的结束 */
 

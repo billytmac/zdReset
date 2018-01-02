@@ -26,13 +26,18 @@
 .hot_type >a:hover,.games_type .game2-r a:hover{background-color: #50626c;border-color: #50626c;}
 
 
-/*按钮*/
-.tow_a{background-color: #31ceac;}
+/*内页皮肤*/
+.tow_a{background:#275673;}
+.tow_a a.tow_on, .tow_a a:hover{color:#275673;}
+.submit,.x_con12l_p a,.bank_card_cxind2 a,.bank_card_xuen .bank_card_xuen1,.n_bank_card a,.bank_card_xyb,.n_10row_submit,.query_d2 .cxuan,.query_submit,.qssk_input,.qssk_input,.alipay_2 .alipay_submit,.recharge_sla,.xsd_xyb,.x_axl2_submit,.transfer_accounts_submit,.xl_tksx_submit,.personad_tj,.personad_tj,.management_a,.management_2 a,.bank_card_return{background:#275673;}
+.query_d1 a.query_d1on, .query_d1 a:hover,.ydu{background:#275673;border-color:#275673;}
+.very_d2 a.new_on, .very_d2 a:hover{border-top: 4px solid #275673;}
 
-
-
-
-
+.x_table thead th{background:#dbe9f1;border-bottom:2px solid #8cb0c5;}
+.x_table .pay_report th{background:#dbe9f1;}
+.x_table tbody tr{background-color: #f7f7f7;}
+.x_table tbody tr:nth-of-type(odd){background: #fff;}
+.x_table tbody tr:hover{background:#dbe9f1;}
 
 
 
