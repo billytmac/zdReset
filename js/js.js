@@ -52,12 +52,26 @@ $(function() {
 		$('.tip').removeClass('panel-current');
 		$('.tip').eq($(this).index()).addClass('panel-current');
 	});
+});
+$(function() { 
+	// $(".point-cont").mouseover(function() {
+	// 	$('.edit').show();
+		
+	// });
+	// $(".point-cont").mouseout(function() {
+	// 	$('.edit').hide();
+	// });
 
-
-
-
+	$(".point-cont").mouseover(function(event) {
+		$(this).children().eq(0).children().eq(1).show();
+	});
+	$(".point-cont").mouseout(function(event) {
+		$(this).children().eq(0).children().eq(1).hide();
+	});
 
 });
+
+
 $(document).ready(function() {
 	$("#non2").click(function() {
 		$(".n_10row_mode2").css("display", "none");

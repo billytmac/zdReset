@@ -981,7 +981,7 @@ button, input {
   right: 20px;
   top: 11px;
   cursor: pointer;
-  display: block;
+  display: none;
 }
 .pop{
   background-color: #f7f7f7;
