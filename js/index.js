@@ -2,39 +2,32 @@ $(function () {
     // 皮肤切换
     $("#b1").click(function() {
         $("#css1").attr("href", "css/skin1.css");
-        $("#mainIframe").contents().find("#css1").attr("href", "../css/skin1.css");
+        $("#mainIframe").contents().find("#css2").attr("href", "../css/skin1.css");
+        $("#mainIframe").contents().find("#css1").attr("href", "../../../css/skin1.css");
     });
     $("#b2").click(function() {
         $("#css1").attr("href", "css/skin2.css");
-        $("#mainIframe").contents().find("#css1").attr("href", "../css/skin2.css");
+        $("#mainIframe").contents().find("#css2").attr("href", "../css/skin2.css");
+        $("#mainIframe").contents().find("#css1").attr("href", "../../../css/skin2.css");
     });
     $("#b3").click(function() {
         $("#css1").attr("href", "css/skin3.css");
-        $("#mainIframe").contents().find("#css1").attr("href", "../css/skin3.css");
+        $("#mainIframe").contents().find("#css2").attr("href", "../css/skin3.css");
+        $("#mainIframe").contents().find("#css1").attr("href", "../../../css/skin3.css");
     });
     $("#b4").click(function() {
         $("#css1").attr("href", "css/skin4.css");
-        $("#mainIframe").contents().find("#css1").attr("href", "../css/skin4.css");
+        $("#mainIframe").contents().find("#css2").attr("href", "../css/skin4.css");
+        $("#mainIframe").contents().find("#css1").attr("href", "../../../css/skin4.css");
     });
     
-    // 顶部鼠标移上去的动画
-    $('.games_type li').mouseenter(function (e) {
-        $(this).children('.game2-l').stop().animate({"left":"10px"});
-        $(this).children('.game2-r').stop().animate({"left":"146px"});
-        $(this).children('img').stop().animate({"width":"40%"});
-    }).mouseleave(function(){
-        $(this).children('.game2-l').stop().animate({"left":"0px"});
-        $(this).children('.game2-r').stop().animate({"left":"156px"});
-        $(this).children('img').stop().animate({"width":"36%"});
-    });
+     // 顶部鼠标移上去的动画
     $('.llgame .game_in').mouseenter(function (e) {
         $(this).children('.game2-l').stop().animate({"left":"10px"});
         $(this).children('.game2-r').stop().animate({"left":"150px"});
-        $(this).children('img').stop().animate({"width":"34%"});
     }).mouseleave(function(){
         $(this).children('.game2-l').stop().animate({"left":"0px"});
         $(this).children('.game2-r').stop().animate({"left":"160px"});
-        $(this).children('img').stop().animate({"width":"30%"});
     });
 
     // 回到顶部

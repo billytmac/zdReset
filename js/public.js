@@ -1,23 +1,5 @@
 // // public.js是所有子页面都要导入的js
-//
-// //iframe高度事件
-// function iframeHeight(){
-//  var frame = parent.document.getElementById("mainIframe").contentDocument.getElementsByTagName("body")[0];
-//  parent.document.getElementById("mainIframe").style.height = frame.offsetHeight + 'px';
-// }
-//
-// window.onload = function(){
-//  iframeHeight();
-// }
-//
-//
-//
-// //子页面点击获取iframe高度事件
-// document.getElementsByTagName("html")[0].onclick = function(){
-//  iframeHeight();
-//  // setTimeout(function(){resizeHeight();},100);//该定时为一次定时，用于延迟执行点击
-// }
-//
+
 // 首页js
 $(function() {
     // 轮播图
@@ -92,24 +74,13 @@ $(function() {
         $(".banner .num li").eq(i).addClass("on").siblings().removeClass("on")
     }
 
-    // 底部鼠标移上去的动画
-    $('.games_type li').mouseenter(function(e) {
-        $(this).children('.game2-l').stop().animate({ "left": "10px" });
-        $(this).children('.game2-r').stop().animate({ "left": "146px" });
-        $(this).children('img').stop().animate({ "width": "40%" });
-    }).mouseleave(function() {
-        $(this).children('.game2-l').stop().animate({ "left": "0px" });
-        $(this).children('.game2-r').stop().animate({ "left": "156px" });
-        $(this).children('img').stop().animate({ "width": "36%" });
-    });
-    $('.llgame .game_in').mouseenter(function(e) {
+     // 首页游戏类型鼠标移上去的动画
+    $('.game_in').mouseenter(function(e) {
         $(this).children('.game2-l').stop().animate({ "left": "10px" });
         $(this).children('.game2-r').stop().animate({ "left": "150px" });
-        $(this).children('img').stop().animate({ "width": "34%" });
     }).mouseleave(function() {
         $(this).children('.game2-l').stop().animate({ "left": "0px" });
         $(this).children('.game2-r').stop().animate({ "left": "160px" });
-        $(this).children('img').stop().animate({ "width": "30%" });
     });
 });
 
@@ -147,40 +118,7 @@ $(function() {
 
 })();
 
-// //下拉
-// $(function() {
-//         $('.very_show').click(function() {
-//             $(this).find('.very_hide').slideToggle(100)
-//         })
-//         $('.very_hide li').click(function() {
-//             $(this).parent().prev().text($(this).text())
-//         })
-//     })
-//     //银行卡
-// $(function() {
-//     $(".menu_list div").click(function() {
-//         $(this).siblings('div').removeClass('x_axl3d2');
-//         $(this).addClass('x_axl3d2');
-//     });
-// });
 
-// var ifVery = false;
-// //下拉
-// $(document).on('click','.very_show',function(){
-//     $(this).find('.very_hide').slideToggle(100);
-//     ifVery == false ? ifVery = true :ifVery = false;
-// })
-// $(document).on('click','.very_hide li',function(){
-//     $(this).parent().prev().text($(this).text())
-// })
-// $('html').click(function(){
-//
-//     if(!ifVery) {
-//             $('.very_show').find('.very_hide').slideToggle(100);
-//             ifVery = false;
-//     }
-//
-// })
 
 var ifVery = false;
 //下拉
