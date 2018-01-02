@@ -334,34 +334,32 @@
 <script src="../../../js/public.js"></script>
 <script src="../../../js/layui/layui.all.js"></script>
 <script>
-    // $(function () {
-        $(".myrule ").click(function () {
-            layer.open({
-                type: 1,
-                title: ['我的日奖励规则', 'height: 40px;line-height: 40px;background-color: #DBE9F1;border-bottom: 3px solid #88ADC3;color: #49494A;text-align:center;padding-left:78px;'],
-                skin: 'layui-layer-rim', //加上边框
-                area: ['600px'], //宽高
-                offset:['30%','40%'],
-                content: $("#myRules").html()
-                ,success: function(layero, index){
-                    var ParBody = parent.document.getElementsByTagName('body')[0];
-                    ParBody.appendChild(layero[0]);
-                        console.log(ParBody);
-                    var _lay = layero[0];
-                    var _width = -(_lay.offsetWidth) / 2;
-                    var _height = -(_lay.offsetHeight) / 2;
+    $(".myrule ").click(function () {
+        layer.open({
+            type: 1,
+            title: ['我的日奖励规则', 'height: 40px;line-height: 40px;background-color: #DBE9F1;border-bottom: 3px solid #88ADC3;color: #49494A;text-align:center;padding-left:78px;'],
+            skin: 'layui-layer-rim', //加上边框
+            area: ['600px'], //宽高
+            offset:['30%','40%'],
+            content: $("#myRules").html()
+            ,success: function(layero, index){
+                var ParBody = parent.document.getElementsByTagName('body')[0];
+                ParBody.appendChild(layero[0]);
+                    console.log(ParBody);
+                var _lay = layero[0];
+                var _width = -(_lay.offsetWidth) / 2;
+                var _height = -(_lay.offsetHeight) / 2;
 
-                    _lay.style.marginTop = _height + "px";
-                    _lay.style.marginLeft = _width + "px";
-                    _lay.style.left = "50%";
-                    _lay.style.top = "50%";
+                _lay.style.marginTop = _height + "px";
+                _lay.style.marginLeft = _width + "px";
+                _lay.style.left = "50%";
+                _lay.style.top = "50%";
 
-                    var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                    ParBody.appendChild(shade);
-                }
-            });
+                var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                ParBody.appendChild(shade);
+            }
         });
-    // });
+    });
 
 </script>
 <div id="myRules" style="display:none;">
