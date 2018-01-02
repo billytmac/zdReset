@@ -376,6 +376,7 @@
     <script>
         $(function () {
             $(".edit").click(function () {
+                $(".j-ui-mask").css({display:'block'});
                 layer.open({
                     type: 1,
                     title: ['高点配额', '    height: 44px;\n' +
@@ -412,9 +413,14 @@
                     }
                 });
             });
+            $('.layui-layer-ico').click(function () {
+                alert('ww')
+                $(".j-ui-mask").css({display:'none'});
+            })
         });
 
     </script>
+    <div class="j-ui-mask" style="position: fixed; left: 0px; top: 0px; opacity: 0.7; background-color: rgb(0, 0, 0); z-index: 600; width: 1903px; height: 1040px; display: none;"></div>
         <div  id="myRules" style="display:none;" class="pop high-point-wd edit-under-quota" style="z-index: 700; position: fixed; left: 303px; top: 415.5px; opacity: 1;"><div class="pop-bd">
             <div class="proxy-wd-point-cont">
                 <form id="J-form-wd" action="/my-overlimit-quotas/save" method="post">
@@ -422,7 +428,7 @@
                     <input name="prize_group" type="hidden" value="1958">
                     <input name="user_id" type="hidden" value="19251">
                     <input name="username" type="hidden" value="fff1710">
-                    <table width="100%" cellpadding="10" class="table-point-window" >
+                    <table width="100%" cellpadding="10" class="table-point-window" style="margin-top: 20px">
                         <tbody><tr>
                             <td align="right" width="150">用户：</td>
                             <td>
