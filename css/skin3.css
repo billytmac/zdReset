@@ -46,6 +46,8 @@ input[type="submit"] {
 .x_table tfoot td,.n_10row_mode,.fhtbody tr:nth-child(odd),.x_table2 tbody tr:nth-child(even) td,.x_xfx_ul li:nth-child(even){background:#dbeeeb;}
 .x_table tbody .x_hrtd:hover{background:#dbeeeb;}
 .x_underline{background:#94c4ad;}
+.x_xfx_ul li:nth-child(even){background: #f7fffe;}
+.x_xfx_ul li:hover{background: #deecf0;}
 .page a{background:#c1e3dd;border-color:transparent;}
 .page a.pageCurrent{    background: #45ba9b;color: #fff;}
 .page a:hover{background:#05a489;color:#fff}
