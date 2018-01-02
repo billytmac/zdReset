@@ -539,6 +539,12 @@ button, input {
 .user-add-switch-type .field-type-switch li a {
   padding: 10px 20px;
   display: block;
+  color: #999;
+}
+
+.user-add-switch-type .field-type-switch li a:hover {
+  border: 0;
+  /* background: #EEE; */
 }
 
 .field-type-switch li.current {
@@ -550,9 +556,7 @@ button, input {
   border-color: #6493af;
 }
 
-.user-add-switch-type .panel-current {
-  display: block;
-}
+
 .posiwtim {
   width: 100%;
   text-align: center;
@@ -574,7 +578,11 @@ button, input {
   font-size: 18px;
   line-height: 18px;
   background: #63586e;
-  padding: 15px 20px;
+  padding: 11px 12px;
+}
+.posiwtim span.item-select {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 .posiwtim span.non i {
   top: 56px;
@@ -590,6 +598,8 @@ button, input {
   color: #7F6D80;
   font-style: normal;
 }
+
+
 .n_10row_dr {
   color: #EF7474;
   font-size: 14px;
@@ -619,6 +629,17 @@ button, input {
   padding-top: 15px;
   font-size: 12px;
   color: #999;
+  display: none;
+}
+.user-add-switch-type .tip {
+  padding-top: 15px;
+  font-size: 12px;
+  color: #999;
+  display: none;
+}
+
+.user-add-switch-type .panel-current {
+  display: block;
 }
 
 /* 奖励组设置的结束 */
