@@ -38,7 +38,7 @@ input[type="submit"],input[type="button"] {
 .query_d1 a.query_d1on, .query_d1 a:hover,.ydu{background:#60493c;border-color:#60493c;}
 .very_d2 a.new_on, .very_d2 a:hover{border-top: 4px solid #60493c;}
 
-.x_table thead th{background:#ede9e6;border-bottom:2px solid #bfaea5;}
+.x_table thead th,.adjustment_tit{background:#ede9e6;border-bottom:2px solid #bfaea5;}
 .x_table .pay_report th{background:#ede9e6;}
 .x_table tbody tr{background-color: #f7f7f7;}
 .x_table tbody tr:nth-of-type(odd){background: #fff;}
