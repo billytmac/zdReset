@@ -39,15 +39,24 @@ $(function() {
 	});
 });
 
-$(function() {
+$(function() { 
 	$(".posiwtim span").click(function() {
 		$(this).siblings('span').removeClass('non');
 		$(this).addClass('non');
+		// $(this).index() == '1'?$('#J-check-type-cont').show():$('#J-check-type-cont').hide();
 	});
-	$(".n_10row_mode2aa span").click(function() {
-		$(this).siblings('span').removeClass('non');
-		$(this).addClass('non');
+
+	$(".field li").click(function() {
+		$(this).siblings('li').removeClass('current');
+		$(this).addClass('current');
+		$('.tip').removeClass('panel-current');
+		$('.tip').eq($(this).index()).addClass('panel-current');
 	});
+
+
+
+
+
 });
 $(document).ready(function() {
 	$("#non2").click(function() {

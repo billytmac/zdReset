@@ -175,7 +175,7 @@ button, input {
   .query_fd input{border:1px solid #C8C8C8;padding:0 10px;width:50px;height:30px;line-height:30px;border-radius:3px;background:#fff;}
 
   /* 切换不同类型的按钮，比如单人游戏,多人游戏...开始 */
-  .tow_a{background: #275673;padding:5px;border-radius:3px;display:inline-block;}
+  .tow_a{background: #63586e;padding:5px;border-radius:3px;display:inline-block;}
   .tow_a a{height:40px;line-height:40px;width:85px;text-align:center;color:#fff;display:inline-block;border-radius:3px;}
   .tow_a a.tow_on,.tow_a a:hover{background:#eee;color:#63586e;}
   .query_tow{padding:15px 20px;}
@@ -223,7 +223,7 @@ button, input {
 
   /* 多选框的开始 */
   .x_ztxia{font-size:12px;margin-left: 5px;}
-  .x_ztxia input{vertical-align:middle;    background: #275673;}
+  .x_ztxia input{vertical-align:middle;}
   .x_ztxia span{margin-right:5px;}
   /* 多选框的结束 */
 
@@ -347,37 +347,11 @@ button, input {
    border-radius: 3px;
    margin-left: 1px;
    color: #4f473c;
-   background: #cfdbe2;
    border-color: transparent;
  }
  #mian_body .main_r .very_mt .very_d3 .page a.pageCurrent {
-  background: #658493;
   color: #fff;
 }
-#mian_body .main_r .very_mt .very_d3 .page a.pageDefault {
- background: #cfdbe2;
-}
-
-#mian_body .main_r .very_mt .very_d3 .page a:hover {
- background: #275673;
- color: #fff
-}
-
-#mian_body .main_r .very_mt .very_d3 .page_spana a {
- padding: 0;
- vertical-align: middle;
- display: inline-block;
- margin: 0 2px 0 4px;
- text-align: center;
- height: 25px;
- width: 26px;
- background: #658493;
- color: #fff;
- line-height: 22px;
- border-color: #766e91;
-}
-
-
 
 /*下一页的结束*/
 
@@ -553,7 +527,10 @@ button, input {
 
 .field-type-switch li.current a {
   color: #6493af;
-  border-color: #6493af;
+  /* border-color: #6493af; */
+  padding: 10px 20px;
+  width: 90px;
+  border-bottom: 1px solid #6493af;
 }
 
 
@@ -616,6 +593,11 @@ button, input {
   line-height: 35px;
   text-decoration: underline;
 }
+
+.n_10row_d .n_10row_dj:hover {
+  border: none;
+}
+
 .field-type-switch {
   display: inline-block;
   padding: 5px 10px;
@@ -846,7 +828,6 @@ button, input {
 .n_10row_d{float:left;}
 .n_10row_ds{float:left;font-size: 12px;color: #9B9B9B;height:35px;padding-top:10px;margin-left:10px;}
 .n_10row_dr{color: #EF7474;font-size: 18px;height:35px;padding:5px 10px 0;float:left}
-.n_10row_dj{font-size: 12px;height:35px;line-height:35px;text-decoration: underline;}
 .n_10row_5{height:35px;line-height:35px;float:left;margin-left:3px;}
 .n_10row_ds2{height:35px;line-height:35px;float:left;font-size: 12px;color: #262732;font-weight: normal;margin-left:5px;}
 .n_10row_mod2h{padding:10px 0;float:left;width:100%;}
@@ -942,6 +923,18 @@ button, input {
     background-color: #fff;
 }
 
+.x_table .input3 {
+    border: 1px solid #c7bdc9;
+    margin-right: 5px;
+    width: 280px;
+    height: 28px;
+    padding-left: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
 
   /* 代理中心的下级开户结束 */
 
