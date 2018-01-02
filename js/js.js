@@ -43,7 +43,7 @@ $(function() {
 	$(".posiwtim span").click(function() {
 		$(this).siblings('span').removeClass('non');
 		$(this).addClass('non');
-		$(this).index() == '1'?$('#J-check-type-cont').show():$('#J-check-type-cont').hide();
+		// $(this).index() == '1'?$('#J-check-type-cont').show():$('#J-check-type-cont').hide();
 	});
 
 	$(".field li").click(function() {
