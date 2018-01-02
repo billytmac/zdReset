@@ -331,7 +331,7 @@ button, input {
   /* 表格结束 */
 
   /*下一页的开始*/
-  #mian_body .main_r .very_mt .very_d3 .page {
+  .very_d3 .page {
    background-color: #fff;
    width: 100%;
    padding: 20px;
@@ -341,7 +341,7 @@ button, input {
    float: left;
  }
 
- #mian_body .main_r .very_mt .very_d3 .page a {
+ .very_d3 .page a {
    padding: 0px 9px 4px;
    border: 1px solid transparent;
    border-radius: 3px;
@@ -349,7 +349,7 @@ button, input {
    color: #4f473c;
    border-color: transparent;
  }
- #mian_body .main_r .very_mt .very_d3 .page a.pageCurrent {
+ .page a.pageCurrent {
   color: #fff;
 }
 

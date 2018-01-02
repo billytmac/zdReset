@@ -1,6 +1,6 @@
 function moneyInput(moneyInput){
     var ipt1 = $('#J-input-Account');
-    var ipt2 = $('#textl'),
+    var ipt2 = $(moneyInput),
         moneyInput = $(moneyInput),
         formatMoney;
     var ipt3 = $('#J-input-Password');
