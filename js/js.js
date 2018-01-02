@@ -38,7 +38,7 @@ $(function() {
 		$(this).addClass('x_axl3d2');
 	});
 });
-
+// 奖金组设置
 $(function() { 
 	$(".posiwtim span").click(function() {
 		$(this).siblings('span').removeClass('non');
