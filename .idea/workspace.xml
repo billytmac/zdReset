@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0036518a-28e0-4a29-92b3-622e296b9409" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="passwordManagement01.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="passwordManagement01.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="293" column="45" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="293" selection-end-column="45" />
+            <state relative-caret-position="469">
+              <caret line="233" column="24" lean-forward="true" selection-start-line="233" selection-start-column="24" selection-end-line="233" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -41,8 +39,8 @@
       <file leaf-file-name="safetyProblem01.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="243" column="70" lean-forward="true" selection-start-line="243" selection-start-column="70" selection-end-line="243" selection-end-column="70" />
+            <state relative-caret-position="320">
+              <caret line="248" column="51" lean-forward="true" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -103,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-Team_management-dividend-lottery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="agency-Team_management-dividend-lottery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="682">
@@ -225,11 +223,11 @@
         <option value="$PROJECT_DIR$/css/feng.css" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-highQuota.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" />
-        <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dayReward.html" />
+        <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
       </list>
     </option>
   </component>
@@ -347,12 +345,12 @@
       <workItem from="1514872195608" duration="1212000" />
       <workItem from="1514874368350" duration="6406000" />
       <workItem from="1514881086180" duration="843000" />
-      <workItem from="1514881956730" duration="21767000" />
+      <workItem from="1514881956730" duration="21970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45255000" />
+    <option name="totallyTimeSpent" value="45458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-35" y="67" width="1857" height="1060" extended-state="0" />
@@ -944,22 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="293" column="45" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="293" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="243" column="70" lean-forward="true" selection-start-line="243" selection-start-column="70" selection-end-line="243" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-BonusGroup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7280">
@@ -1036,6 +1018,22 @@
           <folding>
             <marker date="1514904971365" expanded="true" signature="14655:14664" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="248" column="51" lean-forward="true" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="233" column="24" lean-forward="true" selection-start-line="233" selection-start-column="24" selection-end-line="233" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
