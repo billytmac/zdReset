@@ -28,7 +28,7 @@
 /*字体*/
 /*==========================*/
 
-@charset "utf-8";
+
 body {
     min-width: 1250px;
     background-color: #eef2f2;
@@ -314,14 +314,14 @@ i {
     background: #f7f7f7;
 }
 
-#mian_body .main_r .very_mt .very_d2 a {
-    border-top: 4px solid transparent;
+.very_mt .very_d2 a {
+    /*border-top: 4px solid transparent;*/
     padding: 13px 30px;
     display: inline-block;
     transition: 0.25s;
 }
 
-#mian_body .main_r .very_mt .very_d2 a.new_on , #mian_body .main_r .very_mt .very_d2 a:hover
+.very_d2 a.new_on ,.very_d2 a:hover
 {
     border-top: 4px solid #275673;
     background: #fff;

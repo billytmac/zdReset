@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>代理中心_分红设置_真人游戏</title>
     <link rel="stylesheet" type="text/css" href="../../../css/feng.css" />
-   <script src="../../../js/jquery.min.js"></script>
-    <script src="../../../js/js.js" ></script>
-    <!-- <script src="js/jquery.slideshow.js" type="text/javascript" charset="utf-8"></script> -->
+    <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
 </head>
 
 <body id="mian_body">
@@ -300,58 +298,34 @@
             return days;
         }
     </script>
-    <script src="../../../js/public.js"></script>
-     <script src="../../../js/layui/layui.all.js"></script>
+    <script src="../../../js/layui/layui.all.js"></script>
     <script src="../../../js/base-all.min.js "></script>
 
     <script>
         $(function () {
+            $('.divi_delete  ').click(function () {
+                layer.open({
+                    title: '信息'
+                    ,content: '您是否要保存分红规则？<span style="color:red">一旦设置不能修改。</span>'
+                    , success: function(layero, index){
+                        var ParBody = document.getElementsByTagName('body')[0];
+                        ParBody.appendChild(layero[0]);
 
-            
-   $('.float-left ').click(function () {
-            layer.open({
-                title: '信息'
-                ,icon: 1
-                ,content: '保存成功', success: function(layero, index){
-                    var ParBody = document.getElementsByTagName('body')[0];
-                    ParBody.appendChild(layero[0]);
+                        var _lay = layero[0];
+                        var _width = -(_lay.offsetWidth) / 2;
+                        var _height = -(_lay.offsetHeight) / 2;
 
-                    var _lay = layero[0];
-                    var _width = -(_lay.offsetWidth) / 2;
-                    var _height = -(_lay.offsetHeight) / 2;
+                        _lay.style.marginTop = _height + "px";
+                        _lay.style.marginLeft = _width + "px";
+                        _lay.style.left = "50%";
+                        _lay.style.top = "50%";
 
-                    _lay.style.marginTop = _height + "px";
-                    _lay.style.marginLeft = _width + "px";
-                    _lay.style.left = "50%";
-                    _lay.style.top = "50%";
-
-                    var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                    ParBody.appendChild(shade);
-                }
+                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                        ParBody.appendChild(shade);
+                    }
+                })
             })
-        })
- $('.divi_delete  ').click(function () {
-            layer.open({
-                title: '信息'
-                ,icon: 1
-                ,content: '新增成功', success: function(layero, index){
-                    var ParBody = document.getElementsByTagName('body')[0];
-                    ParBody.appendChild(layero[0]);
 
-                    var _lay = layero[0];
-                    var _width = -(_lay.offsetWidth) / 2;
-                    var _height = -(_lay.offsetHeight) / 2;
-
-                    _lay.style.marginTop = _height + "px";
-                    _lay.style.marginLeft = _width + "px";
-                    _lay.style.left = "50%";
-                    _lay.style.top = "50%";
-
-                    var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                    ParBody.appendChild(shade);
-                }
-            })
-        })
             $(".myrule").click(function () {
                 layer.open({
                     type: 1,
@@ -361,7 +335,7 @@
                     offset:['30%','40%'],
                     content: $("#myRules").html()
                     , success: function(layero, index){
-                        var ParBody = parent.document.getElementsByTagName('body')[0];
+                        var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
 
                         var _lay = layero[0];
@@ -381,14 +355,14 @@
         });
 
     </script>
-    <div id="myRules" style="display:none;">
+    <div  id="myRules" style="display:none;" id="" class="layui-layer-content" style="height: 216px;">
         <div style="width: 100%">
             <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" >
                 <tr>
                     <td style="text-align: right;width: 45%">
                         <input type="checkbox" checked="checked">
                     </td>
-                    <td style="text-align: left;width: 55%">
+                    <td style="text-align: left;width: 55%;">
                         累计上周期模式<span class="daywages_wh set_dp1">?</span>
                     </td>
                 </tr>
@@ -396,37 +370,39 @@
             <table border="0" cellspacing="" cellpadding="" class="x_table" style="width: 100%" id="J-table">
                 <thead>
                 <tr class="setprice_tit">
-                    <th>半月总销量≥</th>
-                    <th>半月总亏损量≥</th>
-                    <th class="fh">分红比例</th>
+                    <th style="background: #dbe9f1;border-bottom: 2px solid #8cb0c5;">半月总销量≥</th>
+                    <th style="background: #dbe9f1;border-bottom: 2px solid #8cb0c5;">半月总亏损量≥</th>
+                    <th style="background: #dbe9f1;border-bottom: 2px solid #8cb0c5;" class="fh">分红比例</th>
                 <tr>
                 </thead>
                 <tbody>
                 <tr>
                     <th>0</th>
                     <th>0</th>
-                    <th>20<span>%</span></th>
-                </tr>
-                <tr>
-                    <th>7000000</th>
-                    <th>500000</th>
-                    <th>25<span>%</span></th>
-                </tr>
-                <tr>
-                    <th>10500000</th>
-                    <th>1000000</th>
-                    <th>30<span>%</span></th>
+                    <th>12<span>%</span></th>
                 </tr>
                 <tr>
                     <th>0</th>
-                    <th>1500000</th>
-                    <th>32<span>%</span></th>
+                    <th>100000</th>
+                    <th>13<span>%</span></th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>300000</th>
+                    <th>14<span>%</span></th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>500000</th>
+                    <th>15<span>%</span></th>
                 </tr>
                 </tbody>
             </table>
         </div>
+        </div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span><span class="layui-layer-resize"></span></div>
     </div>
-    <script>
 </body>
-
+<script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/js.js"></script>
+<script src="../../../js/public.js"></script>
 </html>

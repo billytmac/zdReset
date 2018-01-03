@@ -29,7 +29,11 @@ dt{font-weight:700;}
 .btn-c2{background:#635a9d;}
 .btn-c1:hover{background:#7E6FDE;transition:all .25s ease;}
 .btn-c2:hover{background:#7E6FDE;transition:all .25s ease;}
+<<<<<<< HEAD
 .icon{display:inline-block;vertical-align:middle;}
+=======
+.deep_color {background-color: #312D46;border-color: #585568;}
+>>>>>>> 3bf932d168e203abd64f2b6e334127d59aaf8ee6
 
 /*侧边栏in-side*/
 .in-side{position:fixed;top:0;right:0;z-index:2;display:block;width:40px;height:100%;background:#feb50e;text-align:center;overflow: visible !important;/*加important是为了避免用了jq的animate改变高度之后会自动增加overflow:hidden;属性*/}
@@ -261,14 +265,13 @@ dt{font-weight:700;}
 .in-recorda{position:relative;margin-left:28px;display: inline-block;}
 .in-recordaul{position:absolute;top:52px;right:0;z-index:2;visibility:hidden;background:#fff;}
 .in-recordaul li{margin-top: -10px; display:block;width:90px;height:45px;background:#fff;color:#717171;text-align:center;font-size:14px;line-height:35px;}
+.in-recordaul li:last-child{height:35px;}
 .in-recordaul li:hover{background:#473C5C;color:#fff;transition:all .2s ease;}
 .in-recordaul li:hover a{color:#fff;}
 .in-recordaul a{color:#717171;}
 .in-recordaul .in-recordali1{height:10px;background:0 0;overflow: hidden;}
 .in-recorda:hover .in-recordaul{visibility:visible;}
 .in-recorda:hover .in-recordaul li{transform:none;}
-/*.in-recorda:hover .in-recordali1{transition:all .1s ease;}*/
-/*.in-recorda:hover .in-recordali2{transition:all .2s ease;}*/
 .in-recorda:hover .in-recordali3{transition:all .1s ease;}
 .in-recorda:hover .in-recordali4{transition:all .2s ease;}
 .in-recorda:hover .in-recordali5{transition:all .3s ease;}
@@ -422,4 +425,13 @@ dt{font-weight:700;}
 .games_type .game2-r a:hover {background-color: #7f6e85;color: #fff;}
 /*首页home 结束*/
 
+/*分红报表弹窗*/
+.x_table{background: #fff;width:1130px;margin:0 auto 15px;border-spacing:0;#baa89e solid 2px !important;position:relative;}
+.x_table tr,.x_table .tr{position:relative;}
+.x_table tr th:first-child{border-left:none;}
+.x_table thead th{height:40px;font-size:14px;font-weight:500;border-left:1px solid #fff;}
+.x_table tbody th,.x_table tbody td{height:40px;font-size:12px;font-weight:500;border-bottom:1px solid #EFEFEF;text-align: center;}
+.x_table tfoot th,.x_table tfoot td{font-size:12px;font-weight:500;}
+/*.x_table thead tr{height:40px;border-bottom:2px solid #c0b8cc !important;}*//*.x_table tfoot{background:#e6e3ec;height:40px}*/.x_table tfoot td{text-align:center;height:40px;background:#e6e3ec;border-right:1px solid #e6e3ec;}
+.x_tbody_bd td{height:30px;}
 

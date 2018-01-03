@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>代理中心_账变记录</title>
-    <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
     <link rel="stylesheet" type="text/css" href="../../../css/feng.css" />
+    <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
 </head>
 
 <body id="mian_body">
@@ -282,308 +282,10 @@
                                         </ul>
                                         </span>
                                     </div>
-                                    <script>
-                                    //点击下拉
-                                    $(function() {
-                                        var selectType = new Select({
-                                            parentId: 'J-div-select-type',
-                                            width: 150,
-                                            name: 'type_id',
-                                            lableName: '类型',
-                                            id: 'J-select-bill-type',
-                                            defaultValue: '',
-                                            options: [{
-                                                name: '所有类型',
-                                                value: ''
-                                            }, {
-                                                name: '在线充值',
-                                                value: '1',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销红利',
-                                                value: '-1'
-                                            }, {
-                                                name: '提取现金',
-                                                value: '2',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '转账转入',
-                                                value: '3',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '转账转出',
-                                                value: '4',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '追号冻结',
-                                                value: '5',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '追号解冻',
-                                                value: '6',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '加入游戏',
-                                                value: '7',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '撤单返款',
-                                                value: '8',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '提现冻结',
-                                                value: '9',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '提现解冻',
-                                                value: '10',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '派发奖金',
-                                                value: '11',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '撤销派奖',
-                                                value: '12',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '投注返点',
-                                                value: '13',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '撤销佣金',
-                                                value: '14',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '追号返款',
-                                                value: '15',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '充值费用返还',
-                                                value: '16',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '提现手续费',
-                                                value: '17',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '人工充值',
-                                                value: '18',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '管理员提现',
-                                                value: '19',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '理赔充值',
-                                                value: '22',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '人工促销',
-                                                value: '23',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-工资发放',
-                                                value: '24',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-消费佣金',
-                                                value: '25',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-亏损佣金',
-                                                value: '26',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-比赛奖励',
-                                                value: '27',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '余额扣减',
-                                                value: '28',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销扣减',
-                                                value: '29',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-每日签到',
-                                                value: '30',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-新人首充',
-                                                value: '31',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-每日投注',
-                                                value: '32',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-每日首充',
-                                                value: '33',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-充值即返',
-                                                value: '34',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '手续费返还',
-                                                value: '38',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '手续费冻结',
-                                                value: '39',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '手续费解冻',
-                                                value: '40',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '代理返点',
-                                                value: '41',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '代发日奖',
-                                                value: '42',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '代发分红',
-                                                value: '43',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '促销-体验金',
-                                                value: '44',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '转账冻结',
-                                                value: '45',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '转账解冻',
-                                                value: '46',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '额度转入',
-                                                value: '47',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '额度转出',
-                                                value: '48',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '真人返点',
-                                                value: '49',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '真人分红',
-                                                value: '50',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '桌游分红',
-                                                value: '51',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '电游返点',
-                                                value: '52',
-                                                defaultValue: ''
-                                            }, {
-                                                name: '电游分红',
-                                                value: '53',
-                                                defaultValue: ''
-                                            }, ]
-                                        });
-                                        var selectTransaction = new Select({
-                                            parentId: 'J-select-transaction',
-                                            width: 100,
-                                            name: 'number_type',
-                                            id: 'J-select-issue',
-                                            defaultValue: 'serial_number',
-                                            options: [{
-                                                name: '账变编号',
-                                                value: 'serial_number'
-                                            }, {
-                                                name: '注单编号',
-                                                value: 'project_no'
-                                            }, {
-                                                name: '追号编号',
-                                                value: 'trace_id'
-                                            }, {
-                                                name: '奖期编号',
-                                                value: 'issue'
-                                            }, ]
-                                        });
-                                    })
-                                    </script>
+                                    
                                 </div>
                             </form>
-                            <script>
-                            //点击下拉
-                            $(function() {
-                                o = document.getElementsByName('time-choose');
-                                l = o.length;
-                                for (i = 0; i < l; i++) {
-                                    o[i].onclick = function() {
-                                        switch (this.id) {
-                                            case 'today':
-                                                startDate = now;
-                                                endDate = now;
-                                                break;
-                                            case 'week':
-                                                startDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
-                                                endDate = new Date(nowYear, nowMonth, nowDay + (6 - nowDayOfWeek));
-                                                break;
-                                            case 'month':
-                                                startDate = new Date(nowYear, nowMonth, 1);
-                                                endDate = new Date(nowYear, nowMonth, getMonthDays(nowMonth));
-                                                break;
-                                            case '3day':
-                                                startDate = new Date(now.getTime() - 3 * 24 * 3600 * 1000);
-                                                endDate = now;
-                                                break;
-                                            case 'hmonth':
-                                                startDate = new Date(now.getTime() - 15 * 24 * 3600 * 1000);
-                                                endDate = now;
-                                                break;
-                                            case '1month':
-                                                startDate = new Date(now.getTime() - 30 * 24 * 3600 * 1000);
-                                                endDate = now;
-                                                break;
-                                        }
-                                        document.getElementById('J-date-start').value = formatDate(startDate) + ' 00:00:00';
-                                        document.getElementById('J-date-end').value = formatDate(endDate) + ' 23:59:59';
-                                        $('#J-form').submit();
-                                    }
-                                }
-                                var now = new Date(); //当前日期
-                                var nowDayOfWeek = now.getDay(); //今天本周的第几天
-                                var nowDay = now.getDate(); //当前日
-                                var nowMonth = now.getMonth(); //当前月
-                                var nowYear = now.getYear(); //当前年
-                                nowYear += (nowYear < 2000) ? 1900 : 0; //
-                                var weekStartDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
-
-                                function formatDate(date) {
-                                    var myyear = date.getFullYear();
-                                    var mymonth = date.getMonth() + 1;
-                                    var myweekday = date.getDate();
-
-                                    if (mymonth < 10) {
-                                        mymonth = "0" + mymonth;
-                                    }
-                                    if (myweekday < 10) {
-                                        myweekday = "0" + myweekday;
-                                    }
-                                    return (myyear + "-" + mymonth + "-" + myweekday);
-                                }
-
-                                function getMonthDays(myMonth) {
-                                    var monthStartDate = new Date(nowYear, myMonth, 1);
-                                    var monthEndDate = new Date(nowYear, myMonth + 1, 1);
-                                    var days = (monthEndDate - monthStartDate) / (1000 * 60 * 60 * 24);
-                                    return days;
-                                }
-                            })
-                            </script>
+                            
                         </div>
                         <div class="con6" style="padding-top:0;">
                             <table border="0" cellspacing="" cellpadding="" class="x_table">
@@ -601,9 +303,23 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td height="40" align="center" class="x_hrtd" colspan="12">没有符合条件的记录，请更改查询条件</td>
-                                    </tr>
+                                        <th width="230">242834623874238742</th>
+                                        <th width="230">2017-12-27 00:00:00 </th>
+                                        <th>在线充值</th>
+                                        <th>重庆时时彩</th>
+                                        <th>12期</th>
+                                        <th>多人玩法</th>
+                                        <th>12</th>
+                                        <th>12</th>
+                                </tbody><tbody>
+                                        <th width="230">242834623874238742</th>
+                                        <th width="230">2017-12-27 00:00:00 </th>
+                                        <th>在线充值</th>
+                                        <th>山东11选5</th>
+                                        <th>12期</th>
+                                        <th>单人玩法</th>
+                                        <th>16</th>
+                                        <th>16</th>
                                 </tbody>
                                 <tfoot>
                                     <tr>
@@ -618,126 +334,431 @@
                                 </tfoot>
                             </table>
                         </div>
+                        <div class="page">
+                        <a href="javascript:void(0);" class="pageDefault">«</a><a class="pageCurrent" href="javascript:void(0);">1</a><a href="javascript:void(0);" class="pageDefault">»</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="page-few">第1页，共0条</span>
+                    </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
     <!-- 每个导航链接里面的内容结束 -->
     </div>
     </div>
+    <script src="../../../js/jquery.min.js"></script>
+    <script>
+    //点击下拉
+        $(function() {
+            var selectType = new Select({
+                parentId: 'J-div-select-type',
+                width: 150,
+                name: 'type_id',
+                lableName: '类型',
+                id: 'J-select-bill-type',
+                defaultValue: '',
+                options: [{
+                    name: '所有类型',
+                    value: ''
+                }, {
+                    name: '在线充值',
+                    value: '1',
+                    defaultValue: ''
+                }, {
+                    name: '促销红利',
+                    value: '-1'
+                }, {
+                    name: '提取现金',
+                    value: '2',
+                    defaultValue: ''
+                }, {
+                    name: '转账转入',
+                    value: '3',
+                    defaultValue: ''
+                }, {
+                    name: '转账转出',
+                    value: '4',
+                    defaultValue: ''
+                }, {
+                    name: '追号冻结',
+                    value: '5',
+                    defaultValue: ''
+                }, {
+                    name: '追号解冻',
+                    value: '6',
+                    defaultValue: ''
+                }, {
+                    name: '加入游戏',
+                    value: '7',
+                    defaultValue: ''
+                }, {
+                    name: '撤单返款',
+                    value: '8',
+                    defaultValue: ''
+                }, {
+                    name: '提现冻结',
+                    value: '9',
+                    defaultValue: ''
+                }, {
+                    name: '提现解冻',
+                    value: '10',
+                    defaultValue: ''
+                }, {
+                    name: '派发奖金',
+                    value: '11',
+                    defaultValue: ''
+                }, {
+                    name: '撤销派奖',
+                    value: '12',
+                    defaultValue: ''
+                }, {
+                    name: '投注返点',
+                    value: '13',
+                    defaultValue: ''
+                }, {
+                    name: '撤销佣金',
+                    value: '14',
+                    defaultValue: ''
+                }, {
+                    name: '追号返款',
+                    value: '15',
+                    defaultValue: ''
+                }, {
+                    name: '充值费用返还',
+                    value: '16',
+                    defaultValue: ''
+                }, {
+                    name: '提现手续费',
+                    value: '17',
+                    defaultValue: ''
+                }, {
+                    name: '人工充值',
+                    value: '18',
+                    defaultValue: ''
+                }, {
+                    name: '管理员提现',
+                    value: '19',
+                    defaultValue: ''
+                }, {
+                    name: '理赔充值',
+                    value: '22',
+                    defaultValue: ''
+                }, {
+                    name: '人工促销',
+                    value: '23',
+                    defaultValue: ''
+                }, {
+                    name: '促销-工资发放',
+                    value: '24',
+                    defaultValue: ''
+                }, {
+                    name: '促销-消费佣金',
+                    value: '25',
+                    defaultValue: ''
+                }, {
+                    name: '促销-亏损佣金',
+                    value: '26',
+                    defaultValue: ''
+                }, {
+                    name: '促销-比赛奖励',
+                    value: '27',
+                    defaultValue: ''
+                }, {
+                    name: '余额扣减',
+                    value: '28',
+                    defaultValue: ''
+                }, {
+                    name: '促销扣减',
+                    value: '29',
+                    defaultValue: ''
+                }, {
+                    name: '促销-每日签到',
+                    value: '30',
+                    defaultValue: ''
+                }, {
+                    name: '促销-新人首充',
+                    value: '31',
+                    defaultValue: ''
+                }, {
+                    name: '促销-每日投注',
+                    value: '32',
+                    defaultValue: ''
+                }, {
+                    name: '促销-每日首充',
+                    value: '33',
+                    defaultValue: ''
+                }, {
+                    name: '促销-充值即返',
+                    value: '34',
+                    defaultValue: ''
+                }, {
+                    name: '手续费返还',
+                    value: '38',
+                    defaultValue: ''
+                }, {
+                    name: '手续费冻结',
+                    value: '39',
+                    defaultValue: ''
+                }, {
+                    name: '手续费解冻',
+                    value: '40',
+                    defaultValue: ''
+                }, {
+                    name: '代理返点',
+                    value: '41',
+                    defaultValue: ''
+                }, {
+                    name: '代发日奖',
+                    value: '42',
+                    defaultValue: ''
+                }, {
+                    name: '代发分红',
+                    value: '43',
+                    defaultValue: ''
+                }, {
+                    name: '促销-体验金',
+                    value: '44',
+                    defaultValue: ''
+                }, {
+                    name: '转账冻结',
+                    value: '45',
+                    defaultValue: ''
+                }, {
+                    name: '转账解冻',
+                    value: '46',
+                    defaultValue: ''
+                }, {
+                    name: '额度转入',
+                    value: '47',
+                    defaultValue: ''
+                }, {
+                    name: '额度转出',
+                    value: '48',
+                    defaultValue: ''
+                }, {
+                    name: '真人返点',
+                    value: '49',
+                    defaultValue: ''
+                }, {
+                    name: '真人分红',
+                    value: '50',
+                    defaultValue: ''
+                }, {
+                    name: '桌游分红',
+                    value: '51',
+                    defaultValue: ''
+                }, {
+                    name: '电游返点',
+                    value: '52',
+                    defaultValue: ''
+                }, {
+                    name: '电游分红',
+                    value: '53',
+                    defaultValue: ''
+                }, ]
+            });
+            var selectTransaction = new Select({
+                parentId: 'J-select-transaction',
+                width: 100,
+                name: 'number_type',
+                id: 'J-select-issue',
+                defaultValue: 'serial_number',
+                options: [{
+                    name: '账变编号',
+                    value: 'serial_number'
+                }, {
+                    name: '注单编号',
+                    value: 'project_no'
+                }, {
+                    name: '追号编号',
+                    value: 'trace_id'
+                }, {
+                    name: '奖期编号',
+                    value: 'issue'
+                }, ]
+            });
+        })
+    </script>
+    <script>
+    //点击下拉
+        $(function() {
+            o = document.getElementsByName('time-choose');
+            l = o.length;
+            for (i = 0; i < l; i++) {
+                o[i].onclick = function() {
+                    switch (this.id) {
+                        case 'today':
+                            startDate = now;
+                            endDate = now;
+                            break;
+                        case 'week':
+                            startDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
+                            endDate = new Date(nowYear, nowMonth, nowDay + (6 - nowDayOfWeek));
+                            break;
+                        case 'month':
+                            startDate = new Date(nowYear, nowMonth, 1);
+                            endDate = new Date(nowYear, nowMonth, getMonthDays(nowMonth));
+                            break;
+                        case '3day':
+                            startDate = new Date(now.getTime() - 3 * 24 * 3600 * 1000);
+                            endDate = now;
+                            break;
+                        case 'hmonth':
+                            startDate = new Date(now.getTime() - 15 * 24 * 3600 * 1000);
+                            endDate = now;
+                            break;
+                        case '1month':
+                            startDate = new Date(now.getTime() - 30 * 24 * 3600 * 1000);
+                            endDate = now;
+                            break;
+                    }
+                    document.getElementById('J-date-start').value = formatDate(startDate) + ' 00:00:00';
+                    document.getElementById('J-date-end').value = formatDate(endDate) + ' 23:59:59';
+                    $('#J-form').submit();
+                }
+            }
+            var now = new Date(); //当前日期
+            var nowDayOfWeek = now.getDay(); //今天本周的第几天
+            var nowDay = now.getDate(); //当前日
+            var nowMonth = now.getMonth(); //当前月
+            var nowYear = now.getYear(); //当前年
+            nowYear += (nowYear < 2000) ? 1900 : 0; //
+            var weekStartDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
+
+            function formatDate(date) {
+                var myyear = date.getFullYear();
+                var mymonth = date.getMonth() + 1;
+                var myweekday = date.getDate();
+
+                if (mymonth < 10) {
+                    mymonth = "0" + mymonth;
+                }
+                if (myweekday < 10) {
+                    myweekday = "0" + myweekday;
+                }
+                return (myyear + "-" + mymonth + "-" + myweekday);
+            }
+
+            function getMonthDays(myMonth) {
+                var monthStartDate = new Date(nowYear, myMonth, 1);
+                var monthEndDate = new Date(nowYear, myMonth + 1, 1);
+                var days = (monthEndDate - monthStartDate) / (1000 * 60 * 60 * 24);
+                return days;
+            }
+        })
+    </script>
     <script src="../../../js/base-all.min.js"></script>
     <script>
-    (function($) {
-        $('#J-date-start').focus(function() {
-            (new bomao.DatePicker({
-                input: '#J-date-start',
-                isShowTime: true,
-                startYear: 2013
-            })).show();
-        });
-        $('#J-date-end').focus(function() {
-            (new bomao.DatePicker({
-                input: '#J-date-end',
-                isShowTime: true,
-                startYear: 2013
-            })).show();
-        });
-
-        try {
-            new bomao.Select({
-                realDom: '#J-select-bill-type',
-                cls: 'w-3'
+        (function($) {
+            $('#J-date-start').focus(function() {
+                (new bomao.DatePicker({
+                    input: '#J-date-start',
+                    isShowTime: true,
+                    startYear: 2013
+                })).show();
             });
-            new bomao.Select({
-                realDom: '#J-select-issue',
-                cls: 'w-2'
+            $('#J-date-end').focus(function() {
+                (new bomao.DatePicker({
+                    input: '#J-date-end',
+                    isShowTime: true,
+                    startYear: 2013
+                })).show();
             });
-            new bomao.Select({
-                realDom: '#J-select-game-mode',
-                cls: 'w-2'
-            });
-        } catch (e) {
 
-        }
+            try {
+                new bomao.Select({
+                    realDom: '#J-select-bill-type',
+                    cls: 'w-3'
+                });
+                new bomao.Select({
+                    realDom: '#J-select-issue',
+                    cls: 'w-2'
+                });
+                new bomao.Select({
+                    realDom: '#J-select-game-mode',
+                    cls: 'w-2'
+                });
+            } catch (e) {
 
-        $('#J-button-showdetail').click(function(e) {
-            var panel = $('#J-panel-search-ad');
-            if (panel.css('display') == 'none') {
-                $(this).text('基本搜索');
-            } else {
-                $(this).text('高级搜索');
             }
-            panel.toggle();
-        });
 
-    })(jQuery);
+            $('#J-button-showdetail').click(function(e) {
+                var panel = $('#J-panel-search-ad');
+                if (panel.css('display') == 'none') {
+                    $(this).text('基本搜索');
+                } else {
+                    $(this).text('高级搜索');
+                }
+                panel.toggle();
+            });
+
+        })(jQuery);
     </script>
     <script language="javascript">
-    o = document.getElementsByName('time-choose');
-    l = o.length;
-    for (i = 0; i < l; i++) {
-        o[i].onclick = function() {
-            switch (this.id) {
-                case 'today':
-                    startDate = now;
-                    endDate = now;
-                    break;
-                case 'week':
-                    startDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
-                    endDate = new Date(nowYear, nowMonth, nowDay + (6 - nowDayOfWeek));
-                    break;
-                case 'month':
-                    startDate = new Date(nowYear, nowMonth, 1);
-                    endDate = new Date(nowYear, nowMonth, getMonthDays(nowMonth));
-                    break;
-                case '3day':
-                    startDate = new Date(now.getTime() - 3 * 24 * 3600 * 1000);
-                    endDate = now;
-                    break;
-                case 'hmonth':
-                    startDate = new Date(now.getTime() - 15 * 24 * 3600 * 1000);
-                    endDate = now;
-                    break;
-                case '1month':
-                    startDate = new Date(now.getTime() - 30 * 24 * 3600 * 1000);
-                    endDate = now;
-                    break;
+        o = document.getElementsByName('time-choose');
+        l = o.length;
+        for (i = 0; i < l; i++) {
+            o[i].onclick = function() {
+                switch (this.id) {
+                    case 'today':
+                        startDate = now;
+                        endDate = now;
+                        break;
+                    case 'week':
+                        startDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
+                        endDate = new Date(nowYear, nowMonth, nowDay + (6 - nowDayOfWeek));
+                        break;
+                    case 'month':
+                        startDate = new Date(nowYear, nowMonth, 1);
+                        endDate = new Date(nowYear, nowMonth, getMonthDays(nowMonth));
+                        break;
+                    case '3day':
+                        startDate = new Date(now.getTime() - 3 * 24 * 3600 * 1000);
+                        endDate = now;
+                        break;
+                    case 'hmonth':
+                        startDate = new Date(now.getTime() - 15 * 24 * 3600 * 1000);
+                        endDate = now;
+                        break;
+                    case '1month':
+                        startDate = new Date(now.getTime() - 30 * 24 * 3600 * 1000);
+                        endDate = now;
+                        break;
+                }
+                document.getElementById('J-date-start').value = formatDate(startDate) + ' 00:00:00';
+                document.getElementById('J-date-end').value = formatDate(endDate) + ' 23:59:59';
             }
-            document.getElementById('J-date-start').value = formatDate(startDate) + ' 00:00:00';
-            document.getElementById('J-date-end').value = formatDate(endDate) + ' 23:59:59';
         }
-    }
-    var now = new Date(); //当前日期
-    var nowDayOfWeek = now.getDay(); //今天本周的第几天
-    var nowDay = now.getDate(); //当前日
-    var nowMonth = now.getMonth(); //当前月
-    var nowYear = now.getYear(); //当前年
-    nowYear += (nowYear < 2000) ? 1900 : 0; //
-    var weekStartDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
+        var now = new Date(); //当前日期
+        var nowDayOfWeek = now.getDay(); //今天本周的第几天
+        var nowDay = now.getDate(); //当前日
+        var nowMonth = now.getMonth(); //当前月
+        var nowYear = now.getYear(); //当前年
+        nowYear += (nowYear < 2000) ? 1900 : 0; //
+        var weekStartDate = new Date(nowYear, nowMonth, nowDay - nowDayOfWeek);
 
-    function formatDate(date) {
-        var myyear = date.getFullYear();
-        var mymonth = date.getMonth() + 1;
-        var myweekday = date.getDate();
+        function formatDate(date) {
+            var myyear = date.getFullYear();
+            var mymonth = date.getMonth() + 1;
+            var myweekday = date.getDate();
 
-        if (mymonth < 10) {
-            mymonth = "0" + mymonth;
+            if (mymonth < 10) {
+                mymonth = "0" + mymonth;
+            }
+            if (myweekday < 10) {
+                myweekday = "0" + myweekday;
+            }
+            return (myyear + "-" + mymonth + "-" + myweekday);
         }
-        if (myweekday < 10) {
-            myweekday = "0" + myweekday;
-        }
-        return (myyear + "-" + mymonth + "-" + myweekday);
-    }
 
-    function getMonthDays(myMonth) {
-        var monthStartDate = new Date(nowYear, myMonth, 1);
-        var monthEndDate = new Date(nowYear, myMonth + 1, 1);
-        var days = (monthEndDate - monthStartDate) / (1000 * 60 * 60 * 24);
-        return days;
-    }
+        function getMonthDays(myMonth) {
+            var monthStartDate = new Date(nowYear, myMonth, 1);
+            var monthEndDate = new Date(nowYear, myMonth + 1, 1);
+            var days = (monthEndDate - monthStartDate) / (1000 * 60 * 60 * 24);
+            return days;
+        }
     </script>
-    <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/js.js"></script>
     <script src="../../../js/public.js"></script>
 </body>

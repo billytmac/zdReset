@@ -7,6 +7,7 @@
     <title>代理中心_下级开户_人工开户</title>
     <link rel="stylesheet" href="../../../css/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="../../../css/feng.css" />
+    <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
 
 </head>
 
@@ -153,7 +154,7 @@
                             <a href="agency-LowerAccountOpening-link.html">链接开户</a>
                         </div>
                     </div>
-                    <form action="http://www.zd111.net/users/accurate-create" method="post" id="J-form">
+                    <form action="" method="post" id="J-form">
                         <input type="hidden" name="_token" value="RVeVB2uP8GSl1LzbOaM0clBXl9n6vYDzDRCOl3kI">
                         <input type="hidden" name="_random" value="$2y$10$psJMoIJdUxxBVI9OSEDiV.aJs6GzukpXbsIciEAVtyD7x3rXn.xEy_abR3p7">
                         <input type="hidden" name="is_agent" id="J-input-userType" value="1">
@@ -196,7 +197,7 @@
                                  预计平均返点率
                                </span>
                                                     <span class="n_10row_dr" id="J-text-percentage">0.20%</span>
-                                                    <a href="http://www.zd111.net/user-user-prize-sets/prize-set-detail/1956" data-url="http://www.zd111.net/user-user-prize-sets/prize-set-detail" class="n_10row_dj">奖金详情</a>
+                                                    <a href="http://www.zd111.net/user-user-prize-sets/prize-set-detail/1956" data-url="#" class="n_10row_dj">奖金详情</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -283,13 +284,13 @@
                                         </div>
                                     </div>
                                     <div class="n_10row_modw">
-                                        <input type="submit" value="立即开户" class="n_10row_submit" name="">
+                                        <input type="submit" value="立即开户" class="n_10row_submit  new_yh" name="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </form>
-                </div>>
+                </div>
             </div>
         </div>
     </div>
@@ -299,7 +300,6 @@
     <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/jquery-ui.js"></script>
     <script src="../../../js/js.js" type="text/javascript" charset="utf-8"></script>
-    <!-- <script src="../../../js/jquery.slideshow.js" type="text/javascript" charset="utf-8"></script> -->
     <script>
         (function($) {
             $('#J-date-start').focus(function() {
@@ -443,8 +443,41 @@
         }
 
     </script>
-    <script src="../../../js/public.js"></script>
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/layui/layui.all.js"></script>
+    <script>
 
+        $(function () {
+         $(' .new_yh').click(function () {
+             layer.open({
+                 title: '信息'
+                 ,icon: 2
+                 ,content: ' 该用户名已被注册，请重新输入！'
+                 , success: function(layero, index){
+                     var ParBody = document.getElementsByTagName('body')[0];
+                     ParBody.appendChild(layero[0]);
+
+                     var _lay = layero[0];
+                     var _width = -(_lay.offsetWidth) / 2;
+                     var _height = -(_lay.offsetHeight) / 2;
+
+                     _lay.style.marginTop = _height + "px";
+                     _lay.style.marginLeft = _width + "px";
+                     _lay.style.left = "50%";
+                     _lay.style.top = "50%";
+
+                     var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                     ParBody.appendChild(shade);
+                 }
+             })
+             return false;
+         })
+      })
+
+
+    </script>
 </body>
 
 </html>
+<script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/public.js"></script>
