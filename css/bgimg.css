@@ -256,7 +256,7 @@
   background: #fff url('../images/userCenter_img/h_img1.png') no-repeat center right 5px;
 }
 .j-ui-datepicker .control .choose-model i {
-  background-image: url('../images/userCenter_img/j-ui-datepicker-select-sj.gif') no-repeat;
+  background: url('../images/userCenter_img/j-ui-datepicker-select-sj.gif') no-repeat;
 }
 .j-ui-datepicker .control .pre,
 .j-ui-datepicker .control .next {
