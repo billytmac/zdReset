@@ -5,6 +5,9 @@
 /*优惠活动activity.css*/
 /*正点品牌brand.css*/
 /*独页面indep.css*/
+.skin {
+  background: url('../images/common_img/skin_bg.png') no-repeat;
+}
 /*侧边栏in-side*/
 .icon-side {
   background: url('../images/common_img/sider.png') no-repeat;
