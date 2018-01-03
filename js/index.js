@@ -53,20 +53,66 @@ $(function () {
                 height: "100%"
               }, 500 );
             $('.in-sideul').fadeIn(500);
-            // $(this).animate({
-            //     background: "url(/res/newpage/images/side_close.png) no-repeat center center",
-            //     backgroundSize: "66%"
-            //   }, 500 );
         } else {
             $('.in-side').animate({
                 height: "40px"
               }, 500 );
             $('.in-sideul').fadeOut(300);
-            // $(this).animate({
-            //     background: "url(/res/newpage/images/side_hide.png) no-repeat center center",
-            //     backgroundSize: "66%"
-            //   }, 500 );
         }
+    });
+    //声音设置
+ $(function () {
+        var currentUsername = "测试001"
+        function setChecked(name,checked) {
+            $('input[name="'+name+'"]').each(function() {
+                $(this).attr('checked', checked);
+            });
+        }
+        function setDefaultVoice() {
+            var chk_open_voice = localStorage.getItem(currentUsername+'_chk_open_voice');
+            var chk_win_voice = localStorage.getItem(currentUsername+'_chk_win_voice');
+            var chk_message_voice = localStorage.getItem(currentUsername+'_chk_message_voice');
+            if(chk_open_voice==null){localStorage.setItem(currentUsername+'_chk_open_voice','true');}
+            if(chk_win_voice==null){localStorage.setItem(currentUsername+'_chk_win_voice','true');}
+            if(chk_message_voice==null){localStorage.setItem(currentUsername+'_chk_message_voice','true');}
+        }
+        $("#ounis").click(function () {
+            $('.theme-popover-mask').fadeIn(300);
+            $('.theme-popover-f').slideDown(500);
+            var chk_open_voice = localStorage.getItem(currentUsername+'_chk_open_voice');
+            var chk_win_voice = localStorage.getItem(currentUsername+'_chk_win_voice');
+            var chk_message_voice = localStorage.getItem(currentUsername+'_chk_message_voice');
+            setChecked('chk_open_voice',chk_open_voice=='true');
+            setChecked('chk_win_voice',chk_win_voice=='true');
+            setChecked('chk_message_voice',chk_message_voice=='true');
+        });
+        $("input[name='chk_open_voice']").change(function () {
+            if($(this).is(':checked')){
+                localStorage.setItem(currentUsername+'_chk_open_voice','true');
+            }else{
+                localStorage.setItem(currentUsername+'_chk_open_voice','false');
+            }
+
+        });
+        $("input[name='chk_win_voice']").click(function () {
+            if($(this).is(':checked')){
+                localStorage.setItem(currentUsername+'_chk_win_voice','true');
+            }else{
+                localStorage.setItem(currentUsername+'_chk_win_voice','false');
+            }
+        });
+        $("input[name='chk_message_voice']").click(function () {
+            if($(this).is(':checked')){
+                localStorage.setItem(currentUsername+'_chk_message_voice','true');
+            }else{
+                localStorage.setItem(currentUsername+'_chk_message_voice','false');
+            }
+        });
+        $('.voice-close').click(function () {
+            $('.theme-popover-mask').fadeOut(300);
+            $('.theme-popover-f').slideUp(500);
+        });
+        setDefaultVoice();
     });
 
     

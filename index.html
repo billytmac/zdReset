@@ -369,7 +369,52 @@
      </div>
 
     <iframe id="mainIframe" name="mainFrame" src="views/home.html" allowtransparency="true" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"  width="100%"></iframe> 
-    <!-- <iframe id="mainIframe" name="mainFrame" src="views/userCenter/gameRecord/inside_iframe.html" allowtransparency="true" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"  width="100%" height="1230px"  ></iframe>  -->
+
+    <!-- 声音设置 -->
+    <div class="theme-popover-mask"></div>
+    <div class="theme-popover-f">
+        <div class="voice">
+            <form action="" method="post">
+                <ul class="voice-set">
+                    <li>
+                        <p>
+                    <span class="voice-icon">
+                    </span>
+                            声音开关
+                        </p>
+                        <span class="voice-close">
+                  </span>
+                        <p>
+                        </p>
+                    </li>
+                    <li>
+                        开奖提示音
+                        <span class="con">
+                    <input type="checkbox" id="checkbox1" class="chk_3">
+                    <label for="checkbox1">
+                    </label>
+                  </span>
+                    </li>
+                    <li class="voice-tip">
+                        中奖提示音
+                        <span class="con">
+                    <input type="checkbox" id="checkbox2" class="chk_3" checked="">
+                    <label for="checkbox2">
+                    </label>
+                  </span>
+                    </li>
+                    <li>
+                        消息提示音
+                        <span class="con">
+                    <input type="checkbox" id="checkbox3" class="chk_3" checked="">
+                    <label for="checkbox3">
+                    </label>
+                  </span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
 
     <!-- 底部 -->
     <div class="footer">
@@ -410,6 +455,7 @@
     </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/layui/layui.all.js"></script>
+
 <script src="js/index.js"></script>
 <script>
     $(document).on('click','.layui-layer-btn0',function(){
