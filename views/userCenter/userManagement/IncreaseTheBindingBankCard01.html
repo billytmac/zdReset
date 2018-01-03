@@ -153,70 +153,73 @@
             </div>
             <!-- 导航结束 -->
             <!--绑定银行卡开始-->
-            <div class="very_d3">
-                <!-- 下面开始跟绑定新银行卡的页面区分 -->
-                <div class="bank_card_xx revise-bank-card">
-                    <div class="bank_card row">
-                        <div class="bank_card-qp bank_card-qp1">
-                            <i>1</i>
-                            验证老银行卡
-                            <span></span>
-                            <div></div>
+            <form action='IncreaseTheBindingBankCard02.html'>
+                <div class="very_d3">
+                    <!-- 下面开始跟绑定新银行卡的页面区分 -->
+                    <div class="bank_card_xx revise-bank-card">
+                        <div class="bank_card row">
+                            <div class="bank_card-qp bank_card-qp1">
+                                <i>1</i>
+                                验证老银行卡
+                                <span></span>
+                                <div></div>
+                            </div>
+                            <div class="bank_card-qp bank_card-qp2">
+                                <i>2</i>
+                                输入银行卡信息
+                                <span></span>
+                                <div></div>
+                            </div>
+                            <div class="bank_card-qp bank_card-qp3">
+                                <i>3</i>
+                                确认银行卡信息
+                                <span></span>
+                                <div></div>
+                            </div>
+                            <div class="bank_card-qp bank_card-qp4">
+                                <i>4</i>
+                                绑定结果
+                            </div>
                         </div>
-                        <div class="bank_card-qp bank_card-qp2">
-                            <i>2</i>
-                            输入银行卡信息
-                            <span></span>
-                            <div></div>
-                        </div>
-                        <div class="bank_card-qp bank_card-qp3">
-                            <i>3</i>
-                            确认银行卡信息
-                            <span></span>
-                            <div></div>
-                        </div>
-                        <div class="bank_card-qp bank_card-qp4">
-                            <i>4</i>
-                            绑定结果
+                        <div class="bank_card_1 row">
+                            <ul class="bank_card_1ul">
+                                <li>
+                                    <div id="J-select-bankCards" class="query_rx"><span class="query_dsp">请选择你要验证银行卡：</span><input type="hidden" name="id" id="J-hidden-J-select-bank-card" value="-1"><span class="query_xl time_input_2 very_show" style="width:300px" id="J-div-head-id"><span id="J-select-text-J-select-bank-card">请选择开户银行</span><ul class="very_hide" name="options" id="J-option-J-select-bank-card"><li id="J-select-option-J-select-bank-card--1" name="J-select-optionJ-select-bank-card" value="-1">请选择开户银行</li><li class="last_li" id="J-select-option-J-select-bank-card-22" name="J-select-optionJ-select-bank-card" value="22">**** **** **** *** 1231</li></ul></span></div>
+                                </li>
+                                <li>
+                                    <span>开户人姓名</span>
+                                    <input type="text" class="bank_card_input" id="J-input-name" name="account_name" value="" maxlength="20">
+                                    <div class="bank_card_ts">请输入旧的银行卡开户人姓名</div>
+                                </li>
+                                <li>
+                                    <span>银行账号</span>
+                                    <input type="text" class="bank_card_input" id="J-input-card-number" name="account" value="">
+                                    <div class="bank_card_ts">请输入旧的银行卡卡号</div>
+                                </li>
+                                <li>
+                                    <span>您初中班主任的名字是？</span>
+                                    <input type="text" class="bank_card_input" id="J-input-question" name="question" value="">
+                                    <div class="bank_card_ts">请填写安全问题答案</div>
+                                </li>
+                                <li>
+                                    <span>资金密码</span>
+                                    <input type="password" class="bank_card_input" id="J-input-password" name="fund_password" value="" placeholder="为了您的资金安全请使用虚拟键盘">
+                                    <span class="key-logo "></span>
+                                    <!-- <div class="bank_card_ts">默认是使用键盘输入的，除修改资金密码以外</div> -->
+                                </li>
+                                <li>
+                                    <a href="boundBank.html" class="bank_card_return">返回</a>
+
+                                    <input type="submit" value="下一步" class="bank_card_xyb" id="J-submit">
+
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="bank_card_1 row">
-                        <ul class="bank_card_1ul">
-                            <li>
-                                <div id="J-select-bankCards" class="query_rx"><span class="query_dsp">请选择你要验证银行卡：</span><input type="hidden" name="id" id="J-hidden-J-select-bank-card" value="-1"><span class="query_xl time_input_2 very_show" style="width:300px" id="J-div-head-id"><span id="J-select-text-J-select-bank-card">请选择开户银行</span><ul class="very_hide" name="options" id="J-option-J-select-bank-card"><li id="J-select-option-J-select-bank-card--1" name="J-select-optionJ-select-bank-card" value="-1">请选择开户银行</li><li class="last_li" id="J-select-option-J-select-bank-card-22" name="J-select-optionJ-select-bank-card" value="22">**** **** **** *** 1231</li></ul></span></div>
-                            </li>
-                            <li>
-                                <span>开户人姓名</span>
-                                <input type="text" class="bank_card_input" id="J-input-name" name="account_name" value="" maxlength="20">
-                                <div class="bank_card_ts">请输入旧的银行卡开户人姓名</div>
-                            </li>
-                            <li>
-                                <span>银行账号</span>
-                                <input type="text" class="bank_card_input" id="J-input-card-number" name="account" value="">
-                                <div class="bank_card_ts">请输入旧的银行卡卡号</div>
-                            </li>
-                            <li>
-                                <span>您初中班主任的名字是？</span>
-                                <input type="text" class="bank_card_input" id="J-input-question" name="question" value="">
-                                <div class="bank_card_ts">请填写安全问题答案</div>
-                            </li>
-                            <li>
-                                <span>资金密码</span>
-                                <input type="password" class="bank_card_input" id="J-input-password" name="fund_password" value="" placeholder="为了您的资金安全请使用虚拟键盘">
-                                <span class="key-logo "></span>
-                                <!-- <div class="bank_card_ts">默认是使用键盘输入的，除修改资金密码以外</div> -->
-                            </li>
-                            <li>
-                                <a href="boundBank.html" class="bank_card_return">返回</a>
-
-                                <input type="submit" value="下一步" class="bank_card_xyb" id="J-submit" onclick="location.href='IncreaseTheBindingBankCard02.html'">
-
-                            </li>
-                        </ul>
-                    </div>
+                    <!-- 上面是跟绑定新银行卡的页面区分 -->
                 </div>
-                <!-- 上面是跟绑定新银行卡的页面区分 -->
-            </div>
+            </form>
+
             <!--绑定银行卡结束-->
         </div>
         <!-- 每个导航链接里面的内容结束 -->
@@ -229,10 +232,20 @@
 <script src="../../../js/withdraw.js"></script>
 <script src="../../../js/jc.Tip.js"></script>
 <script>
-
-    
     moneyInput(false,undefined,undefined,undefined,'#J-input-card-number');
+    $('.bank_card_xyb').on('click',function(){
+        var _thisIf = true;
 
+        $('.bank_card_1ul li input').each(function(){
+            if($(this).val() == '') {
+                layer.msg($(this).prev().text()+'不能为空');
+                _thisIf = false;
+                return false;
+            }
+        });
+
+        return _thisIf;
+    })
 </script>
 </body>
 </html>

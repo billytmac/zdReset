@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0036518a-28e0-4a29-92b3-622e296b9409" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/zd.css" afterPath="$PROJECT_DIR$/css/zd.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" afterPath="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/platformBulletin.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/platformBulletin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03..html" afterPath="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,83 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="passwordManagement01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-692">
-              <caret line="236" column="57" lean-forward="true" selection-start-line="236" selection-start-column="57" selection-end-line="236" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="safetyProblem01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zd.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/zd.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="1370" column="19" lean-forward="true" selection-start-line="1370" selection-start-column="19" selection-end-line="1370" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agency-dividend_report-computerGame.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-computerGame.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="412" column="44" lean-forward="true" selection-start-line="412" selection-start-column="44" selection-end-line="412" selection-end-column="44" />
-              <folding>
-                <marker date="1514898843517" expanded="true" signature="23379:23386" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="platformBulletinDetails.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/platformBulletinDetails.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="platformBulletin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/platformBulletin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="178" column="29" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="passwordManagement02.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+            <state relative-caret-position="307">
+              <caret line="181" column="8" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncreaseTheBindingBankCard01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="225" column="46" lean-forward="true" selection-start-line="225" selection-start-column="46" selection-end-line="225" selection-end-column="46" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11610">
+              <caret line="419" column="0" lean-forward="true" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,30 +54,81 @@
       <file leaf-file-name="IncreaseTheBindingBankCard02.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="232" column="47" lean-forward="true" selection-start-line="232" selection-start-column="47" selection-end-line="232" selection-end-column="47" />
+            <state relative-caret-position="266">
+              <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="240" selection-end-column="45" />
+              <folding>
+                <element signature="n#li#0;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#1;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncreaseTheBindingBankCard01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="223" column="14" lean-forward="true" selection-start-line="223" selection-start-column="14" selection-end-line="224" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency-Team_management-dividend-computerGame.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html">
+      <file leaf-file-name="safetyProblem02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="306" column="8" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="347" selection-end-column="14" />
+            <state relative-caret-position="-4283">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="safetyProblem03.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3656">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bindingBankCard02.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bindingBankCard01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
               <folding>
-                <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1514950603302" expanded="true" signature="14876:14885" ph="..." />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#6;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zd.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/zd.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="483" column="0" lean-forward="true" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,6 +156,10 @@
       <find>历史</find>
       <find>信息</find>
       <find>layui-layer-setwin</find>
+      <find>bank_card_1ul</find>
+      <find>body</find>
+      <find>location.href='IncreaseTheBindingBankCard02.html'</find>
+      <find>very_d3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,15 +210,15 @@
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-liveEntertainment.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-tableGame.html" />
         <option value="$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html" />
-        <option value="$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html" />
-        <option value="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/platformBulletin.html" />
-        <option value="$PROJECT_DIR$/css/zd.css" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html" />
         <option value="$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/zd.css" />
+        <option value="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html" />
+        <option value="$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html" />
+        <option value="$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html" />
       </list>
     </option>
   </component>
@@ -239,8 +236,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="y" value="69" />
+    <option name="x" value="54" />
     <option name="width" value="1857" />
     <option name="height" value="1060" />
   </component>
@@ -285,20 +281,7 @@
               <item name="zdReset" type="b2602c69:ProjectViewProjectNode" />
               <item name="zdReset" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zdReset" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zdReset" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="userCenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zdReset" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zdReset" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="userCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="agencyCenter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zdReset" type="b2602c69:ProjectViewProjectNode" />
@@ -351,15 +334,15 @@
       <workItem from="1514874368350" duration="6406000" />
       <workItem from="1514881086180" duration="843000" />
       <workItem from="1514881956730" duration="24648000" />
-      <workItem from="1514942017720" duration="13170000" />
+      <workItem from="1514942017720" duration="18796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61306000" />
+    <option name="totallyTimeSpent" value="66932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="69" width="1857" height="1060" extended-state="0" />
+    <frame x="54" y="0" width="1857" height="1060" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.257834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -411,13 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -495,13 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1009">
           <caret line="377" column="7" lean-forward="true" selection-start-line="377" selection-start-column="7" selection-end-line="378" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -630,22 +599,22 @@
         <state relative-caret-position="-147">
           <caret line="363" column="9" lean-forward="false" selection-start-line="363" selection-start-column="9" selection-end-line="363" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#2;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,30 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7388">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="367" column="13" lean-forward="true" selection-start-line="367" selection-start-column="13" selection-end-line="367" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="206" column="29" lean-forward="true" selection-start-line="206" selection-start-column="29" selection-end-line="206" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement03.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3294">
@@ -730,17 +675,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-Team_management-dividend-computerGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="-98">
           <caret line="306" column="8" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="347" selection-end-column="14" />
           <folding>
             <element signature="n#style#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -757,18 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="225" column="46" lean-forward="true" selection-start-line="225" selection-start-column="46" selection-end-line="225" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/agencyCenter/agency-dividend_report-computerGame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="412" column="44" lean-forward="true" selection-start-line="412" selection-start-column="44" selection-end-line="412" selection-end-column="44" />
+        <state relative-caret-position="-371">
+          <caret line="412" column="44" lean-forward="false" selection-start-line="412" selection-start-column="44" selection-end-line="412" selection-end-column="44" />
           <folding>
             <marker date="1514898843517" expanded="true" signature="23379:23386" ph="..." />
           </folding>
@@ -778,55 +707,123 @@
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/platformBulletinDetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/platformBulletin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="178" column="29" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="232" column="47" lean-forward="true" selection-start-line="232" selection-start-column="47" selection-end-line="232" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/zd.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="1370" column="19" lean-forward="true" selection-start-line="1370" selection-start-column="19" selection-end-line="1370" selection-end-column="19" />
+        <state relative-caret-position="-368">
+          <caret line="178" column="29" lean-forward="false" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-692">
-          <caret line="236" column="57" lean-forward="true" selection-start-line="236" selection-start-column="57" selection-end-line="236" selection-end-column="57" />
+        <state relative-caret-position="-881">
+          <caret line="236" column="57" lean-forward="false" selection-start-line="236" selection-start-column="57" selection-end-line="236" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
+        <state relative-caret-position="577">
           <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11610">
+          <caret line="419" column="0" lean-forward="true" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4283">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/safetyProblem03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3656">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/zd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="483" column="0" lean-forward="true" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="236" column="0" lean-forward="false" selection-start-line="236" selection-start-column="0" selection-end-line="240" selection-end-column="45" />
+          <folding>
+            <element signature="n#li#0;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/bindingBankCard01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#6;n#ul#0;n#form#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/IncreaseTheBindingBankCard01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="223" column="14" lean-forward="true" selection-start-line="223" selection-start-column="14" selection-end-line="224" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/userCenter/userManagement/passwordManagement02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+        <state relative-caret-position="307">
+          <caret line="181" column="8" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
           <folding />
         </state>
       </provider>

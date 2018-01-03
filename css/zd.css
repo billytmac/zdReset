@@ -144,9 +144,6 @@ i {
     background: url("../images/userCenter_img/xx55.png");
 }
 
-.main_0bd {
-    background-position: all;
-}
 
 .main_0bdv {
     padding: 15px 20px;
@@ -239,7 +236,7 @@ i {
     left: 15px;
     transition: left 0.5s, opacity 0.2s;
     opacity: 1;
-    opacity: alpha(opacity=100);
+
 }
 
 .main_0bul li a:hover .xl_i {
@@ -484,7 +481,7 @@ i {
     line-height: 22px;
     color: #666;
 }
-}
+
 /*详情*/
 .x_xfx_ul {
     padding-top: 5px;
