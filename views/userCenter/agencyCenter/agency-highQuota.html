@@ -377,10 +377,9 @@
     <script>
         $(function () {
             $(".x_num > span").click(function () {
-                $(".j-ui-mask").css({display:'block'});
                 layer.open({
-                    type: 1
-                    ,move:false,
+                    type: 1,
+                    shade: [0.6, '#000'],
                     title: ['高点配额', '    height: 44px;\n' +
                     '    padding: 0 15px;\n' +
                     '    font-size: 14px;\n' +
@@ -395,10 +394,11 @@
                     '    background-color: #F0F0F0;'],
                     skin: 'layui-layer-rim', //加上边框
                     area: ['646px','401px'], //宽高
-                    offset:['30%','40%'],
+                    offset:['30%','40%']
+                    ,move:false,
                     content: $("#myRules").html()
                     , success: function(layero, index){
-                        var ParBody = parent.document.getElementsByTagName('body')[0];
+                        var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
 
                         var _lay = layero[0];
@@ -415,12 +415,7 @@
                     }
 
                 });
-                $(document).on('click','.layui-layer-ico.layui-layer-close.layui-layer-close1',function(){
-                    $('#myRules').hide();
-                    $('.j-ui-mask').hide();
 
-
-                });
             });
 
 
@@ -428,8 +423,7 @@
         });
 
     </script>
-    <div class="j-ui-mask" style="position: fixed; left: 0px; top: 0px; opacity: 0.7; background-color: rgb(0, 0, 0); z-index: 600; width: 1903px; height: 1040px; display: none;"></div>
-        <div  id="myRules" style="display:none;" class="pop high-point-wd edit-under-quota" style="z-index: 700; position: fixed; left: 303px; top: 415.5px; opacity: 1;"><div class="pop-bd">
+        <div  id="myRules" style="background-color:#F0F0F0; display: none;padding: 10px" class="pop high-point-wd edit-under-quota" style="z-index: 700; position: fixed; left: 303px; top: 415.5px; opacity: 1;"><div class="pop-bd">
             <div class="proxy-wd-point-cont">
                 <form id="J-form-wd" action="/my-overlimit-quotas/save" method="post">
                     <input type="hidden" name="_token" value="ZUbTcN7UGjqFpq2OkVWuc11iA00CclACxZGOpPn6">
@@ -446,7 +440,7 @@
                                 <div style="text-align:left;padding-left:10px;">
                                     调整理由:
                                     <br>
-                                    <textarea maxlength="100" name="note" class="textarea" placeholder="100字以内"></textarea>
+                                    <textarea maxlength="100"style="background-color: #F0F0F0; width: 250px;height: 95px ;padding: 10px"   name="note" class="textarea" placeholder="100字以内"></textarea>
                                 </div>
                             </td>
                         </tr>
@@ -460,7 +454,7 @@
                             <td align="right">拥有配额：</td>
                             <td>
                                 <p style="display: inline-block;margin-right: 10px;">0</p>
-                                <select style="display: inline-block;" id="J-select-add-num" name="plus_num">
+                                <select style="display: inline-block; background-color:#FFF;border: 1px solid #adadad;" id="J-select-add-num" name="plus_num">
                                     <option value="0">增加</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option><option value="60">60</option><option value="61">61</option><option value="62">62</option><option value="63">63</option><option value="64">64</option><option value="65">65</option><option value="66">66</option><option value="67">67</option><option value="68">68</option><option value="69">69</option><option value="70">70</option><option value="71">71</option><option value="72">72</option><option value="73">73</option><option value="74">74</option><option value="75">75</option><option value="76">76</option><option value="77">77</option><option value="78">78</option><option value="79">79</option><option value="80">80</option><option value="81">81</option><option value="82">82</option><option value="83">83</option><option value="84">84</option><option value="85">85</option><option value="86">86</option><option value="87">87</option><option value="88">88</option><option value="89">89</option><option value="90">90</option><option value="91">91</option><option value="92">92</option><option value="93">93</option><option value="94">94</option><option value="95">95</option><option value="96">96</option>
                                 </select>
                                 <span style="font-size:12px;">可用: 96</span>
@@ -470,7 +464,7 @@
                             <td align="right">未使用配额：</td>
                             <td>
                                 <p style="display: inline-block; margin-right: 10px;">0</p>
-                                <select style="display: inline-block;" id="J-select-back-num" name="subtract_num">
+                                <select style="display: inline-block; background-color: #FFF;border: 1px solid #adadad;" id="J-select-back-num" name="subtract_num">
                                     <option value="0">回收</option>
                                 </select>
                             </td>
@@ -478,24 +472,19 @@
                         </tbody></table>
                 </form>
 
-                <div class="history-cont">
-                    <table width="100%">
-                        <thead>
-                        <tr style="height:30px; font-size:14px; padding: 5px 0">
-                            <th>历史变化</th>
-                            <th>新增</th>
-                            <th>减少</th>
-                            <th>时间</th>
-                            <th width="300">理由</th>
-                        </tr>
-                        </thead>
-                        <tbody>
+                <div class="history-cont" style="padding: 20px;">
 
-                        </tbody>
-                    </table>
+                    <div style="height:30px;line-height: 10px; font-size:14px; background-color: #F0F0F0; padding: 10px">
+                        <ul  style="display: flex">
+                            <li style="flex: 2 ;text-align: center">历史变化</li>
+                            <li style="flex: 1 ;text-align: center">新增</li>
+                            <li style="flex: 1 ;text-align: center">减少</li>
+                            <li style="flex: 5 ;text-align: center">理由</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div><div class="pop-btn"><a style="display: inline-block;" href="javascript:void(0);" class="btn confirm"><span> 保 存 </span><b class="btn-inner"></b></a><a style="display:none" href="javascript:void(0);" class="btn cancel"><span>取 消</span><b class="btn-inner"></b></a><a href="javascript:void(0);" style="display:none" class="btn closeTip"><span>关 闭</span><b class="btn-inner"></b></a><a href="javascript:void(0);" style="display:none" class="btn closeTip"><span>关 闭</span><b class="btn-inner"></b></a></div></div>
+        </div><div class="pop-btn" style="text-align: center;padding: 5px;"><a href="javascript:void(0);" class="btn confirm" style="display: inline-block;background-color: #61607A;width: 75px;height: 32px;text-align: center;line-height: 33px;color: #FFF;margin-top: 80px">保 存 </a><a style="display:none" href="javascript:void(0);" class="btn cancel"><span>取 消</span><b class="btn-inner"></b></a><a href="javascript:void(0);" style="display:none" class="btn closeTip"><span>关 闭</span><b class="btn-inner"></b></a><a href="javascript:void(0);" style="display:none" class="btn closeTip"><span>关 闭</span><b class="btn-inner"></b></a></div></div>
 </body>
 <script src="../../../js/jquery.min.js"></script>
 <script src="../../../js/js.js"></script>
