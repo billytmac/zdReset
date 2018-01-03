@@ -152,7 +152,7 @@
                         <p>用户向正点平台发起提取现金的申请，待平台审核通过后向用户指定的银行账号汇入资金。</p>
                     </div>
 
-                    <form action="http://www.zdgame888.com/user-withdrawals/withdraw/1" method="get" id="J-form">
+                    <form action="" method="get" id="J-form">
                         <input type="hidden" name="_token" value="OSA6m5yHC8IBKb66O31PVXj9a1uSNurvqKFbG6Bi">
 
                         <div class="x_axl2 ag_x_axl2">
@@ -311,6 +311,7 @@
 </body>
 </html>
 <script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/layui/layui.all.js"></script>
 <script src="../../../js/jc.base.js"></script>
 <script src="../../../js/jc.Keyboard.js"></script>
 <script src="../../../js/jc.Tip.js"></script>
@@ -318,5 +319,84 @@
 <script src="../../../js/public.js"></script>
 <script>
     //调用放大输入input
-    moneyInput('#J-input-Amount');
+    moneyInput(false,undefined,'#J-input-Amount');
+
+    $('.list.confirm button').on('click',function(){
+        if($('#J-input-out-id').val() == '' || $('#J-input-out-id').val() == $('#J-input-in-id').val()) {
+            layer.open({
+                title: '信息'
+                ,icon: 2
+                ,content: '额度转换失败!转入方与转出方不能相同！'
+                ,success: function(layero, index){
+                    var ParBody = parent.document.getElementsByTagName('body')[0];
+                    ParBody.appendChild(layero[0]);
+
+                    var _lay = layero[0];
+                    var _width = -(_lay.offsetWidth) / 2;
+                    var _height = -(_lay.offsetHeight) / 2;
+
+                    _lay.style.marginTop = _height + "px";
+                    _lay.style.marginLeft = _width + "px";
+                    _lay.style.left = "50%";
+                    _lay.style.top = "50%";
+
+                    var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                    ParBody.appendChild(shade);
+                }
+            })
+            return false;
+        }
+
+
+        if($('#J-input-Amount').val() == '') {
+            layer.open({
+                title: '信息'
+                ,icon: 2
+                ,content: '额度转换失败!请填写正确的转账金额！'
+                ,success: function(layero, index){
+                    var ParBody = parent.document.getElementsByTagName('body')[0];
+                    ParBody.appendChild(layero[0]);
+
+                    var _lay = layero[0];
+                    var _width = -(_lay.offsetWidth) / 2;
+                    var _height = -(_lay.offsetHeight) / 2;
+
+                    _lay.style.marginTop = _height + "px";
+                    _lay.style.marginLeft = _width + "px";
+                    _lay.style.left = "50%";
+                    _lay.style.top = "50%";
+
+                    var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                    ParBody.appendChild(shade);
+                }
+            })
+            return false;
+        }
+
+        if($('#J-input-Password').val() == '') {
+            layer.open({
+                title: '信息'
+                ,icon: 2
+                ,content: '资金密码不能为空'
+                ,success: function(layero, index){
+                    var ParBody = parent.document.getElementsByTagName('body')[0];
+                    ParBody.appendChild(layero[0]);
+
+                    var _lay = layero[0];
+                    var _width = -(_lay.offsetWidth) / 2;
+                    var _height = -(_lay.offsetHeight) / 2;
+
+                    _lay.style.marginTop = _height + "px";
+                    _lay.style.marginLeft = _width + "px";
+                    _lay.style.left = "50%";
+                    _lay.style.top = "50%";
+
+                    var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                    ParBody.appendChild(shade);
+                }
+            })
+            return false;
+        }
+    })
+
 </script>

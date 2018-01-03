@@ -240,6 +240,7 @@
 </body>
 </html>
 <script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/layui/layui.all.js"></script>
 <script src="../../../js/js.js"></script>
 <script src="../../../js/jc.base.js"></script>
 <script src="../../../js/jc.Tip.js"></script>
@@ -247,5 +248,24 @@
 <script src="../../../js/public.js"></script>
 <script>
     //调用放大输入input
-    moneyInput('#textl');
+    moneyInput(false,undefined,'#textl');
+
+//    layer.msg('转账用户名不能为空');
+
+    $('.menu_list-box').on('click',function(){
+        $('.xsd-sban').css('display','block');
+    })
+    $('#J-submit').on('click',function(){
+        if($('#textl').val() == '') {
+            layer.msg('提款金额不能为空');
+            return false;
+        }
+        if($('.xsd-sban').css('display') == 'block') {
+            return true;
+        }else {
+            layer.msg('请选择提款的银行卡');
+            return false;
+        }
+    })
+
 </script>

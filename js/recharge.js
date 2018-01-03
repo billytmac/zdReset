@@ -1,5 +1,5 @@
 //调用放大输入input
-moneyInput('#J-input-money');
+moneyInput(false,undefined,'#J-input-money');
 
 function changeRadio(id) {
     var aBankItems = $('.con17_c2rightc').find('li').each(function () {
