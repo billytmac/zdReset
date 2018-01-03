@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>每日投注</title>
-    <link rel="stylesheet" type="text/css" href="../../css/bgimg.css"/>
+    <link rel="stylesheet" type="text/css" href="../../bgimg.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/activity.css"/>
 </head>
@@ -254,6 +254,7 @@
                 title: '信息'
                 ,icon: 2
                 ,content: '活动已结束'
+                , move: false
                 ,success: function(layero, index){
                     var ParBody = parent.document.getElementsByTagName('body')[0];
                     ParBody.appendChild(layero[0]);

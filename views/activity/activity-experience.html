@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>58元体验码</title>
-    <link rel="stylesheet" type="text/css" href="../../css/bgimg.css"/>
+    <link rel="stylesheet" type="text/css" href="../../bgimg.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/style.css"/>
     <link rel="stylesheet" type="text/css" href="../../css/activity.css"/>
 </head>
@@ -178,6 +178,7 @@
                 layer.open({
                     title: '信息'
                     ,btn: ['马上兑换', '取消']
+                    , move: false
                     ,content: '是否兑换【 '+VoucherKey+' 】', success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);

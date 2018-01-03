@@ -27,11 +27,11 @@ dt{font-weight:700;}
 .float-left{float:left;}
 .float-right{float:right;}
 
-#b1{background:#585568;}
-#b2{background:#222f38;}
-#b3{background:#00b599;}
-#b4{background:#5d473a;}
-#b4{background:#5d473a url(../images/img/dui.png)}
+/*#b1{background:#585568;}*/
+/*#b2{background:#222f38;}*/
+/*#b3{background:#00b599;}*/
+/*#b4{background:#5d473a;}*/
+/*#b4{background:#5d473a url(../images/img/dui.png)}*/
 
 .theme-popover-f{position:fixed;top:0;z-index:5;display:none;width:100%;height:100%;}
 .theme-popover-mask{position:fixed;top:0;left:0;z-index:5;display:none;width:100%;height:100%;background:#000;opacity:.4;filter:alpha(opacity=40);}
@@ -48,7 +48,7 @@ dt{font-weight:700;}
 
 .mian{position: absolute;top: 50%;left: 50%;width:1030px;margin-left: -505px;margin-top: -239px;}
 /*#cds{width:100%;position:absolute;top:0;}*/
-/*!*新添加版本的css*!.main_b0{width:70px;float:left;}*/
+/*/*新添加版本的css*!.main_b0{width:70px;float:left;}*/
 .icon{vertical-align:middle;display:inline-block;}
 .posiwtim{width:100%;text-align:center;float:left;}
 .time{cursor:pointer;border: #c8c8c8 solid 1px;background:#fff url(../images/img/h_img1.png) no-repeat center right 5px;height:30px;line-height:30px;padding:5px;color:#4f473c;font-size:12px;}
@@ -90,7 +90,6 @@ dt{font-weight:700;}
     margin-bottom: 10px;
 }
 .icon_info {
-    background: url(../images/userCenter_img/info.png) no-repeat;
     width: 15px;
     height: 15px;
     margin: 0 3px 0 5px;
@@ -139,7 +138,6 @@ li.x_axull:last-child{
     display: inline-block;
 }
 .query_xl {
-    background: url(../images/userCenter_img/h_img1.png) no-repeat center right 5px,linear-gradient(to bottom,#fff 0%,rgba(0,0,0,0.05) 100%);
     height: 30px;
     line-height: 30px;
     width: 150px;
@@ -220,7 +218,6 @@ li.x_axull:last-child{
 }
 /*图标*/
 .W_ICBC .mgsm212 {
-    background: url(../images/userCenter_img/ICBC.png)no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
@@ -467,7 +464,6 @@ thead .ag_status_gap {
     display: inline-block;
     width: 24px;
     height: 16px;
-    background: url(../images/userCenter_img/keyboard-off.png) no-repeat;
     position: relative;
     top: 4px;
     left: 2px;
@@ -688,7 +684,6 @@ thead .ag_status_gap {
 .icon_cz{
     width: 25px;
     height: 25px;
-    background:url(../images/userCenter_img/ui-bank-4.png) no-repeat;
     margin-right:5px;
 }
 .icon_cz_bankcard {
@@ -749,7 +744,6 @@ thead .ag_status_gap {
 }
 /*银行图标*/
 .con17_c2rightcon {
-    background: url(../images/userCenter_img/ui-bank.png) no-repeat;
     width: 126px;
     height: 40px;
     display: flex;
@@ -834,18 +828,10 @@ thead .ag_status_gap {
 /*支付宝支付*/
 .Alipay {
     width: 100%;
-    background:url(../images/userCenter_img/bank-alipay.jpg)no-repeat -3px;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
-/*微信支付*/
-.DDBWXWX {
-    background:url(../images/userCenter_img/bank-weixinpay.jpg)no-repeat -3px;
-}
-/*QQ支付*/
-.ZFTECNETTENCENT {
-    background:url(../images/userCenter_img/PC-QQpay.jpg)no-repeat -3px;
-}
+
 /*充值金额*/
 .qssk_recharge_d.recharge-amount {
     display:block;
@@ -878,7 +864,6 @@ thead .ag_status_gap {
     display: flex;
 }
 .icon-tisas {
-    background: url(../images/userCenter_img/tip-bg.gif);
     width: 8px;
     height: 13px;
     display: inline-block;
@@ -1024,18 +1009,10 @@ thead .ag_status_gap {
 }
 .c9_a2{-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;border-radius:5px;padding:6px;-webkit-transition:all 0.3s ease-out 0s;-moz-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;-ms-transition:all 0.3s ease-out 0s;transition:all 0.3s ease-out 0s;}
 
-/*.xsd-sban-box {*/
-    /*width: 300px;*/
-    /*height: 132px;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-/*}*/
 .menu_list.menu_list-po {
     position: relative;
 }
 .xsd-sban {
-    background: url(../images/userCenter_img/bankcheck.png) no-repeat;
     width: 312px;
     height: 150px;
     position: absolute;
@@ -1130,7 +1107,6 @@ thead .ag_status_gap {
     width: 15px;
     height: 15px;
     display: inline-block;
-    background: url(../images/userCenter_img/tshi.png);
     vertical-align: middle;
     position: relative;
     top: -2px;
@@ -1152,7 +1128,6 @@ thead .ag_status_gap {
     width: 130px;
 }
 .fhcxz {
-    background: url(../images/userCenter_img/3.png);
     width: 118px;
     height: 36px;
     margin: 13px 0;
