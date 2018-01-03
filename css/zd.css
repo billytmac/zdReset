@@ -503,6 +503,7 @@ i {
 }
 
 .x_xfx_ul li {
+    cursor: pointer;
     font-size: 12px;
     height: 55px;
     width: 1130px;

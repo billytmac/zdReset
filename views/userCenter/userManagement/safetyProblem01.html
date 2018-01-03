@@ -237,43 +237,11 @@
 
 </html>
 <script src="../../../js/jquery.min.js"></script>
-<<script src="../../../js/layui/layui.all.js"></script>
+<script src="../../../js/layui/layui.all.js"></script>
 
 <script>
         setTimeout(function(){
 
-<<<<<<< HEAD
-     $(function () {
-             $('.new_on').on("click",function () {
-
-                 var parframe = parent.document.querySelector('iframe');
-                 parframe.style.height = document.body.offsetHeight + 'px';
-
-                 layer.open({
-                     title: '信息'
-                     ,icon: 2
-                     ,content: '您还未设置安全问题！这将导致您的账号存在风险！'
-                     , success: function(layero, index){
-                         var ParBody = parent.document.getElementsByTagName('body')[0];
-                         ParBody.appendChild(layero[0]);
-
-                         var _lay = layero[0];
-                         var _width = -(_lay.offsetWidth) / 2;
-                         var _height = -(_lay.offsetHeight) / 2;
-
-                         _lay.style.marginTop = _height + "px";
-                         _lay.style.marginLeft = _width + "px";
-                         _lay.style.left = "50%";
-                         _lay.style.top = "50%";
-
-                         var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                         ParBody.appendChild(shade);
-                     }
-                 })
-             })
-     })
-
-=======
             layer.open({
                 title: '信息'
                 ,icon: 2
@@ -301,16 +269,15 @@
 
                         var ParBody = parent.document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
-                        
+
                         var shade = document.getElementsByClassName('layui-layer-shade')[0];
                         ParBody.appendChild(shade);
-                        
+
 
                     }
                 })
 
         },100);
->>>>>>> 7c6d071f94a231eed10ec216c5b94c4f8b7bd860
 
 </script>
 <script src="../../../js/public.js"></script>
