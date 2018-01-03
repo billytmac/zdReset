@@ -51,8 +51,8 @@ button, input {
 .main_b0{width:70px;float:left;background: #275673;}
 /* 每个图标的显示的开始 */
 .icon{vertical-align:middle;display:inline-block;}
-.icon-set{background:url("../images/userCenter_img/icon-set.png");width:29px;height:29px;background-size:100%;}
-.icon-b1{width:36px;height:35px;background:url("../images/userCenter_img/icon-b4.png") no-repeat;}
+.icon-set{width:29px;height:29px;background-size:100%;}
+.icon-b1{width:36px;height:35px;}
 .icon-b2{background-position-x:-46px;}
 .icon-b3{background-position-x:-92px;}
 .icon-b4{background-position-x:-138px;}
