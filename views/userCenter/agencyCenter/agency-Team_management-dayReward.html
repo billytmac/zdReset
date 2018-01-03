@@ -482,6 +482,8 @@ $('#add-button').on('click', function() {
         $('#rulesDiv').append(htmlText);
     } else {
         $('#rulesDiv').append(htmlText);
+        var parframe = parent.document.querySelector('iframe');
+        parframe.style.height = document.body.offsetHeight + 'px';
     }
 
 })
