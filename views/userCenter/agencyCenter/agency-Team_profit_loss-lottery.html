@@ -196,28 +196,6 @@
                                 </div>
                             </form>
                         </div>
-                        <script>
-                        //点击下拉
-                        $(function() {
-                            var select = new Select({
-                                parentId: 'J-div-user-property',
-                                width: 80,
-                                name: 'is_agent',
-                                id: 'J-select-user-groups',
-                                defaultValue: '-1',
-                                options: [
-                                    { name: '全部用户', value: '-1' },
-                                    { name: '自己', value: '2' },
-                                    { name: '下级', value: '1' },
-                                ]
-                            });
-                        })
-
-                        function goToSub(iUserId) {
-                            $("#txt_u").val(iUserId);
-                            $("#J-submit").click();
-                        }
-                        </script>
                         <div class="current_user" style="margin-top: 15px;">
                             <span class="index0"><a href="https://www.zd03.net/user-profits/team">zoop888</a></span>
                             <span class="current_text">当前</span>
