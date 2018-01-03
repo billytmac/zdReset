@@ -1,15 +1,14 @@
-#mian_body{background:url(../images/img/bfoj.jpg) !important;}
-.icon-ay{width:29px;height:25px;background-image:url(../images/activity/icon-activity.png);background-repeat:no-repeat;}
+.icon-ay{width:29px;height:25px;background-repeat:no-repeat;}
 .icon-ay1{background-position-x: -38px;}
 .icon-ay2{background-position-x: -77px;}
 .icon-ay3{background-position-x: -119px;}
 .icon-ay4{background-position-x: -158px;}
 .icon-ay5{background-position-x: -201px;}
 
-.icon-aytime{background:url(../images/activity/icon-time.png);width:20px;height:20px;}
+.icon-aytime{width:20px;height:20px;}
 
-.icon-ayth{background:url(../images/activity/icon-th.png);width:22px;height:22px;}
-.icon-aysu{background:url(../images/activity/icon-su.png);width:19px;height:20px;}
+.icon-ayth{width:22px;height:22px;}
+.icon-aysu{width:19px;height:20px;}
 .activity{width:1250px;margin:0 auto;padding:10px 0 35px;}
 .activity_nav{border:1px solid #e8e8e8;border-top: none;}
 .activity_nav{background:#fff;height:90px;margin-bottom:10px;}
@@ -25,8 +24,8 @@
     background: linear-gradient(#efefef, #fff); /* 标准的语法（必须放在最后） */
 }
 .activity_ul li a:hover p,.activity_ul li a.on p{color:#018c75;font-weight:bold;}
-.activity_ul li a:hover i,.activity_ul li a.on i{background-image:url(../images/activity/icon-activity2.png);background-repeat:no-repeat;}
-.activity_mian{border:1px solid #e8e8e8;position:relative;padding:20px;background-color:#fff;background-image:url(../images/activity/a_zdyx.png);background-position:bottom right;background-repeat:no-repeat;}
+.activity_ul li a:hover i,.activity_ul li a.on i{background-repeat:no-repeat;}
+.activity_mian{border:1px solid #e8e8e8;position:relative;padding:20px;background-color:#fff;background-position:bottom right;background-repeat:no-repeat;}
 .activity_row:before,.activity_row:after{display: table; content: " ";clear:both;}
 .activity_tp1{background:#f1f1f1;padding:15px;margin-bottom:30px;}
 .activity_aysl{float:left;width:50%;display:inline-block;text-align:left;	}
@@ -42,7 +41,7 @@
 .activity_kq{width:1220px;margin-bottom:35px;}
 /*未领取*/
 .activity_kqul{position:relative;}
-.activity_kqul .activity_kqli{margin-right:20px;margin-bottom:15px;position:relative;padding:15px 15px 0 15px;float:left;width:285px;height:103px;background:url(../images/activity/kk.png);}
+.activity_kqul .activity_kqli{margin-right:20px;margin-bottom:15px;position:relative;padding:15px 15px 0 15px;float:left;width:285px;height:103px;}
 .activity_kqk{margin-bottom:10px;}
 .activity_kqk i{font-style:normal;color:#fe3253;}
 .activity_kqk .activity_kqj{color:#fe3253;font-size:35px;font-weight:bold;margin:0 5px;}
@@ -51,8 +50,8 @@
 .activity_kqul a{color:#fe3253;border-radius:5px;border:1px solid #fe3253;height:30px;width:70px;line-height:30px;text-align:center;display:inline-block;position:absolute;top:35px;right:15px;transition:0.2s;}
 .activity_kqul a:hover{background:#fe3253;color:#fff;transition:0.2s;}
 /*已领取*/
-.activity_kqul .activity_kqli2:before{display: table; content: " ";width:100%;height:100%;z-index:1;background:url(../images/activityg/lq.png) no-repeat bottom right;position:absolute;top:0;left:0;}
-.activity_kqul .activity_kqli2{background-image:url(../images/activity/kk_hui.jpg);background-size:cover;color:#d7d7d7;}
+.activity_kqul .activity_kqli2:before{display: table; content: " ";width:100%;height:100%;z-index:1;position:absolute;top:0;left:0;}
+.activity_kqul .activity_kqli2{background-size:cover;color:#d7d7d7;}
 .activity_kqli2 .activity_kqj,.activity_kqli2 i,.activity_kqli2 .activity_kqk2{color:#d7d7d7;}
 .activity_kqli2 a{color:#d7d7d7;border:1px solid #d7d7d7;}
 
@@ -79,12 +78,10 @@
 .activity_qdul{margin-bottom:30px;padding:35px 20px;font-size: 0px;}
 
 /*已签到*/
-.activity_qdul .activity_qdon .activity_qdd{color:#018b72;background:url(../images/activity/ac_yc.png);border:none;}
+.activity_qdul .activity_qdon .activity_qdd{color:#018b72;border:none;}
 .activity_qdul .activity_qdon .activity_qddy p{color:#018b72;}
 .activity_qdul .activity_qdon .activity_qddy2 span{background:#018b72;}
 
-/**/
-.activity_dlb{background:url(../images/activity/a_dlb.png) no-repeat center;}
 
 .activity_qdyi{display: inline-block;vertical-align: middle;}
 .activity_qdyia1{font-size:18px;text-align:center;border-radius:25px;display:block;color:#ff7200;width:132px;height:50px;line-height:50px;border:1px solid #ffa800;}
@@ -95,7 +92,7 @@
 .activity_time_1{color:#ff6c00;font-size:20px;margin:0 8px 0 10px;display:inline-block;font-weight:bold;}
 .activity_time_2{color:#878787;font-size:14px;display:inline-block;}
 .activity_new_ul{width:1244px;margin-bottom:35px;}
-.activity_new_li{margin-bottom:15px;margin-right:40px;background:url(../images/activity/ac_xq.png);width:271px;height:134px;float:left;}
+.activity_new_li{margin-bottom:15px;margin-right:40px;width:271px;height:134px;float:left;}
 .activity_new_d{border-left:8px solid #ff9c00;height:100%;width:100%;border-radius:3px;padding:10px 25px 0;position:relative;}
 .activity_new_dv i{color:#ff9c00;font-size:20px;font-style:normal;margin-right:8px;}
 .activity_new_dv span{color:#ff9c00;font-size:35px;font-weight:bold;}
@@ -112,7 +109,7 @@
 /*每日首冲*/
 .activity_nc {margin-bottom:35px;}
 .activity_nc .activity_ncd:last-child{margin-right:0;}
-.activity_ncd{width:390px;height:204px;background:url(../images/activity/a_sc.png);float:left;margin-right:19px}
+.activity_ncd{width:390px;height:204px;float:left;margin-right:19px}
 .activity_ncd1{height:120px;padding-left:150px;text-align:center;line-height:120px;}
 .activity_ncd1 i{font-style:normal;color:#fff;font-size:26px;margin-right:5px;}
 .activity_ncd1 span{font-size:58px;color:#fff;}

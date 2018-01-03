@@ -39,15 +39,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /*游戏记录*/
 
 
@@ -89,10 +80,20 @@
 
 
 /*优惠活动*/
-
-
-
-
+#mian_body{background:url(../images/img/bfoj.jpg)}
+.icon-ay{background-image:url(../images/activity/icon-activity.png);}
+.icon-aytime{background:url(../images/activity/icon-time.png);}
+.icon-ayth{background:url(../images/activity/icon-th.png);}
+.icon-aysu{background:url(../images/activity/icon-su.png);}
+.activity_ul li a:hover i,.activity_ul li a.on i{background-image:url(../images/activity/icon-activity2.png);}
+.activity_mian{background-image:url(../images/activity/a_zdyx.png);}
+.activity_kqul .activity_kqli{background:url(../images/activity/kk.png);}
+.activity_kqul .activity_kqli2:before{background:url(../images/activityg/lq.png) no-repeat bottom right;}
+.activity_kqul .activity_kqli2{background-image:url(../images/activity/kk_hui.jpg);}
+.activity_qdul .activity_qdon .activity_qdd{background:url(../images/activity/ac_yc.png);}
+.activity_dlb{background:url(../images/activity/a_dlb.png) no-repeat center;}
+.activity_new_li{background:url(../images/activity/ac_xq.png);}
+.activity_ncd{background:url(../images/activity/a_sc.png);}
 /*优惠活动结束*/
 
 
