@@ -355,6 +355,7 @@
                         <span>服务时间 10:00~02:00</span>
                     </div>
                 </div>
+<<<<<<< HEAD
             </li>
             <li>
                 <a href="javascript:void(0);" class="side-a" id="J-global-panel-feedback">
@@ -457,6 +458,22 @@
             </div>
         </div>
     </div>
+=======
+
+
+                <script src="js/jquery.min.js"></script>
+                <script src="js/layui/layui.all.js"></script>
+                <script src="js/index.js"></script>
+                <script>
+                    $(document).on('click', '.layui-layer-btn0', function() {
+                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                        var lay = document.querySelector('.layui-layer.layui-layer-dialog');
+                        document.querySelector('body').removeChild(lay);
+                        document.querySelector('body').removeChild(shade);
+                    });
+                    $(document).on('click', '.layui-layer-ico.layui-layer-close.layui-layer-close1', function() {
+                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
+>>>>>>> f946935f59fb369b0dbc5e286369c68c8ae80f96
 
     <script src="js/jquery.min.js"></script>
     <script src="js/layui/layui.all.js"></script>

@@ -178,6 +178,7 @@
                 layer.open({
                     title: '信息'
                     ,btn: ['马上兑换', '取消']
+                    , move: false
                     ,content: '是否兑换【 '+VoucherKey+' 】', success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);

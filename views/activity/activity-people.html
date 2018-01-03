@@ -236,6 +236,7 @@
         layer.open({
           icon: 2,
           content: '很抱歉，该活动已经结束！',
+            move: false,
           success: function(layero, index){
             var ParBody = parent.document.getElementsByTagName('body')[0];
             ParBody.appendChild(layero[0]);
