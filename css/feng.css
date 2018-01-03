@@ -1036,7 +1036,7 @@ button, input {
   vertical-align: middle;
   font-size: 14px;
   color: #535471;
-  background: #F0EFF6;
+  background-color: #F0EFF6!important;
   border-radius: 2px;
   -moz-box-sizing: inherit;
   -webkit-box-sizing: inherit;
