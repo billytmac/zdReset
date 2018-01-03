@@ -470,21 +470,7 @@
         $(document).on('click', '.layui-layer-ico.layui-layer-close.layui-layer-close1', function() {
             var shade = document.getElementsByClassName('layui-layer-shade')[0];
 
-<<<<<<< HEAD
-                <script src="js/jquery.min.js"></script>
-                <script src="js/layui/layui.all.js"></script>
-                <script src="js/index.js"></script>
-                <script>
-                    $(document).on('click', '.layui-layer-btn0', function() {
-                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                        var lay = document.querySelector('.layui-layer.layui-layer-dialog');
-                        document.querySelector('body').removeChild(lay);
-                        document.querySelector('body').removeChild(shade);
-                    });
-                    $(document).on('click', '.layui-layer-ico.layui-layer-close.layui-layer-close1', function() {
 
-                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
-=======
             try {
                 var lay = document.querySelector('.layui-layer');
                 document.querySelector('body').removeChild(lay);
@@ -492,8 +478,6 @@
                 var latText = document.querySelector('.layui-layer-title');
                 document.querySelector('body').removeChild(latText);
             }
->>>>>>> 86447ace0b698e2b276aa603f65bbd48b63a4ef5
-
             document.querySelector('body').removeChild(shade);
 
 
