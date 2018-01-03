@@ -1,0 +1,116 @@
+
+@font-face{font-family:agency fb;src:url(../font/AGENCYB.TTF),url(../font/AGENCYB.eot);}
+
+
+
+
+
+/*侧边栏in-side*/
+.icon-side{background:url(../images/common_img/sider.png) no-repeat;}
+#b1{background:#585568 url(../images/common_img/select.png);}
+.skin{background:url(../images/common_img/skin_bg.png) no-repeat;}
+.online_sev >a >div{background: url(../images/common_img/online_bg.jpg) no-repeat center center;}
+.in-side-toogle{background: url(../images/common_img/side_hide.png) no-repeat center center;}
+.in-side .in-side-toogle{background: url(../images/common_img/side_hide.png) no-repeat center center;}
+.voice-icon{background:url(../images/common_img/kg.png) no-repeat;}
+.voice-close{background:url(../images/common_img/kg.png) no-repeat;}
+
+/*顶部top*/
+.icon-email{background:url(../images/common_img/top_img.png) no-repeat;vertical-align:sub;}
+.icon-id{background:url(../images/common_img/top_img.png) no-repeat;}
+.icon-refresh{background: url(../images/common_img/s1.png) no-repeat;}
+.game-l i{background: url(../images/common_img/type.png) no-repeat;}
+.game_in >span.new{background: url(../images/common_img/game_bg.png) no-repeat 0 -265px;}
+
+/*头部 header*/
+.nav-bj{background:url(../images/common_img/bjtop1.jpg);}
+.icon-lists{background:url(../images/common_img/st.png);}
+.icon-lists6{background:url(../images/common_img/pf3-3.png) no-repeat;}
+
+/*首页home*/
+.icon-h{background:url(../images/home_img/st1.gif);}
+.icon-z{background:url(../images/home_img/st2.gif);}
+.icon-n{background:url(../images/home_img/st3.gif);}
+.icon-wallet{background:url(../images/home_img/wallet.png) no-repeat;}
+.header-body{background:url(../images/home_img/b1.jpg) center top no-repeat;}
+.main-number{background:url(../images/home_img/p1.png);}
+.addtot .tkyhkas{background:url(../images/home_img/addcard.png);}
+.part-body{background: url(../images/home_img/bfoj.jpg);}
+.part-body-lottery{background:#f8f8f8 url(../images/home_img/lottery.jpg) no-repeat;}
+.part-body-num{background:url(../images/home_img/number.png) no-repeat;}
+.hot >h5 >i{background: url(../images/home_img/hot.png) no-repeat; }
+.games_type span.new{background: url(../images/common_img/game_bg.png) no-repeat 0 -324px;}
+.game_in >.bgimg{background: url(../images/common_img/game_bg.png) no-repeat 0 0;}
+.games_type span.new{background: url(../images/common_img/game_bg.png) no-repeat 0 -324px;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*游戏记录*/
+
+
+
+/*游戏记录结束*/
+
+
+
+
+
+
+/*资金明细*/
+
+
+
+
+
+/*资金明细结束*/
+
+
+
+
+
+/*代理中心*/
+
+
+
+
+/*代理中心结束*/
+
+
+/*账户管理*/
+
+
+
+
+/*账户管理结束*/
+
+
+
+/*优惠活动*/
+
+
+
+
+/*优惠活动结束*/
+
+
+/*充值*/
+
+/*充值结束*/
+
+
+
+
+
+
+
+
+
