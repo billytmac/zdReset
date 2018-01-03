@@ -180,9 +180,9 @@ $(function() {
 // }
 
 
-$('#add-button').on('click',function(){
-    console.log($('#hederDiv').length == 0);
-})
+// $('#add-button').on('click',function(){
+//     console.log($('#hederDiv').length == 0);
+// })
 
 
 var ifVery = false;
@@ -223,44 +223,5 @@ window.onload = function() {
     var parframe = parent.document.querySelector('iframe');
     // console.log(parframe);
     parframe.style.height = document.body.offsetHeight + 'px';
-
-
-    
-            // layer.open({
-            // title: '信息'
-            // ,icon: 2
-            // ,content: '您还未设置安全问题！这将导致您的账号存在风险！'
-            // , success: function(layero, index){
-            //         var _lay = layero[0];
-            //         var _width = -(_lay.offsetWidth) / 2;
-            //         var _height = -(_lay.offsetHeight) / 2;
-
-
-            //         _lay.style.marginTop = _height + "px";
-            //         _lay.style.marginLeft = _width + "px";
-
-            //         _lay.style.left = "50%";
-            //         _lay.style.top = "50%";
-
-            //         // console.log(_lay);
-
-
-
-            //         console.log(_lay);
-
-
-            //         // console.log(ParBody);
-
-            //         var ParBody = parent.document.getElementsByTagName('body')[0];
-            //         ParBody.appendChild(layero[0]);
-                    
-            //         var shade = document.getElementsByClassName('layui-layer-shade')[0];
-            //         ParBody.appendChild(shade);
-                    
-
-            //     }
-            // })
-
-
 }
 

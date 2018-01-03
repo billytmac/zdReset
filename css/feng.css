@@ -539,7 +539,7 @@ button, input {
   text-align: center;
   float: left;
 }
-.posiwtim span {
+.posiwtim span{
   display: inline-block;
   cursor: pointer;
   margin: 20px 0;
@@ -1089,4 +1089,86 @@ element.style {
   width: 1903px;
   height: 1040px;
   display: block;
+}
+
+
+
+/*以下是新增*/
+.adjustment_con {
+    width: 100%;
+}
+.standard_tit {
+    width: 100%;
+    line-height: 30px;
+    height: 42px;
+}
+.standard_tit > span, .standard_in > span {
+    width: 260px;
+    text-align: center;
+    display: block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+}
+.adjustment_con .center {
+    width: 560px;
+    height: 36px;
+}
+.standard_tit > span, .standard_in > span { 
+    width: 260px;
+    text-align: center; 
+    display: block;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+}
+.standard_in {
+    padding-top: 6px;
+    margin-bottom: 10px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #FFFBFF;
+    border: 1px solid #e1e1e1;
+    font-size: 14px;
+}
+.standard_in > span {
+    width: 260px;
+    text-align: center;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+}
+.standard_in .tit1 input {
+    text-align: center;
+}
+.adjustment_con .center {
+    width: 560px;
+    height: 36px;
+}
+.standard_in > .tit2 {
+    position: relative;
+}
+.standard_in > .tit2 input {
+    padding-left: 10px;
+}
+.adjustment_con input {
+    border-radius: 4px;
+}
+.standard_in input {
+    display: block;
+    margin-left: 68px;
+    width: 128px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+.standard_in p {
+    position: absolute;
+    display: block;
+    width: 10px;
+    right: 78px;
+    top: 2px;
 }
