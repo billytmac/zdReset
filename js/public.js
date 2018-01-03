@@ -180,9 +180,9 @@ $(function() {
 // }
 
 
-$('#add-button').on('click',function(){
-    console.log($('#hederDiv').length == 0);
-})
+// $('#add-button').on('click',function(){
+//     console.log($('#hederDiv').length == 0);
+// })
 
 
 var ifVery = false;
