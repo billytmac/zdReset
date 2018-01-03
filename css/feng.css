@@ -369,8 +369,16 @@ button, input {
    color: #4f473c;
    border-color: transparent;
  }
+ .page a:hover {
+    background: #426170;
+    color: #fff;
+}
  .page a.pageCurrent {
   background: #658493;
+  color: #fff;
+}
+.page a.pageCurrent:hover {
+  background: #426170;
   color: #fff;
 }
 

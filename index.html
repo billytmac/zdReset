@@ -254,7 +254,7 @@
                     <li class="in-recordali3"><a href="views/userCenter/agencyCenter/agency-Team_profit_loss-lottery.html" target="mainFrame">团队盈亏</a></li>
                     <li class="in-recordali4"><a href="views/userCenter/agencyCenter/agency-lotteryCommission.html" target="mainFrame">彩票佣金</a></li>
                     <li class="in-recordali5"><a href="views/userCenter/agencyCenter/agency-dailyReport.html" target="mainFrame">日奖报表</a></li>
-                    <li class="in-recordali5"><a href="views/userCenter/agencyCenter/agency-dividend_report-lottery.html" target="mainFrame">分红报表</a></li>
+                    <li class="in-recordali5"><a href="views/userCenter/agencyCenter/agency-Team_management-dividend-lottery.html" target="mainFrame">分红报表</a></li>
                     <li class="in-recordali6"><a href="views/userCenter/agencyCenter/agency-Team_managemen.html" target="mainFrame">团队管理</a></li>
                     <li class="in-recordali7"><a href="views/userCenter/agencyCenter/agency-LowerAccountOpening-link.html" target="mainFrame">下级开户</a></li>
                     <li class="in-recordali7"><a href="views/userCenter/agencyCenter/agency-highQuota.html" target="mainFrame">高点配额</a></li>
@@ -470,19 +470,7 @@
         $(document).on('click', '.layui-layer-ico.layui-layer-close.layui-layer-close1', function() {
             var shade = document.getElementsByClassName('layui-layer-shade')[0];
 
-                <script src="js/jquery.min.js"></script>
-                <script src="js/layui/layui.all.js"></script>
-                <script src="js/index.js"></script>
-                <script>
-                    $(document).on('click', '.layui-layer-btn0', function() {
-                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
-                        var lay = document.querySelector('.layui-layer.layui-layer-dialog');
-                        document.querySelector('body').removeChild(lay);
-                        document.querySelector('body').removeChild(shade);
-                    });
-                    $(document).on('click', '.layui-layer-ico.layui-layer-close.layui-layer-close1', function() {
 
-                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
             try {
                 var lay = document.querySelector('.layui-layer');
                 document.querySelector('body').removeChild(lay);
@@ -490,7 +478,6 @@
                 var latText = document.querySelector('.layui-layer-title');
                 document.querySelector('body').removeChild(latText);
             }
-
             document.querySelector('body').removeChild(shade);
 
 
