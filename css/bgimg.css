@@ -55,7 +55,6 @@
   background: url('../images/common_img/pf3-3.png') no-repeat;
 }
 /*首页home*/
-<<<<<<< HEAD
 .icon-h {
   background: url('../images/home_img/st1.gif');
 }
@@ -98,7 +97,6 @@
 .games_type span.new {
   background: url('../images/common_img/game_bg.png') no-repeat 0 -324px;
 }
-=======
 .icon-h{background:url(../images/home_img/st1.gif);}
 .icon-z{background:url(../images/home_img/st2.gif);}
 .icon-n{background:url(../images/home_img/st3.gif);}
@@ -155,9 +153,6 @@
 
 /*账户管理结束*/
 
-
-
->>>>>>> f946935f59fb369b0dbc5e286369c68c8ae80f96
 /*优惠活动activity.css*/
 #mian_body {
   background: url('../images/activity/bfoj.jpg') repeat #ece6e0;
