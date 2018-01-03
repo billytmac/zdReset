@@ -29,21 +29,16 @@ dt{font-weight:700;}
 .btn-c2{background:#635a9d;}
 .btn-c1:hover{background:#7E6FDE;transition:all .25s ease;}
 .btn-c2:hover{background:#7E6FDE;transition:all .25s ease;}
-<<<<<<< HEAD
-<<<<<<< HEAD
 .icon{display:inline-block;vertical-align:middle;}
-=======
+
 .deep_color {background-color: #312D46;border-color: #585568;}
->>>>>>> 3bf932d168e203abd64f2b6e334127d59aaf8ee6
-=======
-.deep_color {background-color: #312D46;border-color: #585568;}
-.icon{display:inline-block;vertical-align:middle;}
->>>>>>> fb226715b370efd78891fc1ae342d5c23492ad06
+
+
 
 /*侧边栏in-side*/
 .in-side{position:fixed;top:0;right:0;z-index:2;display:block;width:40px;height:100%;background:#feb50e;text-align:center;overflow: visible !important;/*加important是为了避免用了jq的animate改变高度之后会自动增加overflow:hidden;属性*/}
 .in-sideul{position:relative;}
-.in-sideul li a.on{border-top:1px solid #e5a511s;}
+.in-sideul li a.on{border-top:1px solid #e5a511;}
 .in-sideul li a{display:block;padding:10px 0;width:40px;height:60px;border-bottom:1px solid #e5a511;transition:all .25s ease;}
 .side-a{color:#222f38;font-size:12px;}
 .icon-side{display:block;margin:0 auto;width:27px;height:25px;background:url(../images/common_img/sider.png) no-repeat;transition:all .25s ease;}
