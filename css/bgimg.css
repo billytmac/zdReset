@@ -5,6 +5,9 @@
 /*优惠活动activity.css*/
 /*正点品牌brand.css*/
 /*独页面indep.css*/
+.skin {
+  background: url('../images/common_img/skin_bg.png') no-repeat;
+}
 /*侧边栏in-side*/
 .icon-side {
   background: url('../images/common_img/sider.png') no-repeat;
@@ -253,7 +256,7 @@
   background: #fff url('../images/userCenter_img/h_img1.png') no-repeat center right 5px;
 }
 .j-ui-datepicker .control .choose-model i {
-  background-image: url('../images/userCenter_img/j-ui-datepicker-select-sj.gif');
+  background-image: url('../images/userCenter_img/j-ui-datepicker-select-sj.gif') no-repeat;
 }
 .j-ui-datepicker .control .pre,
 .j-ui-datepicker .control .next {
