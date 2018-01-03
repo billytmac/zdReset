@@ -130,7 +130,7 @@
 
 
 .activity_bd .activity_bd_1:last-child{margin-right:0;}
-.activity_bd_1{width:595px;border:1px solid #efefef;background:#f8f8f8;padding:0 30px;float:left;margin-right:15px;}
+.activity_bd_1{width:100%;border:1px solid #efefef;background:#f8f8f8;padding:0 30px;float:left;margin-right:15px;}
 
 .activity_bd_d{padding:15px 0;}
 .activity_bd_h1{font-size:18px;font-weight:bold;color:#6e6e6e;}
