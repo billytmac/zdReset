@@ -80,7 +80,7 @@
 
 
 /*优惠活动activity.css*/
-#mian_body{background:url(../images/img/bfoj.jpg)}
+#mian_body{background:url(../images/img/bfoj.jpg) repeat rgb(236, 230, 224);}
 .icon-ay{background-image:url(../images/activity/icon-activity.png);}
 .icon-aytime{background:url(../images/activity/icon-time.png);}
 .icon-ayth{background:url(../images/activity/icon-th.png);}
@@ -115,6 +115,13 @@
 /*正点品牌brand.css结束*/
 
 /*独页面indep.css*/
+#download{background: url(../images/indep_img/bg.jpg) fixed center center;}
+.help_left ul li>a>.help_arr{background: url(../images/help_img/help_arr.png) no-repeat left -24px;}
+.kefu{background: url(../images/indep_img/kefu.png) no-repeat left center; }
+.menu_in dd{background: url(../images/indep_img/sprite.png) no-repeat 0 0; }
+.quick_right a p{background: url(../images/indep_img/download.png) no-repeat 97px 17px;}
+.con .con_left .scan_code{background: url(../images/indep_img/ewm.png) no-repeat;}
+.dns_banner{background: #1c2633  url(../images/indep_img/dns_banner_bg.jpg) no-repeat center center;}
 /*独页面indep.css结束*/
 
 
