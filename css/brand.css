@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6{color:inherit;font-weight:500;line-height:1.1;}
 
 /*正点品牌*/
 .brand_main{width: 100%;height: auto;overflow-y: auto;}
-.brand_banner{width: 100%;height: 731px;background: url(../images/brand_img/banner_bg.jpg) no-repeat center center;min-width: 1200px; padding-top: 106px;}
+.brand_banner{width: 100%;height: 731px;min-width: 1200px; padding-top: 106px;}
 .brand_banner >p{display: block;width: 1080px;height: 290px;margin:0 auto;}
 
 .authority{width: 100%;height: 316px;border-bottom: 1px solid #f0f0f0;}
@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6{color:inherit;font-weight:500;line-height:1.1;}
 .brand_main .title{width: 792px;text-align: center;padding-top: 110px;margin:0 auto;}
 .brand_main .title h1{font-size: 40px;color: #505050;position: relative;font-weight: normal;}
 .brand_main .title h1 span{font-size: 24px;margin: 0 22px;}
-.brand_main .title h1 p{display: block;width: 62px;height: 30px;background: url(../images/brand_img/tit_bg.png) no-repeat left center; position: absolute;top: 13px;}
+.brand_main .title h1 p{display: block;width: 62px;height: 30px; position: absolute;top: 13px;}
 .brand_main .title h1 p.tit_left{left: 0px;}
 .brand_main .title h1 p.tit_right{right: 0;background-position: -68px 0;}
 .brand_main .title1 h1 p.tit_left{background-position: -135px 0;}
@@ -41,20 +41,19 @@ h1,h2,h3,h4,h5,h6{color:inherit;font-weight:500;line-height:1.1;}
 .screen1_ul li >a{display: block; width: 391px;height: 364px;float: left;position: relative;}
 .screen1_ul li >a >span{display: block;position: absolute;left: 154px;top: 80px;width: 82px;height: 82px;padding-top: 17px; border-radius: 100%;border:1px solid #fff;}
 .screen1_ul li >a >p{display: block;position: absolute;left: 58px;top: 184px;width: 280px;font-size: 20px;color: #fff;font-weight: bold;line-height: 30px;}
-.screen1_ul li >a >strong{display: block;position: absolute;left: 186px;top: 280px;width: 18px;height: 18px;background: url(../images/brand_img/add.png) no-repeat left center; }
+.screen1_ul li >a >strong{display: block;position: absolute;left: 186px;top: 280px;width: 18px;height: 18px;}
 .screen1_ul li >div{cursor: pointer; position: absolute;top: 40px;z-index: 2; left: 0; width: 391px;height: 364px;display: none;background-color: rgba(255,255,255,.8);padding:14px;}
 .screen1_ul li >div >div{ width: 363px;height: 336px;border:1px solid #cdcdcd;padding:76px 38px 0 38px;}
 .screen1_ul li >div >div >p{font-size: 16px;line-height: 30px; color: #434343;}
 .screen1_ul li:hover >div{display: block;}
 .screen1_ul li:hover .screen1_word ,.screen1_ul li:hover .screen1_icon ,.screen1_ul li:hover strong{display: none;}
 
-.screen2{width: 100%;height: 926px;background: url(../images/brand_img/22_bg.jpg) no-repeat center center;
-}
+.screen2{width: 100%;height: 926px;}
 .screen2_in{width: 1200px;height: 926px; margin:0 auto;}
 .screen2 .title{width: 552px;margin-bottom: 60px;}
 .screen2 .title h1{color: #fff;}
 .title2 h1{color: #fff;}
-.screen2_left{width: 635px;height: 621px;padding:74px 82px 0 82px; float: left;background: url(../images/brand_img/2_left.jpg) no-repeat center center;}
+.screen2_left{width: 635px;height: 621px;padding:74px 82px 0 82px; float: left;}
 .screen2_left ul{padding-top: 54px;}
 .screen2_left ul >li{height: 110px;border-top: 1px dotted #434154;padding-top: 32px;}
 .screen2_left .li_left{width: 100px;float: left;color: #edda58;font-size: 14px;font-weight: bold;}
@@ -222,26 +221,17 @@ h1,h2,h3,h4,h5,h6{color:inherit;font-weight:500;line-height:1.1;}
     display: block;
     width: 15px;
     height: 90%;
-    background: url(../images/brand_img/5_arr.png) no-repeat -46px center;
-
     cursor: pointer;
-
 }
 
-.arrow-prev {
-    left: -90px;
-}
-
-.arrow-next {
-    right: -90px;
-    background: url(../images/brand_img/5_arr.png) no-repeat -71px center;
-}
+.arrow-prev {left: -90px;}
+.arrow-next {right: -90px;}
 
 .screen3{width: 1200px; height: 1000px;margin:0 auto;position: relative;}
 .screen3 .title{width: 674px;}
 .title3 h1 span{font-size: 40px;margin:0 4px;}
 
-.screen4{width: 100%; height: 922px;background: url(../images/brand_img/4_bg.jpg);}
+.screen4{width: 100%; height: 922px;}
 .screen4 .title{width: 470px;}
 .screen4 .title h1{color: #fff;}
 .screen4 .tit_describe{color: #e0dfe1;}
@@ -270,7 +260,7 @@ h1,h2,h3,h4,h5,h6{color:inherit;font-weight:500;line-height:1.1;}
 .screen5_ul >li{ display: block;float: left;margin-left: 20px;}
 .screen5_ul >li >a{display: block;width: 160px;height: 86px;padding-top: 0; background-color: #fff;text-align: center;line-height: 86px;}
 .screen5_arr{height: 15px;width: 940px;margin:0 auto;position: relative;}
-.screen5_arr >span{position: absolute;top: -60px;background: url(../images/brand_img/5_arr.png) no-repeat left top;display: block;cursor: pointer; width: 15px;height: 27px;}
+.screen5_arr >span{position: absolute;top: -60px;display: block;cursor: pointer; width: 15px;height: 27px;}
 .screen5_arr >.left{left: 5px;}
 .screen5_arr >.right{right: 5px;background-position: -26px top;}
 
