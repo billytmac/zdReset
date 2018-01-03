@@ -4,7 +4,6 @@
 /*侧边栏in-side*/
 #b1{background:#585568;}
 #b2{background:#222f38;}
-#b3{background:#00b599 url(../images/common_img/select.png);}
 #b4{background:#5d473a;}
 
 /*顶部top*/
@@ -18,11 +17,11 @@
 .header-nav-l li {border-color: #5ab19b;}
 
 /*头部 header*/
-.nav-bj{background:url(../images/common_img/bjtop3.jpg);background-size: 100% 105px;}
+.nav-bj{background-size: 100% 105px;}
 .in-recordaul li:hover{background-color:#08A377;}
 
 /*首页home*/
-.header-body{background: url(../images/home_img/b3.jpg) center top no-repeat;background-size: 100% 585px;}
+.header-body{background-size: 100% 585px;}
 .hot_type >a:hover,.games_type .game2-r a:hover{background-color: #00a176;border-color: #00a176;}
 
 
