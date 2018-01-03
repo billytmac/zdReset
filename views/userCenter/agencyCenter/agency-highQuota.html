@@ -375,7 +375,7 @@
 
     <script>
         $(function () {
-            $(".edit").click(function () {
+            $(".x_num>span").click(function () {
                 $(".j-ui-mask").css({display:'block'});
                 layer.open({
                     type: 1,
@@ -411,11 +411,17 @@
                         var shade = document.getElementsByClassName('layui-layer-shade')[0];
                         ParBody.appendChild(shade);
                     }
+
+                });
+                $(document).on('click','.layui-layer-ico.layui-layer-close.layui-layer-close1',function(){
+                    $('#myRules').hide();
+                    $('.j-ui-mask').hide();
+
+
                 });
             });
-            $(document).on('click','.layui-layer-ico.layui-layer-close.layui-layer-close1',function(){
-                 $('.j-ui-mask').hide();
-            });
+
+
 
         });
 

@@ -1,14 +1,21 @@
-function moneyInput(moneyInput){
-    var ipt1 = $('#J-input-Account');
+/*
+* @param judge 是否开启弹窗
+* @param moneyInput 输入金额的input
+* @param Account 账号
+* @param Password 密码
+* @param Confirm 银行卡
+* */
+
+function moneyInput(judge,Account,moneyInput,Password,Confirm){
+    var ipt1 = $(Account);
     var ipt2 = $(moneyInput),
         moneyInput = $(moneyInput),
         formatMoney;
-    var ipt3 = $('#J-input-Password');
-    var ipt4 = $('#J-input-Confirm'),
+    var ipt3 = $(Password);
+    var ipt4 = $(Confirm),
         tip = new jc.Tip({cls: 'j-ui-tip-b j-ui-tip-input-floattip'}),
         makeBigNumber;
     ipt4.keyup(function (e) {
-        console.log(123);
         $('input[name=account]').val(this.value.replace(/\s+/g, ''));
         var el = $(this), v = this.value.replace(/^\s*/g, ''), arr = [], code = e.keyCode;
         if (code == 37 || code == 39) {
@@ -116,37 +123,49 @@ function moneyInput(moneyInput){
         this.value = formatMoney(v).replace(/,/g, '');
         tip.hide();
     });
-    $('#J-submit').click(function () {
-        var v1 = $.trim(ipt1.val());
-        var v2 = $.trim(ipt2.val());
-        var v3 = $.trim(ipt3.val());
-        var v4 = $.trim(ipt4.val());
-        if (v1 == '') {
-            layer.msg('转账用户名不能为空');
-            ipt1.focus();
-            return false;
-        }
-        if (v2 == '') {
-            layer.msg('转账金额不能为空');
-            ipt1.focus();
-            return false;
-        } else if (v2 == 0) {
-            layer.msg('转账金额不能为0元');
-            ipt1.focus();
-            return false;
-        }
-        if (v3 == '') {
-            layer.msg('资金密码不能为空');
-            ipt1.focus();
-            return false;
-        }
-        if (v4 == '') {
-            layer.msg('银行卡卡号不能为空');
-            ipt1.focus();
-            return false;
-        }
-        return true;
-    });
+
+    if(judge) {
+        $('#J-submit').click(function () {
+            var v1 = $.trim(ipt1.val());
+            var v2 = $.trim(ipt2.val());
+            var v3 = $.trim(ipt3.val());
+            var v4 = $.trim(ipt4.val());
+            if(Account != undefined) {
+                if (v1 == '') {
+                    layer.msg('转账用户名不能为空');
+                    ipt1.focus();
+                    return false;
+                }
+            }
+            if(moneyInput != undefined) {
+                if (v2 == '') {
+                    layer.msg('转账金额不能为空');
+                    ipt1.focus();
+                    return false;
+                } else if (v2 == 0) {
+                    layer.msg('转账金额不能为0元');
+                    ipt1.focus();
+                    return false;
+                }
+            }
+            if(Password != undefined) {
+                if (v3 == '') {
+                    layer.msg('资金密码不能为空');
+                    ipt1.focus();
+                    return false;
+                }
+            }
+            if(Confirm != undefined) {
+                if (v4 == '') {
+                    layer.msg('银行卡卡号不能为空');
+                    ipt1.focus();
+                    return false;
+                }
+            }
+            return true;
+        });
+    }
+
 
     //如果提款金额为空为0，就赋值数字1
     moneyInput.blur(function () {
@@ -155,15 +174,3 @@ function moneyInput(moneyInput){
         }
     });
 }
-
-$('.menu_list-box').on('click',function(){
-    console.log(123);
-    $('.xsd-sban').css('display','block');
-})
-$('#J-submit').on('click',function(){
-    if($('.xsd-sban').css('display') == 'block') {
-        return true;
-    }else {
-        return false;
-    }
-})
