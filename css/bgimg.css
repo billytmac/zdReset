@@ -55,7 +55,10 @@
   background: url('../images/common_img/pf3-3.png') no-repeat;
 }
 /*首页home*/
+<<<<<<< HEAD
+=======
 
+>>>>>>> c9d1e86189c7f4b6f949e47ef8890a7e2ada5c65
 .icon-h {
   background: url('../images/home_img/st1.gif');
 }
@@ -98,7 +101,10 @@
 .games_type span.new {
   background: url('../images/common_img/game_bg.png') no-repeat 0 -324px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> c9d1e86189c7f4b6f949e47ef8890a7e2ada5c65
 .icon-h{background:url(../images/home_img/st1.gif);}
 .icon-z{background:url(../images/home_img/st2.gif);}
 .icon-n{background:url(../images/home_img/st3.gif);}
@@ -117,8 +123,11 @@
 
 
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> c9d1e86189c7f4b6f949e47ef8890a7e2ada5c65
 /*优惠活动activity.css*/
 #mian_body {
   background: url('../images/activity/bfoj.jpg') repeat #ece6e0;
