@@ -171,7 +171,7 @@
                                 <input class="divi_num float-left n_10row_fonts" type="text" value="0" name="deficit[]" maxlength="10">
                                 <div class="float-left getdivi divi_kg">分红比例</div>
                                 <input class="divi_num float-left divi_fh n_10row_fonts" id="rate0" type="text" value="0" name="rate[]" maxlength="2" min="1" max="15"><span class="float-left percent"> %</span>
-                                <input class="divi_delete float-left tow_a" type="button" name="operationButton" value="新增" current_data_index="0" onclick="createRuleRow(0,0,0)">
+                                <input class="divi_delete float-left tow_a tow_x" type="button" name="operationButton" value="新增" current_data_index="0" onclick="createRuleRow(0,0,0)">
                             </div>
                         </div>
                     </form>
@@ -345,6 +345,9 @@
                         ParBody.appendChild(shade);
                     }
                 })
+            })
+            $('.tow_x').click(function () {
+                layer.msg('您设置的分红比例不能小于[1%]!请修改后再次新增');
             })
 
             $(".myrule").click(function () {
