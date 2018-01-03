@@ -306,6 +306,7 @@
             $(".divi_dowm").find('input').eq(0).click(function () {
                 layer.open({
                     title: '信息'
+                    ,move: false
                     ,content: '您是否要保存分红规则？<span style="color:red">一旦设置不能修改。</span>'
                     , success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];
@@ -328,6 +329,7 @@
             $(".divi_dowm").find('input').eq(1).click(function () {
                 layer.confirm('您是否需要重置分红规则？', {
                     btn: ['确定','取消'] //按钮
+                    ,move: false
                     , success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
@@ -355,6 +357,7 @@
                     skin: 'layui-layer-rim', //加上边框
                     area: ['800px'], //宽高
                     offset:['30%','40%'],
+                    move: false,
                     content: $("#myRules").html()
                     , success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];

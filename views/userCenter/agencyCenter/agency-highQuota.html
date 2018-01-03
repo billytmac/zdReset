@@ -379,6 +379,7 @@
                 $(".j-ui-mask").css({display:'block'});
                 layer.open({
                     type: 1,
+                    move: false,
                     title: ['高点配额', '    height: 44px;\n' +
                     '    padding: 0 15px;\n' +
                     '    font-size: 14px;\n' +
@@ -396,7 +397,7 @@
                     offset:['30%','40%'],
                     content: $("#myRules").html()
                     , success: function(layero, index){
-                        var ParBody = document.getElementsByTagName('body')[0];
+                        var ParBody = parent.document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
 
                         var _lay = layero[0];
