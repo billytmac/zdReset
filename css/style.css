@@ -30,17 +30,8 @@ input,button,a{cursor: pointer;}
 .btn-c2{background:#635a9d;}
 .btn-c1:hover{background:#7E6FDE;transition:all .25s ease;}
 .btn-c2:hover{background:#7E6FDE;transition:all .25s ease;}
-<<<<<<< HEAD
 .icon{display:inline-block;vertical-align:middle;}
-
 .deep_color {background-color: #312D46;border-color: #585568;}
-.icon{display:inline-block;vertical-align:middle;}
-=======
-
-.icon{display:inline-block;vertical-align:middle;}
-
-.deep_color {background-color: #312D46;border-color: #585568;}
->>>>>>> 1453d7e28298f6b6a031afe40fd2eb6d1876dfdb
 
 /*侧边栏in-side*/
 .in-side{position:fixed;top:0;right:0;z-index:2;display:block;width:40px;height:100%;background:#feb50e;text-align:center;overflow: visible !important;/*加important是为了避免用了jq的animate改变高度之后会自动增加overflow:hidden;属性*/}
