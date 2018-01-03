@@ -359,7 +359,7 @@ button, input {
    float: left;
  }
 
- .very_d3 .page a {
+.page a {
    padding: 0px 9px 4px;
    border: 1px solid transparent;
    border-radius: 3px;

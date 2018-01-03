@@ -1,4 +1,7 @@
 $(function () {
+    if( !window.localStorage.skin ) {
+        window.localStorage.skin = "skin1.css";
+    }
 
     $("#css1").attr("href", "css/"+window.localStorage.skin);
     $("#mainIframe").contents().find("#css2").attr("href", "../css/"+window.localStorage.skin);
