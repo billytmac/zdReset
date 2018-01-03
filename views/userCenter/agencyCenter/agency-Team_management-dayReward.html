@@ -334,6 +334,7 @@
             skin: 'layui-layer-rim', //加上边框
             area: ['600px'], //宽高
             offset: ['30%', '40%'],
+            move: false,
             content: $("#myRule").html(),
             success: function(layero, index) {
                 var ParBody = parent.document.getElementsByTagName('body')[0];
@@ -359,6 +360,7 @@
         $('.n_10row_submit ').click(function() {
             layer.open({
                 title: '信息',
+                move: false,
                 content: '您是否要保存日奖励规则？<span style="color:red">一旦设置不能修改。</span>',
                 success: function(layero, index) {
                     var ParBody = document.getElementsByTagName('body')[0];

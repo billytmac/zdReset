@@ -174,7 +174,7 @@
                                 <input class="divi_num float-left n_10row_fonts" type="text" value="0" name="deficit[]" maxlength="10">
                                 <div class="float-left getdivi divi_kg">分红比例</div>
                                 <input class="divi_num float-left divi_fh n_10row_fonts" id="rate0" type="text" value="0" name="rate[]" maxlength="2" min="1" max="32"><span class="float-left percent">%</span>
-                                <input class="divi_delete float-left tow_a" type="button" name="operationButton" value="新增" current_data_index="0" onclick="createRuleRow(0,0,0)">
+                                <input class="divi_delete float-left tow_a tow_x" type="button" name="operationButton" value="新增" current_data_index="0" onclick="createRuleRow(0,0,0)">
                             </div>
                         </div>
                     </form>
@@ -310,6 +310,7 @@
             $(".divi_dowm").find('input').eq(0).click(function () {
                 layer.open({
                     title: '信息'
+                    ,move: false
                     ,content: '您是否要保存分红规则？<span style="color:red">一旦设置不能修改。</span>'
                     , success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];
@@ -332,6 +333,7 @@
             $(".divi_dowm").find('input').eq(1).click(function () {
                 layer.confirm('您是否需要重置分红规则？', {
                     btn: ['确定','取消'] //按钮
+                    ,move: false
                     , success: function(layero, index){
                         var ParBody = document.getElementsByTagName('body')[0];
                         ParBody.appendChild(layero[0]);
@@ -349,9 +351,13 @@
                     }
                 })
             })
+            $('.tow_x').click(function () {
+                layer.msg('您设置的分红比例不能小于[1%]!请修改后再次新增');
+            })
             $(".myrule").click(function () {
                 layer.open({
                     type: 1,
+                    move: false,
                     title: ['我的分红规则', 'height: 40px;line-height: 40px;background-color: #DBE9F1;border-bottom: 3px solid #88ADC3;color: #49494A;text-align:center;padding-left:78px;'],
                     skin: 'layui-layer-rim', //加上边框
                     area: ['800px'], //宽高
