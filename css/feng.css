@@ -1142,10 +1142,7 @@ element.style {
 .standard_in .tit1 input {
     text-align: center;
 }
-.adjustment_con .center {
-    width: 560px;
-    height: 36px;
-}
+
 .standard_in > .tit2 {
     position: relative;
 }
@@ -1172,3 +1169,4 @@ element.style {
     right: 78px;
     top: 2px;
 }
+/* 滚动条的样式 */
