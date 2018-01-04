@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>绑定银行卡1</title>
-    <link rel="stylesheet" href="../../../bgimg.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/bgimg.css">
     <link rel="stylesheet" href="../../../css/zd.css">
     <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
 </head>
@@ -56,7 +56,7 @@
                                 <a href="../financialDetails/financialDetails-withdrawalApplication.html "><span class=" ">></span>提现申请</a>
                             </li>
                             <li>
-                                <a href="../financialDetails/financialDetails-withdrawalApplication.html "><span class=" ">></span>充值申请</a>
+                                <a href="../financialDetails/financialDetails-rechargeApplication.html "><span class=" ">></span>充值申请</a>
                             </li>
                             <li>
                                 <a href="../financialDetails/financialDetails-transferRecord.html "><span class=" ">></span>转账记录</a>
@@ -134,7 +134,7 @@
                             <div class="very_d1">
                                 <a href="#">账户管理</a>
                                 <span>&gt</span>
-                                <a href="#">密码管理</a>
+                                <a href="#">银行卡管理</a>
                                 <span>&gt</span>
                                 <a href="#">添加银行卡</a>
                             </div>
@@ -259,12 +259,12 @@
                                         </li>
                                         <li>
                                             <span>银行账号</span>
-                                            <input type="text" name="" id="" value="" class="bank_card_input">
+                                            <input type="text" name="" id="J-input-card-number" value="" class="bank_card_input" >
                                             <div class="bank_card_ts">银行卡卡号由16位或19位数字组成</div>
                                         </li>
                                         <li>
                                             <span>确认银行账号</span>
-                                            <input type="text" name="" id="" value="" class="bank_card_input">
+                                            <input type="text" name="" id="J-input-card-number1" value="" class="bank_card_input" >
                                             <div class="bank_card_ts">银行账号只能手动输入，不能粘贴</div>
                                         </li>
                                         <li>
@@ -279,7 +279,6 @@
                 </form>
             </div>
         </body>
-
         </html>
         <script src="../../../js/jquery.min.js"></script>
         <script src="../../../js/jc.base.js"></script>
@@ -287,7 +286,8 @@
         <script src="../../../js/jc.Tip.js"></script>
         <script src="../../../js/withdraw.js"></script>
         <script>
-            moneyInput(false, undefined, undefined, undefined, '.bank_card_input');
+            moneyInput(false, undefined, undefined, undefined, '#J-input-card-number');
+            moneyInput(false, undefined, undefined, undefined, '#J-input-card-number1');
 
             $('.bank_card_xyb').on('click', function() {
                 var _thisIf = true;
@@ -304,3 +304,5 @@
             })
         </script>
         <script src="../../../js/public.js"></script>
+
+
