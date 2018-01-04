@@ -340,7 +340,7 @@ i {
     float: left;
 }
 
-#mian_body .main_r .very_mt .very_d3 .page a {
+.page a {
     padding: 0px 9px 4px;
     border: 1px solid transparent;
     border-radius: 3px;
@@ -348,16 +348,16 @@ i {
     color: #4f473c
 }
 
-#mian_body .main_r .very_mt .very_d3 .page a.pageDefault {
+.page a.pageDefault {
     background: #cfdbe2;
 }
 
-#mian_body .main_r .very_mt .very_d3 .page a:hover {
+.page a:hover {
     background: #275673;
     color: #fff
 }
 
-#mian_body .main_r .very_mt .very_d3 .page_spana a {
+.page_spana a {
     padding: 0;
     vertical-align: middle;
     display: inline-block;
