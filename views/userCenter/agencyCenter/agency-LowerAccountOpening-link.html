@@ -310,7 +310,8 @@
                                         <a href="http://www.zd111.net/users">1</a>
                                     </th>
                                     <th>1</th>
-                                    <th>
+                                    <th style="position:relative">
+
                                         <input type="text" class="input3" style="width: 200px;" value="http://t.cn/RYbMpBx"><a href="javascript:;" class="c9_a2" name="copy">复制</a>
                                     </th>
                                     <th>2017-11-25 12:01:30</th>
@@ -472,11 +473,30 @@
     });
 
 
+<<<<<<< HEAD
     document.ready = function() {
         var aLi = $('.ui-slider-handle.ui-state-default.ui-corner-all').css('left');
         $(".num_show").val(1864);
         $(".num_show,.num_arr").css("left", aLi);
     }
+=======
+        var copied = '<div class="copied" style="position:absolute;top:7px;left:0;border-radius:5px;border:1px solid #ccc;padding:2px 5px;background-color: #eee;">已复制</div>'
+
+        //点击复制url
+        function copyText() {
+            var input = document.getElementsByClassName('input3')[0];
+            input.select(); // 选中文本
+            document.execCommand("copy"); // 执行浏览器复制命令
+        }
+        $('.c9_a2').on('click',function(){
+            var _this = $(this);
+            $(this).parent().prepend(copied);
+            setTimeout(function(){
+                _this.parent().children().eq(0).remove();
+            },2000);
+            copyText();
+        })
+>>>>>>> a8ac16fcdad2cbc208205b924dcc3a80772cc5f6
 
 
     //点击复制url
