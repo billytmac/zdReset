@@ -332,6 +332,7 @@
     </div>
     <script src="../../../js/base-all.min.js"></script>
     <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/layui/layui.all.js"></script>
     <script src="../../../js/jquery-ui.js"></script>
     <script src="../../../js/js.js" type="text/javascript" charset="utf-8"></script>
     <script>
@@ -479,7 +480,7 @@
             var input = document.getElementsByClassName('input3')[0];
             input.select(); // 选中文本
             document.execCommand("copy"); // 执行浏览器复制命令
-            layer.msg('复制成功：'+text);
+            layer.msg('复制成功：'+input.value);
         }
         $('.c9_a2').on('click',function(){
             copyText();

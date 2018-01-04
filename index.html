@@ -23,7 +23,17 @@
                 <p class="header-navrq">
                     <a href="#" class="header-navrqa"><i class="icon-id icon-id1"></i>逢赌必赢2016</a>
                     <span class="header-navrqm">
-                        <span class="header-navrqmys">余额<span class="header-navrmm">¥</span><span class="blod">120000</span> <a href="#"><span class="icon-refresh"></span></a></span>
+                        <span class="header-navrqmys">
+                            余额
+                            <span class="header-navrqmys-show">
+                                <span class="header-navrmm">¥</span>
+                                <span class="blod">120000</span>
+                                <a href="#">
+                                    <span class="icon-refresh"></span>
+                                </a>
+                            </span>
+                            <span class="header-navrqmys-hide" style="display:none;font-weight: 700;">已隐藏</span>
+                        </span>
                          <a href="#" class="hidenn">隐藏</a>
                     </span>
                     <span class="header-nava">
@@ -469,8 +479,6 @@
         });
         $(document).on('click', '.layui-layer-ico.layui-layer-close.layui-layer-close1', function() {
             var shade = document.getElementsByClassName('layui-layer-shade')[0];
-
-
             try {
                 var lay = document.querySelector('.layui-layer');
                 document.querySelector('body').removeChild(lay);
@@ -479,9 +487,14 @@
                 document.querySelector('body').removeChild(latText);
             }
             document.querySelector('body').removeChild(shade);
-
-
         });
+
+        $('.hidenn').on('click',function(){
+            $('.header-navrqmys-show').css('display',$('.header-navrqmys-show').css('display')=='none'?'inline-block':'none');
+            $('.header-navrqmys-hide').css('display',$('.header-navrqmys-hide').css('display')=='none'?'inline-block':'none');
+        })
+
+
     </script>
 </body>
 
