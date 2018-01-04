@@ -259,12 +259,12 @@
                                         </li>
                                         <li>
                                             <span>银行账号</span>
-                                            <input type="text" name="" id="" value="" class="bank_card_input">
+                                            <input type="text" name="" id="J-input-card-number" value="" class="bank_card_input" >
                                             <div class="bank_card_ts">银行卡卡号由16位或19位数字组成</div>
                                         </li>
                                         <li>
                                             <span>确认银行账号</span>
-                                            <input type="text" name="" id="" value="" class="bank_card_input">
+                                            <input type="text" name="" id="J-input-card-number1" value="" class="bank_card_input" >
                                             <div class="bank_card_ts">银行账号只能手动输入，不能粘贴</div>
                                         </li>
                                         <li>
@@ -287,7 +287,8 @@
         <script src="../../../js/jc.Tip.js"></script>
         <script src="../../../js/withdraw.js"></script>
         <script>
-            moneyInput(false, undefined, undefined, undefined, '.bank_card_input');
+            moneyInput(false, undefined, undefined, undefined, '#J-input-card-number');
+            moneyInput(false, undefined, undefined, undefined, '#J-input-card-number1');
 
             $('.bank_card_xyb').on('click', function() {
                 var _thisIf = true;
