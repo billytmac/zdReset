@@ -174,7 +174,7 @@
                                     <div>未派发分红</div>
                                     <span>0.0000元</span>
                                 </div>
-                                <input type="button" value="一键派发分红" disabled="" class="query_submit" id="btn_sendAll" style="cursor: pointer;">
+                                <input type="button" value="一键派发分红"  class="query_submit query_submit1" id="btn_sendAll" style="cursor: pointer;">
                                 <span class="myrule" id="show_my_rules">我的分红规则<span class="daywages_wh">?</span></span>
                             </div>
                         </div>
@@ -454,6 +454,29 @@
                     }
                 });
             });
+
+            $(".query_submit1").click(function () {
+                layer.confirm('发放全部分红需要：【<span style="color:red">\ 3720.64  \</span>】您当前余额为：【<span style="color:red">\</span>】是否继续发放？', {
+                    btn: ['全部发放','取消'] //按钮
+                    ,move: false
+                    , success: function(layero, index){
+                        var ParBody = document.getElementsByTagName('body')[0];
+                        ParBody.appendChild(layero[0]);
+                        var _lay = layero[0];
+                        var _width = -(_lay.offsetWidth) / 2;
+                        var _height = -(_lay.offsetHeight) / 2;
+
+                        _lay.style.marginTop = _height + "px";
+                        _lay.style.marginLeft = _width + "px";
+                        _lay.style.left = "50%";
+                        _lay.style.top = "50%";
+
+                        var shade = document.getElementsByClassName('layui-layer-shade')[0];
+                        ParBody.appendChild(shade);
+                    }
+                })
+                return false
+            })
         });
 
     </script>
