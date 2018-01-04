@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../../css/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="../../../css/feng.css" />
     <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
+    <script src="../../../js/layui/layui.all.js"></script>
 </head>
 
 <body id="mian_body">
@@ -479,7 +480,7 @@
             var input = document.getElementsByClassName('input3')[0];
             input.select(); // 选中文本
             document.execCommand("copy"); // 执行浏览器复制命令
-            layer.msg('复制成功：'+text);
+           layer.msg('复制成功：'+input.value);
         }
         $('.c9_a2').on('click',function(){
             copyText();
