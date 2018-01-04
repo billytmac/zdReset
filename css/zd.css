@@ -235,9 +235,17 @@ i {
 
 }
 
-.main_0bul li a:hover .xl_i {
-    color: #fff;
-    transition: 0.25s;
+ .xl_i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: #8C8E9A;
+    font-style: normal;
+    background: #5b516b;
+    line-height: 20px;
 }
 
 /*// 左边导航栏的结束*/

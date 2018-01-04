@@ -78,7 +78,16 @@ button, input {
 .main_0bul li a:hover{color:#fff;background:#2e2f3b;padding-left:28px;transition:all 0.5s ease}
 .main_0bul li a span{position:absolute;left:0;top:0;transition:all 0.2s ease;opacity:0;filter:alpha(opacity=00);}
 .main_0bul li a:hover span{left:15px;transition:left 0.5s,opacity 0.2s;opacity:1;opacity:alpha(opacity=100);}
-.main_0bul li a:hover .xl_i{color:#fff;transition:0.25s;}
+ .xl_i{width: 20px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: #8C8E9A;
+    font-style: normal;
+    background: #5b516b;
+    line-height: 20px;}
 /* 左边第1到第5个导航的结束 */
 
 /* 左边的导航的结束 */
@@ -1131,12 +1140,11 @@ element.style {
 }
 /* 滚动条的样式 */
 .n_10row_slider .num_slider {
-    border-color: #C9D6E0;
+   border-color: #D0D1D1;
     margin-top: 13px;
-    height: 10px;
+    height: 13px;
     border-radius: 5px;
-    background: none;
-    background-color: #728FAF;
+    background: #82BFE7;
 }
 .n_10row_slider .num_show {
     position: absolute;
@@ -1175,25 +1183,24 @@ element.style {
     -o-transform: rotate(45deg);
 }
 .n_10row_slider .ui-slider-range {
-    background: none;
-    background-color: #fff;
+    background-color: #E7E7E7;
     border-radius: 5px;
 }
 .n_10row_slider .ui-slider-handle {
-    width: 15px;
-    height: 27px;
-    top: -9px;
+      width: 18px;
+    height: 23px;
+    top: -6px;
     border-radius: 3px;
-    border: 1px solid #fafdff;
+    border: 1px solid #585859;
     background: none;
     background-color: #fff;
 }
 .n_10row_slider .ui-slider-handle {
-    width: 15px;
-    height: 27px;
-    top: -9px;
+    width: 18px;
+    height: 23px;
+    top: -6px;
     border-radius: 3px;
-    border: 1px solid #95aaca;
+    border: 1px solid #585859;
     background: none;
     background-color: #fff;
 }
