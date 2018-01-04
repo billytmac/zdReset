@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>微信充值-测试微信</title>
+    <title>点击充值页面</title>
     <link rel="stylesheet" href="../../../bgimg.css">
     <link rel="stylesheet" id="css1" type="text/css" href="../../../css/skin1.css" />
     <link rel="stylesheet" href="../../../css/template.css">
@@ -10,6 +10,9 @@
 
 </head>
 <body id="mian_body">
+
+<!--点击复制的内容-->
+<input type="text" id="command" style="position:absolute;top:-10000px;left:-10000px;">
 
 <div class="main row mian_4">
     <div class="main_b0 light_color ">
@@ -145,7 +148,7 @@
             <div class="very_d3">
                 <div class="d_dinsubh row">
                     <input type="hidden" value="600" id="J-time-second">
-
+                    <!--<textarea id="command" ></textarea>-->
                     <div class="d_dinsubhv">
                         <i class="icon-tis2"></i>
                         <span>此次充值申请的有效时间为10分钟，为保障充值成功，请在10分钟之内完成充值。倒计时  </span>
@@ -166,7 +169,8 @@
                                     <h4 class="col_2dd">韦亮</h4>
                                 </div>
                                 <div class="x_con_33d">
-                                    <input type="button" class="djfz" value="复制" id="J-button-name"><span class="qssk">请确认收款账号再进行充值</span>
+                                    <input type="button" class="djfz" value="复制" id="J-button-name">
+                                    <span class="qssk">请确认收款账号再进行充值</span>
                                 </div>
                             </li>
                             <li class="x_con_17li">
@@ -258,3 +262,23 @@
 <script src="../../../js/withdraw.js"></script>
 <script src="../../../js/recharge.js"></script>
 <script src="../../../js/public.js"></script>
+<script>
+
+    function copyText(text) {
+        var input = document.getElementById("command");
+        input.value = text; // 修改文本框的内容
+        input.select(); // 选中文本
+        document.execCommand("copy"); // 执行浏览器复制命令
+        layer.msg('复制成功：'+text);
+    }
+
+    $('.djfz').each(function(i){
+        $(this).on('click',function(){
+            var text = $(this).parent().prev().children().text()
+            copyText(text);
+        });
+    });
+
+
+
+</script>

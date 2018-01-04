@@ -1,36 +1,3 @@
-// var ifVery = false;
-// //下拉
-// $(document).on('click','.very_show',function(){
-// 	var _this = this.children[1];
-//     $('.very_hide').each(function(){
-// 		if(this != _this && $(this).css('display') == 'block') {
-//             $(this).slideToggle(100);
-// 		}
-// 	})
-//     $(this).find('.very_hide').slideToggle(100);
-// });
-
-// $(document).on('click','.very_hide li',function(){
-//     $(this).parent().prev().text($(this).text());
-// });
-
-// $('html').click(function(){
-// 	if(ifVery) {
-// 		$('.very_hide').each(function(i){
-// 			if($(this).css('display')=='block') {
-// 				$(this).slideToggle(100);
-// 			}
-// 		});
-// 		ifVery = false;
-// 	}
-// })
-
-// $(document).on('mouseover','.very_show',function(){
-//     ifVery = false;
-// });
-// $(document).on('mouseout','.very_show',function(){
-//     ifVery = true;
-// });
 //银行卡
 $(function() {
 	$(".menu_list div").click(function() {
