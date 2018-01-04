@@ -152,7 +152,7 @@
                     <div class="d_dinsubhv">
                         <i class="icon-tis2"></i>
                         <span>此次充值申请的有效时间为10分钟，为保障充值成功，请在10分钟之内完成充值。倒计时  </span>
-                        <span class="redff1" id="J-time-dom">04:55</span>
+                        <span class="redff1" id="J-time-dom">10:00</span>
                         <a href="" class="fhcxz">返回重新选择</a>
                     </div>
 
@@ -279,6 +279,29 @@
         });
     });
 
+    //分
+    var mark = 10;
+    //秒
+    var second = 00;
+    var time = setInterval(function(){
+        if(mark == 10) {
+            mark = '0'+9;
+            second = 59;
+            $('#J-time-dom').text(mark+':'+second);
+        }else if(second == 0 && mark != 0) {
+            mark--;
+            mark < 10 ? mark = '0'+ mark:'';
+            second = 59;
+            $('#J-time-dom').text(mark+':'+second);
+        }else if(mark == 0 && second == 0){
+            clearInterval(time);
+            window.location.href = 'http://www.baidu.com';
+        }else if(mark >=0 && second >0) {
+            second--;
+            second < 10 ? second = '0'+second:'';
+        }
+        $('#J-time-dom').text(mark+':'+second);
+    },1000);
 
 
 </script>

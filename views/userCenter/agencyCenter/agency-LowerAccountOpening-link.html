@@ -473,6 +473,18 @@
             $(".num_show,.num_arr").css("left", aLi);
         }
 
+
+        //点击复制url
+        function copyText() {
+            var input = document.getElementsByClassName('input3')[0];
+            input.select(); // 选中文本
+            document.execCommand("copy"); // 执行浏览器复制命令
+            layer.msg('复制成功：'+text);
+        }
+        $('.c9_a2').on('click',function(){
+            copyText();
+        })
+
     </script>
     <script src="../../../js/public.js"></script>
 
