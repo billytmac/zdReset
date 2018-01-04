@@ -830,6 +830,15 @@ button, input {
 
 /* 我的分红规则的结束 */
 
+.share_one input {
+    width: 64px;
+    height: 24px;
+    border-radius: 2px;
+    border: 1px solid #47B393;
+    background: #fff;
+    margin-right: 20px;
+}
+
 /* 电子游戏的开始 */
 .report_sear {
   background-color: #f6f6f6;
