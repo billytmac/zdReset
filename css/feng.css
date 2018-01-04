@@ -830,7 +830,7 @@ button, input {
 
 /* 我的分红规则的结束 */
 
-.share_one input {
+.x_table .share_one input {
     width: 64px;
     height: 24px;
     border-radius: 2px;
